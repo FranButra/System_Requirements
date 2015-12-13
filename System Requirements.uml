@@ -90,7 +90,7 @@ Identification: EC1.1&#xD;
         <ownedComment xmi:type="uml:Comment" xmi:id="_Pd9EgKGGEeWHfcy6hmg9jA">
           <body>INFORMATION MANAGEMENT&#xD;
 Verision Dic15-13, developed and written down by Alberto Díaz&#xD;
-Identification: SO1.1&#xD;
+Identification: IM1.1&#xD;
 Traced to: Requirement U2.5.1 &quot;Documentation&quot;, under &quot;User Requirements&quot;</body>
         </ownedComment>
         <ownedComment xmi:type="uml:Comment" xmi:id="_dBTUwKGGEeWHfcy6hmg9jA" annotatedElement="_PeBV8KGGEeWHfcy6hmg9jA">
@@ -174,7 +174,39 @@ Identification: SS</body>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_-DptoKGBEeW2oLsE_WICRw" client="_3XSOMKF_EeW2oLsE_WICRw" supplier="_WsFG0KGAEeW2oLsE_WICRw"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_-_4sYKGBEeW2oLsE_WICRw" client="_3XSOMKF_EeW2oLsE_WICRw" supplier="_XlZ7gKGAEeW2oLsE_WICRw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_qyJloKCuEeW83YomzJF75w" name="1. Functional Requirements"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_qyJloKCuEeW83YomzJF75w" name="1. Functional Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_-JoG4KGOEeWHfcy6hmg9jA">
+          <body>FUNCTIONAL REQUIREMENTS&#xD;
+Verision Dic15-13, developed and written down by Alberto Díaz&#xD;
+Identification: FR1.1&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_TX1xEKGPEeWHfcy6hmg9jA" annotatedElement="_-Jm4wKGOEeWHfcy6hmg9jA">
+          <body>FUNCTIONAL REQUIREMENTS: should include a detailed explanation of all the requirements applicable to system operation. Definition of the different functions that the system must have. This functions must be listed in order of decreasing importance and explain in detail</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Package" xmi:id="_-Jm4wKGOEeWHfcy6hmg9jA" name="1. Functional Requirements">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_-Jm4waGOEeWHfcy6hmg9jA" name="" client="_-Jm4wKGOEeWHfcy6hmg9jA" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_-Jm4wqGOEeWHfcy6hmg9jA" name="Types of information">
+            <packagedElement xmi:type="uml:Package" xmi:id="_-Jm4w6GOEeWHfcy6hmg9jA" name="Received information">
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_-Jm4xKGOEeWHfcy6hmg9jA" name="" client="_-Jm4w6GOEeWHfcy6hmg9jA" supplier="__vxawKGNEeWHfcy6hmg9jA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_-Jm4xaGOEeWHfcy6hmg9jA" name="Newly produced information">
+              <packagedElement xmi:type="uml:Package" xmi:id="_-Jm4xqGOEeWHfcy6hmg9jA" name="Code">
+                <packagedElement xmi:type="uml:Abstraction" xmi:id="_-Jm4x6GOEeWHfcy6hmg9jA" name="" client="_-Jm4xqGOEeWHfcy6hmg9jA" supplier="_292uoKGMEeWHfcy6hmg9jA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_-Jm4yKGOEeWHfcy6hmg9jA" name="Models">
+                <packagedElement xmi:type="uml:Abstraction" xmi:id="_-Jm4yaGOEeWHfcy6hmg9jA" name="" client="_-Jm4yKGOEeWHfcy6hmg9jA" supplier="_m30fMKGMEeWHfcy6hmg9jA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_-Jm4yqGOEeWHfcy6hmg9jA" name="Documents and presentations">
+                <packagedElement xmi:type="uml:Abstraction" xmi:id="_-Jm4y6GOEeWHfcy6hmg9jA" name="" client="_-Jm4yqGOEeWHfcy6hmg9jA" supplier="_FTrksKGNEeWHfcy6hmg9jA"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_-Jm4zKGOEeWHfcy6hmg9jA" name="" client="_-Jm4wKGOEeWHfcy6hmg9jA" supplier="_uBHIAKGKEeWHfcy6hmg9jA"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_-Jm4zaGOEeWHfcy6hmg9jA" name="" client="_-Jm4wKGOEeWHfcy6hmg9jA" supplier="_O0VtgKGLEeWHfcy6hmg9jA"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_-Jm4zqGOEeWHfcy6hmg9jA" name="" client="_-Jm4wKGOEeWHfcy6hmg9jA" supplier="_JGhZoKGMEeWHfcy6hmg9jA"/>
+        </packagedElement>
+      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_txWhsKCuEeW83YomzJF75w" name="2. Usability Requirements">
         <ownedComment xmi:type="uml:Comment" xmi:id="_dm1wAKCwEeW83YomzJF75w" annotatedElement="_EmOLMKCwEeW83YomzJF75w">
           <body>USABILITY REQUIREMENTS: Define quality in use requirements. Usability requirements and objectives for the system must include measurable effectiveness, efficiency, and satisfaction criteria in specific contexts of use. A quality in use measurable plan should be conceived and explained in this section, including how this plan is going to be implemented.</body>
@@ -339,25 +371,33 @@ c) Performance requirements for the operational phases and modes. This means tha
   <Requirements:Requirement xmi:id="_Xlk6oKGAEeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_XlZ7gaGAEeW2oLsE_WICRw"/>
   <Requirements:DeriveReqt xmi:id="_PeEZQKGGEeWHfcy6hmg9jA" base_Abstraction="_PeBV8aGGEeWHfcy6hmg9jA"/>
   <ModelElements:Rationale xmi:id="_dBmPsKGGEeWHfcy6hmg9jA" base_Comment="_dBTUwKGGEeWHfcy6hmg9jA"/>
-  <Requirements:Requirement xmi:id="_uBpTgKGKEeWHfcy6hmg9jA" text="There shall be a person responsible for the organization of the information related to each area of the project (e.g. &quot;Requirements&quot;). This person should be the same as the person responsible for each area of the project." id="SO1" base_Class="_uBHIAKGKEeWHfcy6hmg9jA"/>
+  <Requirements:Requirement xmi:id="_uBpTgKGKEeWHfcy6hmg9jA" text="There shall be a person responsible for the organization of the information related to each area of the project (e.g. &quot;Requirements&quot;). This person should be the same as the person responsible for each area of the project." id="IM1" base_Class="_uBHIAKGKEeWHfcy6hmg9jA"/>
   <Requirements:DeriveReqt xmi:id="_EfmuUKGLEeWHfcy6hmg9jA" base_Abstraction="_EfI0QKGLEeWHfcy6hmg9jA"/>
-  <Requirements:Requirement xmi:id="_O0ZX4KGLEeWHfcy6hmg9jA" text="All the information related to the project shall be accesible to everyone and adequately organised" id="SO2" base_Class="_O0VtgKGLEeWHfcy6hmg9jA"/>
-  <Requirements:Requirement xmi:id="_X9fqYKGLEeWHfcy6hmg9jA" text="Colaborative information production shall be done in a shared repository aimed to that prupose (e.g. GitHub)." id="SO2.1" base_Class="_X9cnEKGLEeWHfcy6hmg9jA"/>
-  <Requirements:Requirement xmi:id="_hI1YkKGLEeWHfcy6hmg9jA" text="Individual information production (e.g. &quot;Requirements Specifications Document&quot;) may be done privately but every delivered version shall be shared with the group." id="SO2.2" base_Class="_hI0KcKGLEeWHfcy6hmg9jA"/>
-  <Requirements:Requirement xmi:id="_JGj14KGMEeWHfcy6hmg9jA" text="A record of every delivered version shall be kept." id="SO3" base_Class="_JGhZoKGMEeWHfcy6hmg9jA"/>
+  <Requirements:Requirement xmi:id="_O0ZX4KGLEeWHfcy6hmg9jA" text="All the information related to the project shall be accesible to everyone and adequately organised" id="IM2" base_Class="_O0VtgKGLEeWHfcy6hmg9jA"/>
+  <Requirements:Requirement xmi:id="_X9fqYKGLEeWHfcy6hmg9jA" text="Colaborative information production shall be done in a shared repository aimed to that prupose (e.g. GitHub)." id="IM2.1" base_Class="_X9cnEKGLEeWHfcy6hmg9jA"/>
+  <Requirements:Requirement xmi:id="_hI1YkKGLEeWHfcy6hmg9jA" text="Individual information production (e.g. &quot;Requirements Specifications Document&quot;) may be done privately but every delivered version shall be shared with the group." id="IM2.2" base_Class="_hI0KcKGLEeWHfcy6hmg9jA"/>
+  <Requirements:Requirement xmi:id="_JGj14KGMEeWHfcy6hmg9jA" text="A record of every delivered version shall be kept." id="IM3" base_Class="_JGhZoKGMEeWHfcy6hmg9jA"/>
   <Requirements:Requirement xmi:id="_OpONMKGMEeWHfcy6hmg9jA" text="Colaborative information production shall be done in a shared repository aimed to that prupose (e.g. GitHub)." id="SO2.1" base_Class="_OpLw8KGMEeWHfcy6hmg9jA"/>
-  <Requirements:Requirement xmi:id="_OymLoKGMEeWHfcy6hmg9jA" text="The person responsible for each area of the project shall be the person responsible for the version history of every document/model/code produced in the area headed by him/her." id="SO3.1" base_Class="_OyjvYKGMEeWHfcy6hmg9jA"/>
+  <Requirements:Requirement xmi:id="_OymLoKGMEeWHfcy6hmg9jA" text="The person responsible for each area of the project shall be the person responsible for the version history of every document/model/code produced in the area headed by him/her." id="IM3.1" base_Class="_OyjvYKGMEeWHfcy6hmg9jA"/>
   <Requirements:DeriveReqt xmi:id="_e7UisKGMEeWHfcy6hmg9jA" base_Abstraction="_e6T2EKGMEeWHfcy6hmg9jA"/>
   <Requirements:DeriveReqt xmi:id="_fqKlsKGMEeWHfcy6hmg9jA" base_Abstraction="_fpNjcKGMEeWHfcy6hmg9jA"/>
   <Requirements:DeriveReqt xmi:id="_gZl3gKGMEeWHfcy6hmg9jA" base_Abstraction="_gYj8wKGMEeWHfcy6hmg9jA"/>
   <Requirements:DeriveReqt xmi:id="_hq9YwKGMEeWHfcy6hmg9jA" base_Abstraction="_hpvQwKGMEeWHfcy6hmg9jA"/>
   <Requirements:DeriveReqt xmi:id="_jFjugKGMEeWHfcy6hmg9jA" base_Abstraction="_jEewcKGMEeWHfcy6hmg9jA"/>
-  <Requirements:Requirement xmi:id="_m34JkKGMEeWHfcy6hmg9jA" text="Colaborative produced models (e.g. &quot;System Requirements Diagram&quot;) shall be created and modified in GitHub (online repository).&#xD;&#xA;" id="SO4" base_Class="_m30fMKGMEeWHfcy6hmg9jA"/>
-  <Requirements:Requirement xmi:id="_296ZAKGMEeWHfcy6hmg9jA" text="Colaborative produced code (e.g. &quot;Hello World Project&quot;) shall be created and modified in GitHub (online repository).&#xD;&#xA;" id="SO5" base_Class="_292uoKGMEeWHfcy6hmg9jA"/>
+  <Requirements:Requirement xmi:id="_m34JkKGMEeWHfcy6hmg9jA" text="Colaborative produced models (e.g. &quot;System Requirements Diagram&quot;) shall be created and modified in GitHub (online repository).&#xD;&#xA;" id="IM4" base_Class="_m30fMKGMEeWHfcy6hmg9jA"/>
+  <Requirements:Requirement xmi:id="_296ZAKGMEeWHfcy6hmg9jA" text="Colaborative produced code (e.g. &quot;Hello World Project&quot;) shall be created and modified in GitHub (online repository).&#xD;&#xA;" id="IM5" base_Class="_292uoKGMEeWHfcy6hmg9jA"/>
   <Requirements:DeriveReqt xmi:id="_BfdFIKGNEeWHfcy6hmg9jA" base_Abstraction="_BeCI0KGNEeWHfcy6hmg9jA"/>
   <Requirements:DeriveReqt xmi:id="_Cno1MKGNEeWHfcy6hmg9jA" base_Abstraction="_CmT_gKGNEeWHfcy6hmg9jA"/>
-  <Requirements:Requirement xmi:id="_FTvPEKGNEeWHfcy6hmg9jA" text="Colaborative produced documents (e.g. &quot;ConOps&quot;) shall be shared and modified in GoogleDrive (online repository).&#xD;&#xA;" id="SO6" base_Class="_FTrksKGNEeWHfcy6hmg9jA"/>
+  <Requirements:Requirement xmi:id="_FTvPEKGNEeWHfcy6hmg9jA" text="Colaborative produced documents (e.g. &quot;ConOps&quot;) shall be shared and modified in GoogleDrive (online repository).&#xD;&#xA;" id="IM6" base_Class="_FTrksKGNEeWHfcy6hmg9jA"/>
   <Requirements:DeriveReqt xmi:id="_-vDkoKGNEeWHfcy6hmg9jA" base_Abstraction="_-tqdgKGNEeWHfcy6hmg9jA"/>
-  <Requirements:Requirement xmi:id="__vyo4KGNEeWHfcy6hmg9jA" text="Received or external documentation (e.g. any international standard) shall be shared in GoogleDrive (online repository).&#xD;&#xA;" id="SO7" base_Class="__vxawKGNEeWHfcy6hmg9jA"/>
+  <Requirements:Requirement xmi:id="__vyo4KGNEeWHfcy6hmg9jA" text="Received or external documentation (e.g. any international standard) shall be shared in GoogleDrive (online repository).&#xD;&#xA;" id="IM7" base_Class="__vxawKGNEeWHfcy6hmg9jA"/>
   <Requirements:DeriveReqt xmi:id="_I4X-AKGOEeWHfcy6hmg9jA" base_Abstraction="_I29owKGOEeWHfcy6hmg9jA"/>
+  <Requirements:DeriveReqt xmi:id="_-JqjIKGOEeWHfcy6hmg9jA" base_Abstraction="_-Jm4x6GOEeWHfcy6hmg9jA"/>
+  <Requirements:DeriveReqt xmi:id="_-JrxQKGOEeWHfcy6hmg9jA" base_Abstraction="_-Jm4zaGOEeWHfcy6hmg9jA"/>
+  <Requirements:DeriveReqt xmi:id="_-Js_YKGOEeWHfcy6hmg9jA" base_Abstraction="_-Jm4waGOEeWHfcy6hmg9jA"/>
+  <Requirements:DeriveReqt xmi:id="_-JuNgKGOEeWHfcy6hmg9jA" base_Abstraction="_-Jm4yaGOEeWHfcy6hmg9jA"/>
+  <Requirements:DeriveReqt xmi:id="_-JvboKGOEeWHfcy6hmg9jA" base_Abstraction="_-Jm4xKGOEeWHfcy6hmg9jA"/>
+  <Requirements:DeriveReqt xmi:id="_-JwCsKGOEeWHfcy6hmg9jA" base_Abstraction="_-Jm4y6GOEeWHfcy6hmg9jA"/>
+  <Requirements:DeriveReqt xmi:id="_-JxQ0KGOEeWHfcy6hmg9jA" base_Abstraction="_-Jm4zqGOEeWHfcy6hmg9jA"/>
+  <Requirements:DeriveReqt xmi:id="_-Jye8KGOEeWHfcy6hmg9jA" base_Abstraction="_-Jm4zKGOEeWHfcy6hmg9jA"/>
 </xmi:XMI>
