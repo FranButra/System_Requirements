@@ -98,7 +98,34 @@ Identification: SS</body>
         </ownedComment>
         <packagedElement xmi:type="uml:Package" xmi:id="_wxuMUKC3EeW83YomzJF75w" name="10. System Security">
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_wxuMUaC3EeW83YomzJF75w" name="" client="_wxuMUKC3EeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_5eGe0KGBEeW2oLsE_WICRw" client="_wxuMUKC3EeW83YomzJF75w" supplier="_Ec1koKF_EeW2oLsE_WICRw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_7KlOwKGBEeW2oLsE_WICRw" client="_wxuMUKC3EeW83YomzJF75w" supplier="_3XSOMKF_EeW2oLsE_WICRw"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ec1koKF_EeW2oLsE_WICRw" name="Improper access">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_140FEKF_EeW2oLsE_WICRw" name="Improper access"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3XSOMKF_EeW2oLsE_WICRw" name="Collisions">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_3XSOMaF_EeW2oLsE_WICRw" name="Improper access"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UK0rAKGAEeW2oLsE_WICRw" name="Hackers">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_UK1SEKGAEeW2oLsE_WICRw" name="Improper access"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VL5GcKGAEeW2oLsE_WICRw" name="Malicious user">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_VL5GcaGAEeW2oLsE_WICRw" name="Improper access"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_WNWjcKGAEeW2oLsE_WICRw" name="CopyOf_Improper access_1">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_WNWjcaGAEeW2oLsE_WICRw" name="Improper access"/>
+          </nestedClassifier>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WsFG0KGAEeW2oLsE_WICRw" name="People collision">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_WsFG0aGAEeW2oLsE_WICRw" name="Improper access"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XlZ7gKGAEeW2oLsE_WICRw" name="Buildings">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_XlZ7gaGAEeW2oLsE_WICRw" name="Improper access"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_8iFNMKGBEeW2oLsE_WICRw" client="_Ec1koKF_EeW2oLsE_WICRw" supplier="_UK0rAKGAEeW2oLsE_WICRw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_9VTZ4KGBEeW2oLsE_WICRw" client="_Ec1koKF_EeW2oLsE_WICRw" supplier="_VL5GcKGAEeW2oLsE_WICRw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_-DptoKGBEeW2oLsE_WICRw" client="_3XSOMKF_EeW2oLsE_WICRw" supplier="_WsFG0KGAEeW2oLsE_WICRw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_-_4sYKGBEeW2oLsE_WICRw" client="_3XSOMKF_EeW2oLsE_WICRw" supplier="_XlZ7gKGAEeW2oLsE_WICRw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_qyJloKCuEeW83YomzJF75w" name="1. Functional Requirements"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_txWhsKCuEeW83YomzJF75w" name="2. Usability Requirements">
@@ -249,4 +276,18 @@ c) Performance requirements for the operational phases and modes. This means tha
   <Requirements:DeriveReqt xmi:id="_MCGjwKD5EeWAlK9P2ItRIg" base_Abstraction="_MAXeYKD5EeWAlK9P2ItRIg"/>
   <Requirements:Requirement xmi:id="_ik8ekKD5EeWAlK9P2ItRIg" text="The design of the mobile application shall agree with the connection speed of the system." id="UR5" base_Class="_ij9nIKD5EeWAlK9P2ItRIg"/>
   <Requirements:DeriveReqt xmi:id="_9vkc0KD5EeWAlK9P2ItRIg" base_Abstraction="_9tuCsKD5EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_EfugkKF_EeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_Ec1koKF_EeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_15CukKF_EeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_140FEKF_EeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_3XcmQKF_EeW2oLsE_WICRw" text="The control system has to avoid drones collisions" id="UR2" base_Class="_3XSOMKF_EeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_3XhewKF_EeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_3XSOMaF_EeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_UK-cAKGAEeW2oLsE_WICRw" text="The system should require a password in order to access to the system" id="UR1.1" base_Class="_UK0rAKGAEeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_ULCGYKGAEeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_UK1SEKGAEeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_VL9-8KGAEeW2oLsE_WICRw" text="The system should identify if the user intention is to cause damage. If it is the case, the own control has to swich off the system" id="UR1.2" base_Class="_VL5GcKGAEeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_VMBCQKGAEeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_VL5GcaGAEeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_WNcDAKGAEeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_WNWjcKGAEeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_WNftYKGAEeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_WNWjcaGAEeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_WsLNcKGAEeW2oLsE_WICRw" text="If there is a person in the drone's trayectory, the control has to dodge him or if it is impossible, to wait until him has gone out from that trayectory" id="UR2.1" base_Class="_WsFG0KGAEeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_WsOQwKGAEeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_WsFG0aGAEeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_Xlh3UKGAEeW2oLsE_WICRw" text="The control has to provide a really good vision about corners and unexpected objects to avoid it easily." id="UR2.2" base_Class="_XlZ7gKGAEeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_Xlk6oKGAEeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_XlZ7gaGAEeW2oLsE_WICRw"/>
 </xmi:XMI>
