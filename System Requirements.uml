@@ -40,6 +40,12 @@ e) Accessibility to components within systems and to parts within components. In
 8.2.	Reliability: Specify the system reliability requirements in quantitative terms, including the conditions under which the reliability requirements are to be met. These reliability requirements also depend on the mode the system is working and the safety requirements established. In order to define the reliability of the system, every possible scenario must be analyzed. To clarify this requirements it would be helpful to list this different scenarios linked with their reliability requirements. &#xD;
 </body>
         </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_QxOZsKHHEeWOS8AZLewT1w">
+          <body>Preventivo&#xD;
+Correctivo&#xD;
+Evolutivo&#xD;
+</body>
+        </ownedComment>
         <packagedElement xmi:type="uml:Package" xmi:id="_DQ7E0KCzEeW83YomzJF75w" name="5. System Operations">
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_DQ7E0aCzEeW83YomzJF75w" name="" client="_DQ7E0KCzEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_Bt2KoKGGEeWY1PxHypAdag" name="" client="_DQ7E0KCzEeW83YomzJF75w" supplier="_3uvdMKGFEeWY1PxHypAdag"/>
@@ -65,13 +71,32 @@ e) Accessibility to components within systems and to parts within components. In
               <nestedClassifier xmi:type="uml:Class" xmi:id="_JQOggKGSEeWY1PxHypAdag" name="External support (provider)"/>
             </nestedClassifier>
           </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_CQWogKGLEeWY1PxHypAdag" name="Hardware"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_CQWogKGLEeWY1PxHypAdag" name="Hardware Replacement">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_1uqgYKHIEeWOS8AZLewT1w" name="Batteries shal be changed when it has been charged 1000 times."/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_2O-_MKHIEeWOS8AZLewT1w" name="Camera must be cheked and changed in case the drone do not recognise the special pictures"/>
+          </nestedClassifier>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_G6W5gKGLEeWY1PxHypAdag" name="Software"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_4M28kKGFEeWY1PxHypAdag" name="Reliability"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_i_vvgKGOEeWY1PxHypAdag" name="Requirement1"/>
-        <packagedElement xmi:type="uml:Dependency" xmi:id="_UzmdEKGSEeWY1PxHypAdag" client="_3mseAKGREeWY1PxHypAdag" supplier="_JQOggKGSEeWY1PxHypAdag"/>
-        <packagedElement xmi:type="uml:Dependency" xmi:id="_VOmXAKGSEeWY1PxHypAdag" client="_b51SMKGNEeWY1PxHypAdag" supplier="_9lMHoKGPEeWY1PxHypAdag"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_4M28kKGFEeWY1PxHypAdag" name="Reliability">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_nJvsIKHNEeWOS8AZLewT1w" name="Initialitation">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_OoD-sKHQEeWOS8AZLewT1w" name="Systes should initialitate in less than 40 minutes"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_qDDUMKHQEeWOS8AZLewT1w" name="No one should be nearer than 0.75 meters while drone take off"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_pJdhIKHNEeWOS8AZLewT1w" name="User request for guidance">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_KVs8MKHREeWOS8AZLewT1w" name="the drone shal be at least 1 meter away from user and from other people"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_58qYkKHNEeWOS8AZLewT1w" name="Change drone operational parameters"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_-6chMKHNEeWOS8AZLewT1w" name="Termination"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_BbW-wKHOEeWOS8AZLewT1w" name="Landing in secure"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_EBlaIKHOEeWOS8AZLewT1w" name="Avoiding a colition"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_HJGksKHOEeWOS8AZLewT1w" name="Avoiding flying over crowds"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JgLtoKHKEeWOS8AZLewT1w" name="Some Proffesors and students should be responsibles of some maintainabiliti aspects"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_asbXMKHKEeWOS8AZLewT1w" name="Satisfy1" client="_JgLtoKHKEeWOS8AZLewT1w" supplier="_G6W5gKGLEeWY1PxHypAdag"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_bIMtMKHKEeWOS8AZLewT1w" name="Satisfy2" client="_JgLtoKHKEeWOS8AZLewT1w" supplier="_2O-_MKHIEeWOS8AZLewT1w"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_echksKHKEeWOS8AZLewT1w" name="Satisfy3" client="_JQOggKGSEeWY1PxHypAdag" supplier="_3mseAKGREeWY1PxHypAdag"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_fwXLIKHKEeWOS8AZLewT1w" name="Satisfy4" client="_9lMHoKGPEeWY1PxHypAdag" supplier="_1uqgYKHIEeWOS8AZLewT1w"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_gmEEEKHKEeWOS8AZLewT1w" name="Satisfy5" client="_9lMHoKGPEeWY1PxHypAdag" supplier="_b51SMKGNEeWY1PxHypAdag"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_yIlnsKCuEeW83YomzJF75w" name="4. System Interfaces">
         <ownedComment xmi:type="uml:Comment" xmi:id="_jmONoKCyEeW83YomzJF75w">
@@ -430,23 +455,40 @@ c) Performance requirements for the operational phases and modes. This means tha
   <Requirements:DeriveReqt xmi:id="_-JxQ0KGOEeWHfcy6hmg9jA" base_Abstraction="_-Jm4zqGOEeWHfcy6hmg9jA"/>
   <Requirements:DeriveReqt xmi:id="_-Jye8KGOEeWHfcy6hmg9jA" base_Abstraction="_-Jm4zKGOEeWHfcy6hmg9jA"/>
   <Requirements:DeriveReqt xmi:id="_-Jye8KGOEeWHfcy6hmg9jA" base_Abstraction="_-Jm4zKGOEeWHfcy6hmg9jA"/>
-  <Requirements:Requirement xmi:id="_3v7I8KGFEeWY1PxHypAdag" text="The system shal be conserved in order to ensure its disign especifications, and it should be as simple as posible.&#xD;&#xA;" id="SO1" base_Class="_3uvdMKGFEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_3v7I8KGFEeWY1PxHypAdag" text="The system shal be conserved in order to ensure its design especifications, and it should be as simple as posible.&#xD;&#xA;" id="SO1" base_Class="_3uvdMKGFEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_4NmjcKGFEeWY1PxHypAdag" text="The system must adapt to all possible  differents enviroments and meet the imposed safety requiarements." id="SO2" base_Class="_4M28kKGFEeWY1PxHypAdag"/>
   <Requirements:DeriveReqt xmi:id="_Bu7vwKGGEeWY1PxHypAdag" base_Abstraction="_Bt2KoKGGEeWY1PxHypAdag"/>
   <Requirements:DeriveReqt xmi:id="_CzHJkKGGEeWY1PxHypAdag" base_Abstraction="_CyJgQKGGEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_xLvQ8KGKEeWY1PxHypAdag" base_Class="_xLARIKGKEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_CRKg0KGLEeWY1PxHypAdag" base_Class="_CQWogKGLEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_G7N1IKGLEeWY1PxHypAdag" base_Class="_G6W5gKGLEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_CRKg0KGLEeWY1PxHypAdag" id="" base_Class="_CQWogKGLEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_G7N1IKGLEeWY1PxHypAdag" text="If there is a change on system enviroment that afects software, it shal be adapted" id="" base_Class="_G6W5gKGLEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_QfNB8KGNEeWY1PxHypAdag" base_Class="_Qd6ogKGNEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_b7KH4KGNEeWY1PxHypAdag" base_Class="_b51SMKGNEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_3jfV0KGNEeWY1PxHypAdag" base_Class="_3imlAKGNEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_9VrW4KGNEeWY1PxHypAdag" base_Class="_9UqqQKGNEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_SmIcwKGOEeWY1PxHypAdag" base_Class="_SlGiAKGOEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_jA3J0KGOEeWY1PxHypAdag" base_Class="_i_vvgKGOEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_o5CeIKGOEeWY1PxHypAdag" base_Class="_o45UMKGOEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_pN5T0KGOEeWY1PxHypAdag" base_Class="_pNzNMKGOEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_u6oNIKGOEeWY1PxHypAdag" base_Class="_u6jUoKGOEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_9miygKGPEeWY1PxHypAdag" base_Class="_9lMHoKGPEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_3oEXAKGREeWY1PxHypAdag" base_Class="_3mseAKGREeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_JRmZgKGSEeWY1PxHypAdag" base_Class="_JQOggKGSEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_JRmZgKGSEeWY1PxHypAdag" id="" base_Class="_JQOggKGSEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_1w4t8KHIEeWOS8AZLewT1w" base_Class="_1uqgYKHIEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_2Q644KHIEeWOS8AZLewT1w" base_Class="_2O-_MKHIEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_JiEkAKHKEeWOS8AZLewT1w" base_Class="_JgLtoKHKEeWOS8AZLewT1w"/>
+  <Requirements:Satisfy xmi:id="_avR24KHKEeWOS8AZLewT1w" base_Abstraction="_asbXMKHKEeWOS8AZLewT1w"/>
+  <Requirements:Satisfy xmi:id="_bLw-kKHKEeWOS8AZLewT1w" base_Abstraction="_bIMtMKHKEeWOS8AZLewT1w"/>
+  <Requirements:Satisfy xmi:id="_eeq5wKHKEeWOS8AZLewT1w" base_Abstraction="_echksKHKEeWOS8AZLewT1w"/>
+  <Requirements:Satisfy xmi:id="_fzQuIKHKEeWOS8AZLewT1w" base_Abstraction="_fwXLIKHKEeWOS8AZLewT1w"/>
+  <Requirements:Satisfy xmi:id="_gpHYEKHKEeWOS8AZLewT1w" base_Abstraction="_gmEEEKHKEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_nL95sKHNEeWOS8AZLewT1w" base_Class="_nJvsIKHNEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_pLqgkKHNEeWOS8AZLewT1w" base_Class="_pJdhIKHNEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_5-qjsKHNEeWOS8AZLewT1w" base_Class="_58qYkKHNEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_-8iy8KHNEeWOS8AZLewT1w" base_Class="_-6chMKHNEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_BdcpcKHOEeWOS8AZLewT1w" base_Class="_BbW-wKHOEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_ED3SEKHOEeWOS8AZLewT1w" base_Class="_EBlaIKHOEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_HLTkIKHOEeWOS8AZLewT1w" base_Class="_HJGksKHOEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_OqXEwKHQEeWOS8AZLewT1w" base_Class="_OoD-sKHQEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_qFQToKHQEeWOS8AZLewT1w" base_Class="_qDDUMKHQEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_KX24UKHREeWOS8AZLewT1w" base_Class="_KVs8MKHREeWOS8AZLewT1w"/>
 </xmi:XMI>
