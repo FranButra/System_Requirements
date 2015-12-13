@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ModelElements="http://www.eclipse.org/papyrus/0.7.0/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/ModelElements http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
+  <uml:Model xmi:id="_G9B74KA_EeW7BLzk3SvFLg" name="RootElement">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_XMTK8KCvEeW83YomzJF75w">
+      <body>Division and organization of the System Requirements has been done according to the International Standard ISO/IEC/IEEE 29148</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pGqUMKCuEeW83YomzJF75w" name="System Requirements">
+      <packagedElement xmi:type="uml:Package" xmi:id="_BKij8KCvEeW83YomzJF75w" name="7. Physical Characteristics">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Tmu1oKCzEeW83YomzJF75w">
+          <body>PHYSICAL CHARACTERISTICS&#xD;
+Verision Dic15-xx, developed and written down by yyyy&#xD;
+Identification: PC1.1&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_XyqDgKCzEeW83YomzJF75w" annotatedElement="_Tmu1oaCzEeW83YomzJF75w">
+          <body>PHYSICAL CHARACTERISTICS: as it names implies, this part of the document must include a qualitative and quantitative description of the physical characteristics of the system. It must include:&#xD;
+10.1.	Physical requirements: Include constraints on weight, volume and dimension. Include the construction characteristics of where the system will be installed, requirements for materials to be used in the item or service covered by this specification. &#xD;
+10.2.	Adaptability requirements: Define requirements for growth, expansion, capability, and contraction. Include a description of futures lines of development of the system and how the current system could adapt to thes changes.&#xD;
+</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Tmu1oaCzEeW83YomzJF75w" name="7. Physical Characteristics">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Tmu1oqCzEeW83YomzJF75w" name="" client="_Tmu1oaCzEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_zc2E4KCuEeW83YomzJF75w" name="5. System Operations">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_DQ7r4KCzEeW83YomzJF75w">
+          <body>SYSTEM OPERATIONS&#xD;
+Verision Dic15-xx, developed and written down by yyyy&#xD;
+Identification: SO1.1&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_GaO_IKCzEeW83YomzJF75w" annotatedElement="_DQ7E0KCzEeW83YomzJF75w">
+          <body>SYSTEM OPERATIONS: describe or the requirements related to the operation of the system in terms of maintainability and reliability: &#xD;
+8.1.	Maintainability: Specify the quantitative maintainability requirements that apply to maintenance in the planned maintenance and support environment. The document must consider the next aspects of maintenance:&#xD;
+a) Time: set the time needed per type of reparation.&#xD;
+b) Rate: define the frequency of maintenance operations and a justification.&#xD;
+c) Maintenance complexity: people involved and skill levels, equipment and components that may need to be repaired or replaced. &#xD;
+d) Maintenance action indices: quantitative analysis of maintenance costs.&#xD;
+e) Accessibility to components within systems and to parts within components. Indicate every component that can be repaired or replace describing its accessibility.&#xD;
+8.2.	Reliability: Specify the system reliability requirements in quantitative terms, including the conditions under which the reliability requirements are to be met. These reliability requirements also depend on the mode the system is working and the safety requirements established. In order to define the reliability of the system, every possible scenario must be analyzed. To clarify this requirements it would be helpful to list this different scenarios linked with their reliability requirements. &#xD;
+</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DQ7E0KCzEeW83YomzJF75w" name="5. System Operations">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_DQ7E0aCzEeW83YomzJF75w" name="" client="_DQ7E0KCzEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_yIlnsKCuEeW83YomzJF75w" name="4. System Interfaces">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_jmONoKCyEeW83YomzJF75w">
+          <body>SYSTEM INTERFACES&#xD;
+Verision Dic15-xx, developed and written down by yyyy&#xD;
+Identification: SI&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_jmO0sKCyEeW83YomzJF75w" annotatedElement="_jmNmkKCyEeW83YomzJF75w">
+          <body>SYSTEM INTERFACES: Specify requirements for interfaces among system elements and with external entities. Interfaces among system elements should include interfaces with the human element. Interfaces with external entities should include other systems. Define any interdependencies or constraints associated with the interfaces (e.g., communication protocols, special devices, standards, fixed formats). These interfaces should be listed and explained in detail, including the way of implementing them.  Each interface may represent a bidirectional flow of information. A graphic representation of the interfaces should be used for shake of clarity. Is really important to use technical vocabulary and be very precise. This is going to be used as a guide document for the following stages of the project.</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Package" xmi:id="_jmNmkKCyEeW83YomzJF75w" name="4. System interfaces">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_jmNmkaCyEeW83YomzJF75w" name="" client="_jmNmkKCyEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_99DUQKCuEeW83YomzJF75w" name="6. System Modes and State">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_c579AKDMEeWq6OoBtUJ80g" name="StateMachine1">
+          <region xmi:type="uml:Region" xmi:id="_dobasKDMEeWq6OoBtUJ80g" name="Region1">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_futKsKDMEeWq6OoBtUJ80g">
+              <body>Suerte con esto, cabesa. No tengo ni puta idea de como se usa esto.&#xD;
+&#xD;
+Los estados de funcionamiento en realidad sí que son un requisito, pero habría que expresarlo como máquina de estados.&#xD;
+&#xD;
+Si queréis, me hacéis la máquina de estados en LabView, en ppt o en alguna otra mierda... pero en Navidades me tenéis que hacer la StateChart aquí&#xD;
+</body>
+            </ownedComment>
+          </region>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_CzmMcKCvEeW83YomzJF75w" name="8. Environmental Conditions">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_hgA5oKCzEeW83YomzJF75w">
+          <body>ENVIRONMENTAL CONDITIONS&#xD;
+Verision Dic15-xx, developed and written down by yyyy&#xD;
+Identification: EC1.1&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_l-4RoKCzEeW83YomzJF75w" annotatedElement="_hgBgsKCzEeW83YomzJF75w">
+          <body>ENVIRONMENTAL CONDITIONS: Include environmental conditions to be encountered by the system. The following areas should be addressed: natural, induced environment (e.g., motion, shock, noise, electromagnetic, thermal), electromagnetic signal environment, etc. Consideration should also be given to legal/regulatory, political, economic, social, and business environment. </body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Package" xmi:id="_hgBgsKCzEeW83YomzJF75w" name="8. Environmental Conditions">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_hgBgsaCzEeW83YomzJF75w" name="" client="_hgBgsKCzEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Mp48IKCvEeW83YomzJF75w" name="9. Information Management"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Hgh1oKCvEeW83YomzJF75w" name="10. System Security">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_wxuzYKC3EeW83YomzJF75w">
+          <body>SYSTEM SECURITY&#xD;
+Verision Dic15-xx, developed and written down by yyyy&#xD;
+Identification: SS</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_2U0BcKC3EeW83YomzJF75w">
+          <body>SYSTEM SECURITY: Define the system security requirements related to both the facility that houses the system and operational security requirements of the system itself. First of all it must contemplate access limitations to the system, such as existence of log-on procedures and passwords, and of data protection and recovery methods. This could include the factors that would protect the system from accidental or malicious access, use, modification, destruction, or disclosure. The implementation of this security system must be described in detail. In case the system means a possible hazard to people or other systems or structures if any malfunctioning happens, these system security requirements should include measures to avoid these possible hazards. </body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Package" xmi:id="_wxuMUKC3EeW83YomzJF75w" name="10. System Security">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_wxuMUaC3EeW83YomzJF75w" name="" client="_wxuMUKC3EeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_qyJloKCuEeW83YomzJF75w" name="1. Functional Requirements"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_txWhsKCuEeW83YomzJF75w" name="2. Usability Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dm1wAKCwEeW83YomzJF75w" annotatedElement="_EmOLMKCwEeW83YomzJF75w">
+          <body>USABILITY REQUIREMENTS: Define quality in use requirements. Usability requirements and objectives for the system must include measurable effectiveness, efficiency, and satisfaction criteria in specific contexts of use. A quality in use measurable plan should be conceived and explained in this section, including how this plan is going to be implemented.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_MslY4KCxEeW83YomzJF75w">
+          <body>USABILITY REQUIREMENTS&#xD;
+Verision Dic15-12, developed and written down by Jorge Salvador&#xD;
+</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Package" xmi:id="_EmOLMKCwEeW83YomzJF75w" name="2. Usability Requirements Specification">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_-PiEAKCxEeW83YomzJF75w" name="" client="_EmOLMKCwEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_gzgdgKD2EeWAlK9P2ItRIg" name="" client="_EmOLMKCwEeW83YomzJF75w" supplier="_1bTdYKD1EeWAlK9P2ItRIg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_XH1M8KD3EeWAlK9P2ItRIg" name="" client="_txWhsKCuEeW83YomzJF75w" supplier="_2BHqwKD2EeWAlK9P2ItRIg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_6GfvQKD3EeWAlK9P2ItRIg" name="" client="_EmOLMKCwEeW83YomzJF75w" supplier="_ed9F8KD3EeWAlK9P2ItRIg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_9tuCsKD5EeWAlK9P2ItRIg" name="" client="_EmOLMKCwEeW83YomzJF75w" supplier="_ij9nIKD5EeWAlK9P2ItRIg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_b_ZREKCwEeW83YomzJF75w" name="User satisfaction"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fB3HEKCxEeW83YomzJF75w" name="Satisfaction tests development"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uIERMKCxEeW83YomzJF75w" name="Satisfaction tests puntuaction"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_BIJ28KCyEeW83YomzJF75w" name="" client="_b_ZREKCwEeW83YomzJF75w" supplier="_fB3HEKCxEeW83YomzJF75w"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_DpCfUKCyEeW83YomzJF75w" name="" client="_uIERMKCxEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1bTdYKD1EeWAlK9P2ItRIg" name="Accessible availability information"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2BHqwKD2EeWAlK9P2ItRIg" name="Accessible Interface"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ed9F8KD3EeWAlK9P2ItRIg" name="User perception"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Qa_FAKD4EeWAlK9P2ItRIg" name="Availability information"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_tfdg0KD4EeWAlK9P2ItRIg" name="" client="_1bTdYKD1EeWAlK9P2ItRIg" supplier="_Qa_FAKD4EeWAlK9P2ItRIg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_yac0IKD4EeWAlK9P2ItRIg" name="User state"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_MAXeYKD5EeWAlK9P2ItRIg" name="" client="_ed9F8KD3EeWAlK9P2ItRIg" supplier="_yac0IKD4EeWAlK9P2ItRIg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ij9nIKD5EeWAlK9P2ItRIg" name="Design adapted to speed of connection"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_wWU_4KCuEeW83YomzJF75w" name="3. Performance Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_QxPEoKCyEeW83YomzJF75w">
+          <body>USABILITY REQUIREMENTS&#xD;
+Verision Dic15-xx, developed and written down by yyyy&#xD;
+Identification: PR1.1&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_QxPrsKCyEeW83YomzJF75w" annotatedElement="_QxN2gKCyEeW83YomzJF75w">
+          <body>USABILITY REQUIREMENTS: Define the critical performance conditions and their associated capabilities by including such considerations as:&#xD;
+a) Dynamic actions or changes that may occur (e.g., rates, velocities, movements, and noise levels). Al the possible external actions should be borne in mind to establish the different possible performance requirements. &#xD;
+b) Quantitative criteria covering endurance capabilities of the equipment required to meet the user needs under stipulated environmental and other conditions, including minimum total life expectancy. Indicate required operational session duration and planned utilization rate.  This description must be both qualitative and quantitative.&#xD;
+c) Performance requirements for the operational phases and modes. This means that performance requirements can be different for each mode, and these requirements-mode relations should be identified, classified and explained. &#xD;
+</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Package" xmi:id="_QxN2gKCyEeW83YomzJF75w" name="3. Performance Requirements Specification">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_QxN2gaCyEeW83YomzJF75w" name="" client="_QxN2gKCyEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HAT5YKA_EeW7BLzk3SvFLg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HAT5YaA_EeW7BLzk3SvFLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_TZ_nULU5EduiKqCzJMWbGw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HAT5YqA_EeW7BLzk3SvFLg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HAT5Y6A_EeW7BLzk3SvFLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_Gx8MgLX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HAdqYKA_EeW7BLzk3SvFLg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HAdqYaA_EeW7BLzk3SvFLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_fSw28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HAdqYqA_EeW7BLzk3SvFLg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HAdqY6A_EeW7BLzk3SvFLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_rpx28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HAdqZKA_EeW7BLzk3SvFLg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HAdqZaA_EeW7BLzk3SvFLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//constraints"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_5WYJ0LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HAdqZqA_EeW7BLzk3SvFLg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HAdqZ6A_EeW7BLzk3SvFLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_C2zXMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HAdqaKA_EeW7BLzk3SvFLg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HAdqaaA_EeW7BLzk3SvFLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_NxdG4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HAdqaqA_EeW7BLzk3SvFLg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HAdqa6A_EeW7BLzk3SvFLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_OOJC4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HAdqbKA_EeW7BLzk3SvFLg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HAdqbaA_EeW7BLzk3SvFLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//interactions"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_meOioLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HAdqbqA_EeW7BLzk3SvFLg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HAdqb6A_EeW7BLzk3SvFLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//statemachines"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_nAF5kLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HAdqcKA_EeW7BLzk3SvFLg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HAdqcaA_EeW7BLzk3SvFLg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//usecases"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_neZmMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+  </uml:Model>
+  <ModelElements:Rationale xmi:id="_XMzhQKCvEeW83YomzJF75w" base_Comment="_XMTK8KCvEeW83YomzJF75w"/>
+  <Requirements:Requirement xmi:id="_b_7ckKCwEeW83YomzJF75w" text="The user shall be happy with the service provided, which will be evaluated with a global puntuation from 0 to 10, being 10 the best mark.&#xD;&#xA;Traced to: Requirements U1.2 &quot;Ease of Use&quot; and U1.3 &quot;Usefulness&quot; under User Requirements->Students Requirements" id="UR1" base_Class="_b_ZREKCwEeW83YomzJF75w"/>
+  <ModelElements:Rationale xmi:id="_dnB9QKCwEeW83YomzJF75w" base_Comment="_dm1wAKCwEeW83YomzJF75w"/>
+  <Requirements:Requirement xmi:id="_fB4VMKCxEeW83YomzJF75w" text="Test to evaluate the satisfaction of the users shall be developed and handed out to users after providing the guidance service" id="UR1.1" base_Class="_fB3HEKCxEeW83YomzJF75w"/>
+  <Requirements:Requirement xmi:id="_uIFfUKCxEeW83YomzJF75w" text="An average punctuation above 5/10 points in the satisfaction tests shall be obtained to state that the system appropriately meets the needs of the users." id="UR1.2" base_Class="_uIERMKCxEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="_-QJIAKCxEeW83YomzJF75w" base_Abstraction="_-PiEAKCxEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="_BI7TAKCyEeW83YomzJF75w" base_Abstraction="_BIJ28KCyEeW83YomzJF75w"/>
+  <Requirements:Satisfy xmi:id="_Dp1JgKCyEeW83YomzJF75w" base_Abstraction="_DpCfUKCyEeW83YomzJF75w"/>
+  <ModelElements:Rationale xmi:id="_QxQ50KCyEeW83YomzJF75w" base_Comment="_QxPrsKCyEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="_QxRg4KCyEeW83YomzJF75w" base_Abstraction="_QxN2gaCyEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="_jmQp4KCyEeW83YomzJF75w" base_Abstraction="_jmNmkaCyEeW83YomzJF75w"/>
+  <ModelElements:Rationale xmi:id="_jmR4AKCyEeW83YomzJF75w" base_Comment="_jmO0sKCyEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="_DQ-IIKCzEeW83YomzJF75w" base_Abstraction="_DQ7E0aCzEeW83YomzJF75w"/>
+  <ModelElements:Rationale xmi:id="_GaZ-QKCzEeW83YomzJF75w" base_Comment="_GaO_IKCzEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="_Tmwq0KCzEeW83YomzJF75w" base_Abstraction="_Tmu1oqCzEeW83YomzJF75w"/>
+  <ModelElements:Rationale xmi:id="_Xyz0gKCzEeW83YomzJF75w" base_Comment="_XyqDgKCzEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="_hgDV4KCzEeW83YomzJF75w" base_Abstraction="_hgBgsaCzEeW83YomzJF75w"/>
+  <ModelElements:Rationale xmi:id="_l_CCoKCzEeW83YomzJF75w" base_Comment="_l-4RoKCzEeW83YomzJF75w"/>
+  <Requirements:DeriveReqt xmi:id="_wxwBgKC3EeW83YomzJF75w" base_Abstraction="_wxuMUaC3EeW83YomzJF75w"/>
+  <ModelElements:Rationale xmi:id="_2U9ycKC3EeW83YomzJF75w" base_Comment="_2U0BcKC3EeW83YomzJF75w"/>
+  <Requirements:Requirement xmi:id="_1cmd4KD1EeWAlK9P2ItRIg" text="The user shall be able to know whether the system is available or not at every moment." id="UR2" base_Class="_1bTdYKD1EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_g1HAAKD2EeWAlK9P2ItRIg" base_Abstraction="_gzgdgKD2EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_2CBCoKD2EeWAlK9P2ItRIg" text="The interface of the mobile application shall be clear, simple, understandable and balanced." id="UR4" base_Class="_2BHqwKD2EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_XJARoKD3EeWAlK9P2ItRIg" base_Abstraction="_XH1M8KD3EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_eevJEKD3EeWAlK9P2ItRIg" text="The mobile application shall be able to know the state of the user from time to time" id="UR3" base_Class="_ed9F8KD3EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_6HqM4KD3EeWAlK9P2ItRIg" base_Abstraction="_6GfvQKD3EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_QbvS8KD4EeWAlK9P2ItRIg" text="The mobile application shall contain the information of availability at every moment." id="UR2.1" base_Class="_Qa_FAKD4EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_tgk7IKD4EeWAlK9P2ItRIg" base_Abstraction="_tfdg0KD4EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_ybO3QKD4EeWAlK9P2ItRIg" text="The mobile application shall communicate with the user from time to time to know his state." id="UR3.1" base_Class="_yac0IKD4EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_MCGjwKD5EeWAlK9P2ItRIg" base_Abstraction="_MAXeYKD5EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_ik8ekKD5EeWAlK9P2ItRIg" text="The design of the mobile application shall agree with the connection speed of the system." id="UR5" base_Class="_ij9nIKD5EeWAlK9P2ItRIg"/>
+  <Requirements:DeriveReqt xmi:id="_9vkc0KD5EeWAlK9P2ItRIg" base_Abstraction="_9tuCsKD5EeWAlK9P2ItRIg"/>
+</xmi:XMI>

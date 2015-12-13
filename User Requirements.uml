@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
+  <uml:Model xmi:id="_cEkLoJ9VEeWyP-dfsS83Gw" name="RootElement">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_syu7oJ9hEeWyP-dfsS83Gw" annotatedElement="_siGNsJ9YEeWyP-dfsS83Gw">
+      <body>No requirement has been recorded by the drone manufacturers</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_jarDQJ9lEeWyP-dfsS83Gw">
+      <body>USER REQUIREMENTS&#xD;
+Version: Dic15-1.0&#xD;
+Traced to: Enginnering team discussion on 7-12-15&#xD;
+This version was shared on: 10-12-15, 18:45&#xD;
+</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rAQAcJ9YEeWyP-dfsS83Gw" name="Stakeholders">
+      <packagedElement xmi:type="uml:Package" xmi:id="_siGNsJ9YEeWyP-dfsS83Gw" name="0. Drone Manufacturers"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_4zDpAJ9YEeWyP-dfsS83Gw" name="5. Installing and maintenance staff">
+        <packagedElement xmi:type="uml:Package" xmi:id="_LAooMJ9jEeWyP-dfsS83Gw" name="Installing and maintenance staff requirements specification">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_u0BWkJ9kEeWyP-dfsS83Gw" name="" client="_LAooMJ9jEeWyP-dfsS83Gw" supplier="_5UXlUJ9jEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_vzLGcJ9kEeWyP-dfsS83Gw" name="" client="_LAooMJ9jEeWyP-dfsS83Gw" supplier="_i4WEMJ9jEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_wgHE8J9kEeWyP-dfsS83Gw" name="" client="_LAooMJ9jEeWyP-dfsS83Gw" supplier="_H8TfEJ9kEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_xXy64J9kEeWyP-dfsS83Gw" name="" client="_LAooMJ9jEeWyP-dfsS83Gw" supplier="_dEq_8J9kEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_yDnfEJ9kEeWyP-dfsS83Gw" name="" client="_LAooMJ9jEeWyP-dfsS83Gw" supplier="_noHwkJ9kEeWyP-dfsS83Gw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_i4WEMJ9jEeWyP-dfsS83Gw" name="Emergency location signal" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5UXlUJ9jEeWyP-dfsS83Gw" name="Staffing" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_H8TfEJ9kEeWyP-dfsS83Gw" name="Merge with ETSII app" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dEq_8J9kEeWyP-dfsS83Gw" name="Ease of operation" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_noHwkJ9kEeWyP-dfsS83Gw" name="Documentation" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1YKPcJ9YEeWyP-dfsS83Gw" name="3. Drone regulators">
+        <packagedElement xmi:type="uml:Package" xmi:id="_GNgF0J9iEeWyP-dfsS83Gw" name="Drone Regulators Requirements Specification">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_qkIgoJ9iEeWyP-dfsS83Gw" name="" client="_GNgF0J9iEeWyP-dfsS83Gw" supplier="_LEVR4J9iEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_rJq2oJ9iEeWyP-dfsS83Gw" name="" client="_GNgF0J9iEeWyP-dfsS83Gw" supplier="_TpJLkJ9iEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_rmPd4J9iEeWyP-dfsS83Gw" name="" client="_GNgF0J9iEeWyP-dfsS83Gw" supplier="_Z1lfsJ9iEeWyP-dfsS83Gw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_LEVR4J9iEeWyP-dfsS83Gw" name="Security" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_TpJLkJ9iEeWyP-dfsS83Gw" name="Data Security" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Z1lfsJ9iEeWyP-dfsS83Gw" name="Responsability" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_94xloJ9YEeWyP-dfsS83Gw" name="4. Operators and pilots">
+        <packagedElement xmi:type="uml:Package" xmi:id="_6CbQEJ9hEeWyP-dfsS83Gw" name="Operators and Pilots Requirements Specification">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_FCDJ4J9jEeWyP-dfsS83Gw" name="" client="_6CbQEJ9hEeWyP-dfsS83Gw" supplier="_wNf84J9iEeWyP-dfsS83Gw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wNf84J9iEeWyP-dfsS83Gw" name="Automation" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_xvdDYJ9YEeWyP-dfsS83Gw" name="2. University administrators">
+        <packagedElement xmi:type="uml:Package" xmi:id="_gi-XAJ9dEeWyP-dfsS83Gw" name="University administrators requirements specification">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_dqqwUJ9hEeWyP-dfsS83Gw" name="" client="_gi-XAJ9dEeWyP-dfsS83Gw" supplier="_Ne6TYJ9hEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_fP0wQJ9hEeWyP-dfsS83Gw" name="" client="_gi-XAJ9dEeWyP-dfsS83Gw" supplier="_msyjAJ9fEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_gES6IJ9hEeWyP-dfsS83Gw" name="" client="_gi-XAJ9dEeWyP-dfsS83Gw" supplier="_7tAYAJ9gEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_hCN68J9hEeWyP-dfsS83Gw" name="" client="_gi-XAJ9dEeWyP-dfsS83Gw" supplier="_IXi4UJ9eEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_iGjs0J9hEeWyP-dfsS83Gw" name="" client="_gi-XAJ9dEeWyP-dfsS83Gw" supplier="_gyeWIJ9eEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_jhVBsJ9hEeWyP-dfsS83Gw" name="" client="_gi-XAJ9dEeWyP-dfsS83Gw" supplier="_GvEpMJ9fEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_mSQ4QJ9hEeWyP-dfsS83Gw" name="" client="_gi-XAJ9dEeWyP-dfsS83Gw" supplier="_ZS8NAJ9fEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_nHzZIJ9hEeWyP-dfsS83Gw" name="" client="_gi-XAJ9dEeWyP-dfsS83Gw" supplier="_aH0xIJ9gEeWyP-dfsS83Gw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_IXi4UJ9eEeWyP-dfsS83Gw" name="Security" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_gyeWIJ9eEeWyP-dfsS83Gw" name="Budget" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GvEpMJ9fEeWyP-dfsS83Gw" name="Corporate image" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZS8NAJ9fEeWyP-dfsS83Gw" name="Easiness of operation" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_msyjAJ9fEeWyP-dfsS83Gw" name="Zero interference aim" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0NWlAJ9fEeWyP-dfsS83Gw" name="Reliability" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_G8EG4J9gEeWyP-dfsS83Gw" name="Marketing" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aH0xIJ9gEeWyP-dfsS83Gw" name="Developablility" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qdnT0J9gEeWyP-dfsS83Gw" name="Documentation" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7tAYAJ9gEeWyP-dfsS83Gw" name="Verifiability" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ne6TYJ9hEeWyP-dfsS83Gw" name="Data Security" visibility="public"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_kPl14J9hEeWyP-dfsS83Gw" name="" client="_GvEpMJ9fEeWyP-dfsS83Gw" supplier="_0NWlAJ9fEeWyP-dfsS83Gw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_k8PggJ9hEeWyP-dfsS83Gw" name="" client="_GvEpMJ9fEeWyP-dfsS83Gw" supplier="_G8EG4J9gEeWyP-dfsS83Gw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_n3a4MJ9hEeWyP-dfsS83Gw" name="" client="_aH0xIJ9gEeWyP-dfsS83Gw" supplier="_qdnT0J9gEeWyP-dfsS83Gw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_t7UqcJ9YEeWyP-dfsS83Gw" name="1. Students/Final users">
+        <packagedElement xmi:type="uml:Package" xmi:id="_UuZSgJ9ZEeWyP-dfsS83Gw" name="Students Requirements">
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_fH1WEJ9aEeWyP-dfsS83Gw" name="" client="_UuZSgJ9ZEeWyP-dfsS83Gw" supplier="_Ju_JMJ9aEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_l4cHMJ9aEeWyP-dfsS83Gw" name="" client="_UuZSgJ9ZEeWyP-dfsS83Gw" supplier="_f_cTgJ9aEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_OnMY0J9bEeWyP-dfsS83Gw" name="" client="_UuZSgJ9ZEeWyP-dfsS83Gw" supplier="_qVPCoJ9aEeWyP-dfsS83Gw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_PZ19wJ9bEeWyP-dfsS83Gw" name="" client="_UuZSgJ9ZEeWyP-dfsS83Gw" supplier="_5WwhEJ9aEeWyP-dfsS83Gw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ju_JMJ9aEeWyP-dfsS83Gw" name="Ease of use" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_f_cTgJ9aEeWyP-dfsS83Gw" name="Security" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qVPCoJ9aEeWyP-dfsS83Gw" name="Usefulness" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5WwhEJ9aEeWyP-dfsS83Gw" name="Environmental concern" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_awfF4J9bEeWyP-dfsS83Gw" name="Collision avoidance" visibility="public"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_jpgVAJ9bEeWyP-dfsS83Gw" name="" client="_f_cTgJ9aEeWyP-dfsS83Gw" supplier="_awfF4J9bEeWyP-dfsS83Gw"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rC0r8J9bEeWyP-dfsS83Gw" name="Easy drone tracking" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8ew-YJ9bEeWyP-dfsS83Gw" name="Easy-to-use user interface" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KDd5gJ9cEeWyP-dfsS83Gw" name="Reliability" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W5tzMJ9cEeWyP-dfsS83Gw" name="Efficiency" visibility="public"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_jfIbkJ9cEeWyP-dfsS83Gw" name="" client="_Ju_JMJ9aEeWyP-dfsS83Gw" supplier="_rC0r8J9bEeWyP-dfsS83Gw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_krZaYJ9cEeWyP-dfsS83Gw" name="" client="_Ju_JMJ9aEeWyP-dfsS83Gw" supplier="_8ew-YJ9bEeWyP-dfsS83Gw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_l16FsJ9cEeWyP-dfsS83Gw" name="" client="_qVPCoJ9aEeWyP-dfsS83Gw" supplier="_KDd5gJ9cEeWyP-dfsS83Gw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_mrTcoJ9cEeWyP-dfsS83Gw" name="" client="_qVPCoJ9aEeWyP-dfsS83Gw" supplier="_W5tzMJ9cEeWyP-dfsS83Gw"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rJNyYJ9cEeWyP-dfsS83Gw" name="Instruction set" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7BQCEJ9cEeWyP-dfsS83Gw" name="Mobile device app" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Kd9nsJ9dEeWyP-dfsS83Gw" name="Languages" visibility="public"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_TF_0gJ9dEeWyP-dfsS83Gw" name="" client="_8ew-YJ9bEeWyP-dfsS83Gw" supplier="_rJNyYJ9cEeWyP-dfsS83Gw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_V5EZEJ9dEeWyP-dfsS83Gw" name="" client="_8ew-YJ9bEeWyP-dfsS83Gw" supplier="_7BQCEJ9cEeWyP-dfsS83Gw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_W3d7AJ9dEeWyP-dfsS83Gw" name="" client="_8ew-YJ9bEeWyP-dfsS83Gw" supplier="_Kd9nsJ9dEeWyP-dfsS83Gw"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cH3-UJ9VEeWyP-dfsS83Gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cH3-UZ9VEeWyP-dfsS83Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_TZ_nULU5EduiKqCzJMWbGw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cH5McJ9VEeWyP-dfsS83Gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cH5McZ9VEeWyP-dfsS83Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_Gx8MgLX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cH5Mcp9VEeWyP-dfsS83Gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cH5Mc59VEeWyP-dfsS83Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_fSw28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cH5zgJ9VEeWyP-dfsS83Gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cH5zgZ9VEeWyP-dfsS83Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_rpx28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cH5zgp9VEeWyP-dfsS83Gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cH5zg59VEeWyP-dfsS83Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//constraints"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_5WYJ0LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cH5zhJ9VEeWyP-dfsS83Gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cH6akJ9VEeWyP-dfsS83Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_C2zXMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cH6akZ9VEeWyP-dfsS83Gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cH6akp9VEeWyP-dfsS83Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_NxdG4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cH6ak59VEeWyP-dfsS83Gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cH6alJ9VEeWyP-dfsS83Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_OOJC4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cH6alZ9VEeWyP-dfsS83Gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cH7BoJ9VEeWyP-dfsS83Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//interactions"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_meOioLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cH7BoZ9VEeWyP-dfsS83Gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cH7Bop9VEeWyP-dfsS83Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//statemachines"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_nAF5kLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cH7Bo59VEeWyP-dfsS83Gw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cH7BpJ9VEeWyP-dfsS83Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//usecases"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_neZmMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_JvBlcJ9aEeWyP-dfsS83Gw" text="Every user should easily make use of the system, with independency of his/her technological background" id="U1.2" base_Class="_Ju_JMJ9aEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_fIRa8J9aEeWyP-dfsS83Gw" base_Abstraction="_fH1WEJ9aEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_f_evwJ9aEeWyP-dfsS83Gw" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_f_cTgJ9aEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_l5CkIJ9aEeWyP-dfsS83Gw" base_Abstraction="_l4cHMJ9aEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_qVRe4J9aEeWyP-dfsS83Gw" text="The service provided by the system shall overcome the currently existing guidance system in terms of reliability and efficiency" id="U1.3" base_Class="_qVPCoJ9aEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_5WzkYJ9aEeWyP-dfsS83Gw" text="The system shall be respectful with the environment" id="U1.4" base_Class="_5WwhEJ9aEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_On4VUJ9bEeWyP-dfsS83Gw" base_Abstraction="_OnMY0J9bEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_PafeAJ9bEeWyP-dfsS83Gw" base_Abstraction="_PZ19wJ9bEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_awiJMJ9bEeWyP-dfsS83Gw" text="The system shall avoid any collision with people and other objects" id="U1.1.1" base_Class="_awfF4J9bEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_jqRxEJ9bEeWyP-dfsS83Gw" base_Abstraction="_jpgVAJ9bEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_rC2hIJ9bEeWyP-dfsS83Gw" text="The system shall ensure that it is adequately being followed by the user when providing guidance service&#xD;&#xA;" id="U1.2.1" base_Class="_rC0r8J9bEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_8ezaoJ9bEeWyP-dfsS83Gw" text="The user-interface should be easy to use&#xD;&#xA;" id="U1.2.2" base_Class="_8ew-YJ9bEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_KDgVwJ9cEeWyP-dfsS83Gw" text="The system shall be accurate when fulfilling guidance system (i.e. a low failure rate shall be achieved)" id="U1.3.1" base_Class="_KDd5gJ9cEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_W5wPcJ9cEeWyP-dfsS83Gw" text="The system shall fulfill its guidance request within an acceptable time (i.e. outperforming the performance of the currently existing system)" id="U1.3.2" base_Class="_W5tzMJ9cEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_jgHTAJ9cEeWyP-dfsS83Gw" base_Abstraction="_jfIbkJ9cEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_ksbVIJ9cEeWyP-dfsS83Gw" base_Abstraction="_krZaYJ9cEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_l23vAJ9cEeWyP-dfsS83Gw" base_Abstraction="_l16FsJ9cEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_msXzoJ9cEeWyP-dfsS83Gw" base_Abstraction="_mrTcoJ9cEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_rJQOoJ9cEeWyP-dfsS83Gw" text="An instruction set shall be available to any one using the drone-based guidance-system. The instruction set should be as simple and concise as possible&#xD;&#xA;&#xD;&#xA;" id="U1.2.2.1" base_Class="_rJNyYJ9cEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_7BSeUJ9cEeWyP-dfsS83Gw" text="The user-interface shall consist on a mobile-phone app, which shall be easily downloadable for any potential user. The app should be as simple as possible, too&#xD;&#xA;&#xD;&#xA;" id="U1.2.2.2" base_Class="_7BQCEJ9cEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_KeBSEJ9dEeWyP-dfsS83Gw" text="The user-interface shall be available at least in English and Spanish. More languages are also desirable&#xD;&#xA;&#xD;&#xA;" id="U1.2.2.3" base_Class="_Kd9nsJ9dEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_THK5MJ9dEeWyP-dfsS83Gw" base_Abstraction="_TF_0gJ9dEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_V6NBgJ9dEeWyP-dfsS83Gw" base_Abstraction="_V5EZEJ9dEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_W46FcJ9dEeWyP-dfsS83Gw" base_Abstraction="_W3d7AJ9dEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_IXktgJ9eEeWyP-dfsS83Gw" text="See Requirement U1.1 under &quot;Students requirements&quot;" id="U2.1" base_Class="_IXi4UJ9eEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_gygLUJ9eEeWyP-dfsS83Gw" text="The budget allocated to the project should be in accordance with the service provided." id="U2.2" base_Class="_gyeWIJ9eEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_GvF3UJ9fEeWyP-dfsS83Gw" text="The system shall improve the corporate image of the UPM/ETSII" id="U2.3" base_Class="_GvEpMJ9fEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_ZS-pQJ9fEeWyP-dfsS83Gw" text="The system should be easy to operate by the PAS." id="U2.4" base_Class="_ZS8NAJ9fEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_ms1mUJ9fEeWyP-dfsS83Gw" text="The system shall avoid any interference with the normal activities of the University." id="U2.6" base_Class="_msyjAJ9fEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_0NZBQJ9fEeWyP-dfsS83Gw" text="See Requirement U1.3.1 under &quot;Students Requirements&quot;" id="U2.3.1" base_Class="_0NWlAJ9fEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_G8GjIJ9gEeWyP-dfsS83Gw" text="The system shall be announced and publicized so that every worker, student or visitor of the ETSII is aware of it." id="U2.3.2" base_Class="_G8EG4J9gEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_aH1_QJ9gEeWyP-dfsS83Gw" text="The system shall be developable by future engineers" id="U2.5" base_Class="_aH0xIJ9gEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_qdpwEJ9gEeWyP-dfsS83Gw" text="A sufficiently comprehensive documentation shall be prepared.&#xD;&#xA;UNDER DISCUSSION: should any standard be followed regarding documentation?" id="U2.5.1" base_Class="_qdnT0J9gEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_7tCNMJ9gEeWyP-dfsS83Gw" text="The system performance shall be verifiable before fully implementation; i.e. verification tests shall be designed." id="U2.7" base_Class="_7tAYAJ9gEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_Ne7hgJ9hEeWyP-dfsS83Gw" text="The data security of any person, animal or inanimate being filmed by the camara carried by the drone shall be respected according with the law." id="U2.8" base_Class="_Ne6TYJ9hEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_drnLgJ9hEeWyP-dfsS83Gw" base_Abstraction="_dqqwUJ9hEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_fQxygJ9hEeWyP-dfsS83Gw" base_Abstraction="_fP0wQJ9hEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_gFS_sJ9hEeWyP-dfsS83Gw" base_Abstraction="_gES6IJ9hEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_hDRD0J9hEeWyP-dfsS83Gw" base_Abstraction="_hCN68J9hEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_iHs8UJ9hEeWyP-dfsS83Gw" base_Abstraction="_iGjs0J9hEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_jiZYsJ9hEeWyP-dfsS83Gw" base_Abstraction="_jhVBsJ9hEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_kQlUYJ9hEeWyP-dfsS83Gw" base_Abstraction="_kPl14J9hEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_k9YwAJ9hEeWyP-dfsS83Gw" base_Abstraction="_k8PggJ9hEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_mTYSkJ9hEeWyP-dfsS83Gw" base_Abstraction="_mSQ4QJ9hEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_nJOVcJ9hEeWyP-dfsS83Gw" base_Abstraction="_nHzZIJ9hEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_n4nLAJ9hEeWyP-dfsS83Gw" base_Abstraction="_n3a4MJ9hEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_LEXuIJ9iEeWyP-dfsS83Gw" text="See Requirement U1.1 under &quot;Students requirements&quot;" id="U3.1" base_Class="_LEVR4J9iEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_TpLAwJ9iEeWyP-dfsS83Gw" text="See Requirement U2.8 under &quot;University administrators requirements&quot;" id="U3.2" base_Class="_TpJLkJ9iEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_Z1n78J9iEeWyP-dfsS83Gw" text="The person or organization responsible for any malfunction of the system of caused damage shall be clearly stated" id="U3.3" base_Class="_Z1lfsJ9iEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_qkqsIJ9iEeWyP-dfsS83Gw" base_Abstraction="_qkIgoJ9iEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_rKR6oJ9iEeWyP-dfsS83Gw" base_Abstraction="_rJq2oJ9iEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_rmwbQJ9iEeWyP-dfsS83Gw" base_Abstraction="_rmPd4J9iEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_wNiZIJ9iEeWyP-dfsS83Gw" text="The system operation shall be completely automatic excepting battery loading, system inicialization, system swith off and malfunction recovery (i.e. exceptional modes of operation)" id="U4.1" base_Class="_wNf84J9iEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_FCX6AJ9jEeWyP-dfsS83Gw" base_Abstraction="_FCDJ4J9jEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_i4XSUJ9jEeWyP-dfsS83Gw" text="Any drone in operation shall emit an emergency location signal in case a malfunction is unavoidable and the drone will have to be manually recovered by maintenance personal" id="U5.1" base_Class="_i4WEMJ9jEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_5UYMYJ9jEeWyP-dfsS83Gw" text="The staffing devoted to maintenance tasks shall be sufficient" id="U5.2" base_Class="_5UXlUJ9jEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_H8UGIJ9kEeWyP-dfsS83Gw" text="The user-interface app should be merged with the ETSII app&#xD;&#xA;UNANWERED QUESTION: does actually exist an ETSII app?" id="U5.3" base_Class="_H8TfEJ9kEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_dEs1IJ9kEeWyP-dfsS83Gw" text="See requirement U2.4 under &quot;University administrators requirements&quot;" id="U5.4" base_Class="_dEq_8J9kEeWyP-dfsS83Gw"/>
+  <Requirements:Requirement xmi:id="_noJlwJ9kEeWyP-dfsS83Gw" text="See requirement U2.5.1 under &quot;University administrators requirements&quot;" id="U5.5" base_Class="_noHwkJ9kEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_u0wWYJ9kEeWyP-dfsS83Gw" base_Abstraction="_u0BWkJ9kEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_vzyxgJ9kEeWyP-dfsS83Gw" base_Abstraction="_vzLGcJ9kEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_wgxzUJ9kEeWyP-dfsS83Gw" base_Abstraction="_wgHE8J9kEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_xYal8J9kEeWyP-dfsS83Gw" base_Abstraction="_xXy64J9kEeWyP-dfsS83Gw"/>
+  <Requirements:DeriveReqt xmi:id="_yEaJQJ9kEeWyP-dfsS83Gw" base_Abstraction="_yDnfEJ9kEeWyP-dfsS83Gw"/>
+</xmi:XMI>
