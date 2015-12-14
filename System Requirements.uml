@@ -73,10 +73,10 @@ e) Accessibility to components within systems and to parts within components. In
         <packagedElement xmi:type="uml:Dependency" xmi:id="_UzmdEKGSEeWY1PxHypAdag" client="_3mseAKGREeWY1PxHypAdag" supplier="_JQOggKGSEeWY1PxHypAdag"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_VOmXAKGSEeWY1PxHypAdag" client="_b51SMKGNEeWY1PxHypAdag" supplier="_9lMHoKGPEeWY1PxHypAdag"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_yIlnsKCuEeW83YomzJF75w" name="4. System Interfaces">
+      <packagedElement xmi:type="uml:Package" xmi:id="_yIlnsKCuEeW83YomzJF75w" name="4. System Interfaces" visibility="public">
         <ownedComment xmi:type="uml:Comment" xmi:id="_jmONoKCyEeW83YomzJF75w">
           <body>SYSTEM INTERFACES&#xD;
-Verision Dic15-xx, developed and written down by yyyy&#xD;
+Version Dic15-14, developed and written down by Andrea Santoro&#xD;
 Identification: SI&#xD;
 </body>
         </ownedComment>
@@ -85,7 +85,23 @@ Identification: SI&#xD;
         </ownedComment>
         <packagedElement xmi:type="uml:Package" xmi:id="_jmNmkKCyEeW83YomzJF75w" name="4. System interfaces">
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_jmNmkaCyEeW83YomzJF75w" name="" client="_jmNmkKCyEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ymVO8KHzEeW__Ok36B6nnw" name="Server-Drone Interface"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_pojGgKHxEeW__Ok36B6nnw" name="User- Server Interface"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_jxugQKH1EeW__Ok36B6nnw" name="" client="_pojGgKHxEeW__Ok36B6nnw" supplier="_PNFM8KH0EeW__Ok36B6nnw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_mgM4sKH1EeW__Ok36B6nnw" name="" client="_pojGgKHxEeW__Ok36B6nnw" supplier="_iJ7RcKH0EeW__Ok36B6nnw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_nm1JkKH1EeW__Ok36B6nnw" name="" client="_pojGgKHxEeW__Ok36B6nnw" supplier="_HYZ6QKH1EeW__Ok36B6nnw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_TJLkMKH2EeW__Ok36B6nnw" name="" client="_ymVO8KHzEeW__Ok36B6nnw" supplier="_xEIxgKH1EeW__Ok36B6nnw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_UVVOQKH2EeW__Ok36B6nnw" name="" client="_ymVO8KHzEeW__Ok36B6nnw" supplier="_FY-jsKH2EeW__Ok36B6nnw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_PhOwoKH3EeW__Ok36B6nnw" name="" client="_ymVO8KHzEeW__Ok36B6nnw" supplier="_eBhmwKH2EeW__Ok36B6nnw"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PNFM8KH0EeW__Ok36B6nnw" name="Smartphone Interface"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iJ7RcKH0EeW__Ok36B6nnw" name="Friendly Interface"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6u_isKH0EeW__Ok36B6nnw" name="Smartphone Connectivity"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HYZ6QKH1EeW__Ok36B6nnw" name="Wi-Fi Connection"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_lC7pcKH1EeW__Ok36B6nnw" name="" client="_PNFM8KH0EeW__Ok36B6nnw" supplier="_6u_isKH0EeW__Ok36B6nnw"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xEIxgKH1EeW__Ok36B6nnw" name="Permament Connection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FY-jsKH2EeW__Ok36B6nnw" name="Wifi Connection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_eBhmwKH2EeW__Ok36B6nnw" name="Bidirectional Interface"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_99DUQKCuEeW83YomzJF75w" name="6. System Modes and State">
         <packagedElement xmi:type="uml:StateMachine" xmi:id="_c579AKDMEeWq6OoBtUJ80g" name="StateMachine1">
@@ -449,4 +465,20 @@ c) Performance requirements for the operational phases and modes. This means tha
   <Requirements:Requirement xmi:id="_9miygKGPEeWY1PxHypAdag" base_Class="_9lMHoKGPEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_3oEXAKGREeWY1PxHypAdag" base_Class="_3mseAKGREeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_JRmZgKGSEeWY1PxHypAdag" base_Class="_JQOggKGSEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_ppTUcKHxEeW__Ok36B6nnw" text="The system shall have an interface that connects user and server.&#xD;&#xA;" id="SI 1" base_Class="_pojGgKHxEeW__Ok36B6nnw"/>
+  <Requirements:Requirement xmi:id="_ymXrMKHzEeW__Ok36B6nnw" text="The system shall have an interface that connects server and drone.&#xD;&#xA;" id="SI 2" base_Class="_ymVO8KHzEeW__Ok36B6nnw"/>
+  <Requirements:Requirement xmi:id="_PNHCIKH0EeW__Ok36B6nnw" text="The User- Server interface shall be a smartphone application.&#xD;&#xA;" id="SI 1.1" base_Class="_PNFM8KH0EeW__Ok36B6nnw"/>
+  <Requirements:Requirement xmi:id="_iJ9GoKH0EeW__Ok36B6nnw" text="The interface shall be user-friendly and easy to use.&#xD;&#xA;&#xD;&#xA;" id="SI 1.2" base_Class="_iJ7RcKH0EeW__Ok36B6nnw"/>
+  <Requirements:Requirement xmi:id="_6vAw0KH0EeW__Ok36B6nnw" text="The smartphone shall have a valid Wi-Fi connectivity.&#xD;&#xA;" id="SI 1.1.1" base_Class="_6u_isKH0EeW__Ok36B6nnw"/>
+  <Requirements:Requirement xmi:id="_HYbvcKH1EeW__Ok36B6nnw" text="The interface shalL be established via Wi-Fi connection.&#xD;&#xA;" id="SI 1.3" base_Class="_HYZ6QKH1EeW__Ok36B6nnw"/>
+  <Requirements:DeriveReqt xmi:id="_jyiYkKH1EeW__Ok36B6nnw" base_Abstraction="_jxugQKH1EeW__Ok36B6nnw"/>
+  <Requirements:DeriveReqt xmi:id="_lD1oYKH1EeW__Ok36B6nnw" base_Abstraction="_lC7pcKH1EeW__Ok36B6nnw"/>
+  <Requirements:DeriveReqt xmi:id="_mhNlUKH1EeW__Ok36B6nnw" base_Abstraction="_mgM4sKH1EeW__Ok36B6nnw"/>
+  <Requirements:DeriveReqt xmi:id="_nn6HoKH1EeW__Ok36B6nnw" base_Abstraction="_nm1JkKH1EeW__Ok36B6nnw"/>
+  <Requirements:Requirement xmi:id="_xEKmsKH1EeW__Ok36B6nnw" text="The interface SHALL be present at all times.&#xD;&#xA;" id="SI 2.1" base_Class="_xEIxgKH1EeW__Ok36B6nnw"/>
+  <Requirements:Requirement xmi:id="_FY_x0KH2EeW__Ok36B6nnw" text="The interface shall be established via Wi-Fi connection&#xD;&#xA;" id="SI 2.2" base_Class="_FY-jsKH2EeW__Ok36B6nnw"/>
+  <Requirements:DeriveReqt xmi:id="_TKbhYKH2EeW__Ok36B6nnw" base_Abstraction="_TJLkMKH2EeW__Ok36B6nnw"/>
+  <Requirements:DeriveReqt xmi:id="_UWg6AKH2EeW__Ok36B6nnw" base_Abstraction="_UVVOQKH2EeW__Ok36B6nnw"/>
+  <Requirements:Requirement xmi:id="_eBi04KH2EeW__Ok36B6nnw" text="The interface shall allow sending data from server to drone and vice versa.&#xD;&#xA;" id="SI 2.3" base_Class="_eBhmwKH2EeW__Ok36B6nnw"/>
+  <Requirements:DeriveReqt xmi:id="_PiacYKH3EeW__Ok36B6nnw" base_Abstraction="_PhOwoKH3EeW__Ok36B6nnw"/>
 </xmi:XMI>
