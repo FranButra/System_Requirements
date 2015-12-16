@@ -208,9 +208,8 @@ Identification: SS</body>
       <packagedElement xmi:type="uml:Package" xmi:id="_qyJloKCuEeW83YomzJF75w" name="1. Functional Requirements">
         <ownedComment xmi:type="uml:Comment" xmi:id="_-JoG4KGOEeWHfcy6hmg9jA">
           <body>FUNCTIONAL REQUIREMENTS&#xD;
-Verision Dic15-13, developed and written down by Alberto Díaz&#xD;
-Identification: FR1.1&#xD;
-</body>
+Verision Dic15-17, developed and written down by Alberto Díaz&#xD;
+Identification: FR1.1</body>
         </ownedComment>
         <ownedComment xmi:type="uml:Comment" xmi:id="_TX1xEKGPEeWHfcy6hmg9jA" annotatedElement="_-Jm4wKGOEeWHfcy6hmg9jA">
           <body>FUNCTIONAL REQUIREMENTS: should include a detailed explanation of all the requirements applicable to system operation. Definition of the different functions that the system must have. This functions must be listed in order of decreasing importance and explain in detail</body>
@@ -236,6 +235,45 @@ Identification: FR1.1&#xD;
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_-Jm4zKGOEeWHfcy6hmg9jA" name="" client="_-Jm4wKGOEeWHfcy6hmg9jA" supplier="_uBHIAKGKEeWHfcy6hmg9jA"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_-Jm4zaGOEeWHfcy6hmg9jA" name="" client="_-Jm4wKGOEeWHfcy6hmg9jA" supplier="_O0VtgKGLEeWHfcy6hmg9jA"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_-Jm4zqGOEeWHfcy6hmg9jA" name="" client="_-Jm4wKGOEeWHfcy6hmg9jA" supplier="_JGhZoKGMEeWHfcy6hmg9jA"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_hvEyMKRJEeWgi7KlsSiF6g" name="Secutiry">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_hvEyMaRJEeWgi7KlsSiF6g" name="Improper access"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_J1z3AKRJEeWgi7KlsSiF6g" name="Guidance">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_J1z3AaRJEeWgi7KlsSiF6g" name="Improper access"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_v-2qoKRJEeWgi7KlsSiF6g" name="Flying drones">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_v-2qoaRJEeWgi7KlsSiF6g" name="Improper access"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_6dCgwKRJEeWgi7KlsSiF6g" name="Orientation">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_6dCgwaRJEeWgi7KlsSiF6g" name="Improper access"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_CejgIKRKEeWgi7KlsSiF6g" name="Orientation">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_CejgIaRKEeWgi7KlsSiF6g" name="Improper access"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_ZTrdwKRKEeWgi7KlsSiF6g" name="CopyOf_Orientation_1">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_ZTrdwaRKEeWgi7KlsSiF6g" name="Improper access"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_ZTrdwqRKEeWgi7KlsSiF6g" name="Orientation">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ZTrdw6RKEeWgi7KlsSiF6g" name="Improper access"/>
+                </nestedClassifier>
+              </nestedClassifier>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_Z3qUkKRKEeWgi7KlsSiF6g" name="Flight back">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Z3qUkaRKEeWgi7KlsSiF6g" name="Improper access"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Z3qUkqRKEeWgi7KlsSiF6g" name="Orientation">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_Z3qUk6RKEeWgi7KlsSiF6g" name="Improper access"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Z3qUlKRKEeWgi7KlsSiF6g" name="CopyOf_Orientation_1">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_Z3qUlaRKEeWgi7KlsSiF6g" name="Improper access"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_Z3qUlqRKEeWgi7KlsSiF6g" name="Orientation">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_Z3qUl6RKEeWgi7KlsSiF6g" name="Improper access"/>
+                </nestedClassifier>
+              </nestedClassifier>
+            </nestedClassifier>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_DGmXkKRKEeWgi7KlsSiF6g" name="User interaction">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_DGmXkaRKEeWgi7KlsSiF6g" name="Improper access"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_DGmXkqRKEeWgi7KlsSiF6g" name="Orientation">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_DGmXk6RKEeWgi7KlsSiF6g" name="Improper access"/>
+            </nestedClassifier>
+          </packagedElement>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_txWhsKCuEeW83YomzJF75w" name="2. Usability Requirements">
@@ -357,95 +395,95 @@ Battery critical?</body>
               <edge xmi:type="uml:ControlFlow" xmi:id="_2br2FqNeEeWbqpv8ZvYxCw" name="Yes" target="_2bsdC6NeEeWbqpv8ZvYxCw" source="_2bsdCaNeEeWbqpv8ZvYxCw"/>
               <node xmi:type="uml:InitialNode" xmi:id="_2br2F6NeEeWbqpv8ZvYxCw" name="Timed Interrupt" outgoing="_2br1_6NeEeWbqpv8ZvYxCw"/>
               <node xmi:type="uml:DecisionNode" xmi:id="_2br2GKNeEeWbqpv8ZvYxCw" name="1." incoming="_2br1_6NeEeWbqpv8ZvYxCw" outgoing="_2br2AKNeEeWbqpv8ZvYxCw _2br2CKNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2GaNeEeWbqpv8ZvYxCw" annotatedElement="_2br2GKNeEeWbqpv8ZvYxCw _2br2GKNeEeWbqpv8ZvYxCw _2br2GKNeEeWbqpv8ZvYxCw _2br2GKNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2GaNeEeWbqpv8ZvYxCw" annotatedElement="_2br2GKNeEeWbqpv8ZvYxCw">
                   <body>The system checks if the system variables are into a normal range.&#xD;
 Some of this variables could be the altitude, the inclination, the camera (if there is no light, the&#xD;
 drone can't see) , etc.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:DecisionNode" xmi:id="_2br2GqNeEeWbqpv8ZvYxCw" name="2." incoming="_2br2AKNeEeWbqpv8ZvYxCw" outgoing="_2br2AaNeEeWbqpv8ZvYxCw _2br2BKNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2G6NeEeWbqpv8ZvYxCw" annotatedElement="_2br2GqNeEeWbqpv8ZvYxCw _2br2GqNeEeWbqpv8ZvYxCw _2br2GqNeEeWbqpv8ZvYxCw _2br2GqNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2G6NeEeWbqpv8ZvYxCw" annotatedElement="_2br2GqNeEeWbqpv8ZvYxCw">
                   <body>Checks if the drone is connected to the local network.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:DecisionNode" xmi:id="_2br2HKNeEeWbqpv8ZvYxCw" name="3." incoming="_2br2AaNeEeWbqpv8ZvYxCw _2br2BaNeEeWbqpv8ZvYxCw" outgoing="_2br2AqNeEeWbqpv8ZvYxCw _2br2A6NeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2HaNeEeWbqpv8ZvYxCw" annotatedElement="_2br2HKNeEeWbqpv8ZvYxCw _2br2HKNeEeWbqpv8ZvYxCw _2br2HKNeEeWbqpv8ZvYxCw _2br2HKNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2HaNeEeWbqpv8ZvYxCw" annotatedElement="_2br2HKNeEeWbqpv8ZvYxCw">
                   <body>Checks if the user has cancelled the guidance.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:ActivityFinalNode" xmi:id="_2br2HqNeEeWbqpv8ZvYxCw" name="ActivityFinalNode1" incoming="_2br2AqNeEeWbqpv8ZvYxCw _2br2B6NeEeWbqpv8ZvYxCw"/>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2br2H6NeEeWbqpv8ZvYxCw" name="RETUN_HOME" incoming="_2br2A6NeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2IKNeEeWbqpv8ZvYxCw" annotatedElement="_2br2H6NeEeWbqpv8ZvYxCw _2br2H6NeEeWbqpv8ZvYxCw _2br2H6NeEeWbqpv8ZvYxCw _2br2H6NeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2IKNeEeWbqpv8ZvYxCw" annotatedElement="_2br2H6NeEeWbqpv8ZvYxCw">
                   <body>The drone returns to the base. &#xD;
 The procedure of control should be similar to the guidance.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2br2IaNeEeWbqpv8ZvYxCw" name="WAIT" incoming="_2br2BKNeEeWbqpv8ZvYxCw" outgoing="_2br2BqNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2IqNeEeWbqpv8ZvYxCw" annotatedElement="_2br2IaNeEeWbqpv8ZvYxCw _2br2IaNeEeWbqpv8ZvYxCw _2br2IaNeEeWbqpv8ZvYxCw _2br2IaNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2IqNeEeWbqpv8ZvYxCw" annotatedElement="_2br2IaNeEeWbqpv8ZvYxCw">
                   <body>In this state, the drone stops moving and waits some time (10 seconds for example) trying&#xD;
 to recover the conection.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:DecisionNode" xmi:id="_2br2I6NeEeWbqpv8ZvYxCw" name="4." incoming="_2br2BqNeEeWbqpv8ZvYxCw" outgoing="_2br2BaNeEeWbqpv8ZvYxCw _2br2B6NeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2JKNeEeWbqpv8ZvYxCw" annotatedElement="_2br2I6NeEeWbqpv8ZvYxCw _2br2I6NeEeWbqpv8ZvYxCw _2br2I6NeEeWbqpv8ZvYxCw _2br2I6NeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2JKNeEeWbqpv8ZvYxCw" annotatedElement="_2br2I6NeEeWbqpv8ZvYxCw">
                   <body>Checks again if the drone is connected to the local network.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2br2JaNeEeWbqpv8ZvYxCw" name="EMERGENCY_MODE" incoming="_2br2CKNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2JqNeEeWbqpv8ZvYxCw" annotatedElement="_2br2JaNeEeWbqpv8ZvYxCw _2br2JaNeEeWbqpv8ZvYxCw _2br2JaNeEeWbqpv8ZvYxCw _2br2JaNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2JqNeEeWbqpv8ZvYxCw" annotatedElement="_2br2JaNeEeWbqpv8ZvYxCw">
                   <body>This state tries to handle the emergency in the best way.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:InitialNode" xmi:id="_2br2J6NeEeWbqpv8ZvYxCw" name="EMERGENCY_MODE" outgoing="_2br2FKNeEeWbqpv8ZvYxCw"/>
               <node xmi:type="uml:DecisionNode" xmi:id="_2br2KKNeEeWbqpv8ZvYxCw" name="1." incoming="_2br2FaNeEeWbqpv8ZvYxCw" outgoing="_2br2CaNeEeWbqpv8ZvYxCw _2br2DqNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2KaNeEeWbqpv8ZvYxCw" annotatedElement="_2br2KKNeEeWbqpv8ZvYxCw _2br2KKNeEeWbqpv8ZvYxCw _2br2KKNeEeWbqpv8ZvYxCw _2br2KKNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2KaNeEeWbqpv8ZvYxCw" annotatedElement="_2br2KKNeEeWbqpv8ZvYxCw">
                   <body>Checks if the critical flying paramiters are into a normal range.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:DecisionNode" xmi:id="_2br2KqNeEeWbqpv8ZvYxCw" name="3." incoming="_2br2D6NeEeWbqpv8ZvYxCw _2br2EqNeEeWbqpv8ZvYxCw" outgoing="_2br2CqNeEeWbqpv8ZvYxCw _2br2C6NeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2K6NeEeWbqpv8ZvYxCw" annotatedElement="_2br2KqNeEeWbqpv8ZvYxCw _2br2KqNeEeWbqpv8ZvYxCw _2br2KqNeEeWbqpv8ZvYxCw _2br2KqNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2K6NeEeWbqpv8ZvYxCw" annotatedElement="_2br2KqNeEeWbqpv8ZvYxCw">
                   <body>Checks if the batery is too low to continue the guidance, but enough to return home.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2br2LKNeEeWbqpv8ZvYxCw" name="Land_Inmediatly" incoming="_2br2CaNeEeWbqpv8ZvYxCw _2br2E6NeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2LaNeEeWbqpv8ZvYxCw" annotatedElement="_2br2LKNeEeWbqpv8ZvYxCw _2br2LKNeEeWbqpv8ZvYxCw _2br2LKNeEeWbqpv8ZvYxCw _2br2LKNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2LaNeEeWbqpv8ZvYxCw" annotatedElement="_2br2LKNeEeWbqpv8ZvYxCw">
                   <body>The drone lands inmediatly and notifies it to the responsible (janitors).</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2br2LqNeEeWbqpv8ZvYxCw" name="BACK_TO_NORMAL_MODE" incoming="_2br2CqNeEeWbqpv8ZvYxCw" outgoing="_2br2DaNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2L6NeEeWbqpv8ZvYxCw" annotatedElement="_2br2LqNeEeWbqpv8ZvYxCw _2br2LqNeEeWbqpv8ZvYxCw _2br2LqNeEeWbqpv8ZvYxCw _2br2LqNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2br2L6NeEeWbqpv8ZvYxCw" annotatedElement="_2br2LqNeEeWbqpv8ZvYxCw">
                   <body>If all parameters are correct, the drone returns to its normal mode.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdAKNeEeWbqpv8ZvYxCw" name="BACK_HOME" incoming="_2br2C6NeEeWbqpv8ZvYxCw" outgoing="_2br2DKNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdAaNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdAKNeEeWbqpv8ZvYxCw _2bsdAKNeEeWbqpv8ZvYxCw _2bsdAKNeEeWbqpv8ZvYxCw _2bsdAKNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdAaNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdAKNeEeWbqpv8ZvYxCw">
                   <body>The drone returns inmediatly to the base and the system sends a message to the user.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:ActivityFinalNode" xmi:id="_2bsdAqNeEeWbqpv8ZvYxCw" name="End of EMERGENCY_MODE" incoming="_2br2DKNeEeWbqpv8ZvYxCw _2br2DaNeEeWbqpv8ZvYxCw"/>
               <node xmi:type="uml:DecisionNode" xmi:id="_2bsdA6NeEeWbqpv8ZvYxCw" name="2." incoming="_2br2DqNeEeWbqpv8ZvYxCw" outgoing="_2br2D6NeEeWbqpv8ZvYxCw _2br2EKNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdBKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdA6NeEeWbqpv8ZvYxCw _2bsdA6NeEeWbqpv8ZvYxCw _2bsdA6NeEeWbqpv8ZvYxCw _2bsdA6NeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdBKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdA6NeEeWbqpv8ZvYxCw">
                   <body>Checks if the image is not too dark to see anything</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdBaNeEeWbqpv8ZvYxCw" name="Wait" incoming="_2br2EKNeEeWbqpv8ZvYxCw" outgoing="_2br2EaNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdBqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdBaNeEeWbqpv8ZvYxCw _2bsdBaNeEeWbqpv8ZvYxCw _2bsdBaNeEeWbqpv8ZvYxCw _2bsdBaNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdBqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdBaNeEeWbqpv8ZvYxCw">
                   <body>The drone stops moving and waits some time (5 seconds for example) to check again &#xD;
 the camera.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:DecisionNode" xmi:id="_2bsdB6NeEeWbqpv8ZvYxCw" name="2." incoming="_2br2EaNeEeWbqpv8ZvYxCw" outgoing="_2br2EqNeEeWbqpv8ZvYxCw _2br2E6NeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdCKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdB6NeEeWbqpv8ZvYxCw _2bsdB6NeEeWbqpv8ZvYxCw _2bsdB6NeEeWbqpv8ZvYxCw _2bsdB6NeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdCKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdB6NeEeWbqpv8ZvYxCw">
                   <body>Checks again if the image is not too dark to see anything</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:DecisionNode" xmi:id="_2bsdCaNeEeWbqpv8ZvYxCw" name="4." incoming="_2br2FKNeEeWbqpv8ZvYxCw" outgoing="_2br2FaNeEeWbqpv8ZvYxCw _2br2FqNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdCqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdCaNeEeWbqpv8ZvYxCw _2bsdCaNeEeWbqpv8ZvYxCw _2bsdCaNeEeWbqpv8ZvYxCw _2bsdCaNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdCqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdCaNeEeWbqpv8ZvYxCw">
                   <body>Checks if the drone has crashed or collisioned with something.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdC6NeEeWbqpv8ZvYxCw" name="Stop_Inmediatly" incoming="_2br2FqNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdDKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdC6NeEeWbqpv8ZvYxCw _2bsdC6NeEeWbqpv8ZvYxCw _2bsdC6NeEeWbqpv8ZvYxCw _2bsdC6NeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdDKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdC6NeEeWbqpv8ZvYxCw">
                   <body>The drone stops inmediatly the motors and notifies it to the responsible (janitors).</body>
                 </ownedComment>
               </node>
@@ -467,47 +505,47 @@ the camera.</body>
               <edge xmi:type="uml:ControlFlow" xmi:id="_2bsdGaNeEeWbqpv8ZvYxCw" target="_2bsdK6NeEeWbqpv8ZvYxCw" source="_2bsdIaNeEeWbqpv8ZvYxCw"/>
               <node xmi:type="uml:InitialNode" xmi:id="_2bsdGqNeEeWbqpv8ZvYxCw" name="APP_INIT" outgoing="_2bsdD6NeEeWbqpv8ZvYxCw"/>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdG6NeEeWbqpv8ZvYxCw" name="WAIT" incoming="_2bsdD6NeEeWbqpv8ZvYxCw _2bsdE6NeEeWbqpv8ZvYxCw _2bsdFqNeEeWbqpv8ZvYxCw" outgoing="_2bsdEKNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdHKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdG6NeEeWbqpv8ZvYxCw _2bsdG6NeEeWbqpv8ZvYxCw _2bsdG6NeEeWbqpv8ZvYxCw _2bsdG6NeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdHKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdG6NeEeWbqpv8ZvYxCw">
                   <body>The app waits until the user says where he wants to go.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdHaNeEeWbqpv8ZvYxCw" name="WAIT" incoming="_2bsdEaNeEeWbqpv8ZvYxCw" outgoing="_2bsdFKNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdHqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdHaNeEeWbqpv8ZvYxCw _2bsdHaNeEeWbqpv8ZvYxCw _2bsdHaNeEeWbqpv8ZvYxCw _2bsdHaNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdHqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdHaNeEeWbqpv8ZvYxCw">
                   <body>The app shos a message to the user to wait for the drone, and the app waits until the drone&#xD;
 reaches the meeting point.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdH6NeEeWbqpv8ZvYxCw" name="GUIDING_STATE" incoming="_2bsdF6NeEeWbqpv8ZvYxCw" outgoing="_2bsdGKNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdIKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdH6NeEeWbqpv8ZvYxCw _2bsdH6NeEeWbqpv8ZvYxCw _2bsdH6NeEeWbqpv8ZvYxCw _2bsdH6NeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdIKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdH6NeEeWbqpv8ZvYxCw">
                   <body>The app shows to the user an option to cancel the guidance. &#xD;
 The app waits until the drone reachs the destination.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdIaNeEeWbqpv8ZvYxCw" name="ARRIVAL_OK_MESSAGE" incoming="_2bsdGKNeEeWbqpv8ZvYxCw" outgoing="_2bsdGaNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdIqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdIaNeEeWbqpv8ZvYxCw _2bsdIaNeEeWbqpv8ZvYxCw _2bsdIaNeEeWbqpv8ZvYxCw _2bsdIaNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdIqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdIaNeEeWbqpv8ZvYxCw">
                   <body>The drone has arrived to the destination. &#xD;
 The app shows to the user a message saying that he has reached his destination.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:DecisionNode" xmi:id="_2bsdI6NeEeWbqpv8ZvYxCw" name="Any drone left?" incoming="_2bsdEKNeEeWbqpv8ZvYxCw" outgoing="_2bsdEaNeEeWbqpv8ZvYxCw _2bsdEqNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdJKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdI6NeEeWbqpv8ZvYxCw _2bsdI6NeEeWbqpv8ZvYxCw _2bsdI6NeEeWbqpv8ZvYxCw _2bsdI6NeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdJKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdI6NeEeWbqpv8ZvYxCw">
                   <body>The app sends a request to the system, and waits for its response.&#xD;
 </body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:DecisionNode" xmi:id="_2bsdJaNeEeWbqpv8ZvYxCw" name="Does the user sees the drone?" incoming="_2bsdFKNeEeWbqpv8ZvYxCw" outgoing="_2bsdFaNeEeWbqpv8ZvYxCw _2bsdF6NeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdJqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdJaNeEeWbqpv8ZvYxCw _2bsdJaNeEeWbqpv8ZvYxCw _2bsdJaNeEeWbqpv8ZvYxCw _2bsdJaNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdJqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdJaNeEeWbqpv8ZvYxCw">
                   <body>Asks to the user if he can see the drone in the meeting point. </body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdJ6NeEeWbqpv8ZvYxCw" name="NO_DRONES_LEFT_MESSAGE" incoming="_2bsdEqNeEeWbqpv8ZvYxCw" outgoing="_2bsdE6NeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdKKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdJ6NeEeWbqpv8ZvYxCw _2bsdJ6NeEeWbqpv8ZvYxCw _2bsdJ6NeEeWbqpv8ZvYxCw _2bsdJ6NeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdKKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdJ6NeEeWbqpv8ZvYxCw">
                   <body>There are no drones, so the app shows a message to the user telling him to wait or ask &#xD;
 a janitor.</body>
                 </ownedComment>
               </node>
               <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdKaNeEeWbqpv8ZvYxCw" name="USER_NOT_IN_SPOT_MESSAGE" incoming="_2bsdFaNeEeWbqpv8ZvYxCw" outgoing="_2bsdFqNeEeWbqpv8ZvYxCw">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdKqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdKaNeEeWbqpv8ZvYxCw _2bsdKaNeEeWbqpv8ZvYxCw _2bsdKaNeEeWbqpv8ZvYxCw _2bsdKaNeEeWbqpv8ZvYxCw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdKqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdKaNeEeWbqpv8ZvYxCw">
                   <body>The user can't see the drone so he is not in the meeting point. The app shows a message&#xD;
 saying to the user that he is not in the correct point, and cancels the guidance.</body>
                 </ownedComment>
@@ -539,47 +577,47 @@ saying to the user that he is not in the correct point, and cancels the guidance
             <edge xmi:type="uml:ControlFlow" xmi:id="_0rIMYKNgEeWbqpv8ZvYxCw" name="[Drone_Reaches_Destination]" target="_2bsdOaNeEeWbqpv8ZvYxCw" source="_2bsdQaNeEeWbqpv8ZvYxCw"/>
             <node xmi:type="uml:InitialNode" xmi:id="_2bsdOKNeEeWbqpv8ZvYxCw" name="On" outgoing="_2bsdLKNeEeWbqpv8ZvYxCw _HxQaoKNfEeWbqpv8ZvYxCw"/>
             <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdOaNeEeWbqpv8ZvYxCw" name="WAIT" incoming="_2bsdLKNeEeWbqpv8ZvYxCw _2bsdNaNeEeWbqpv8ZvYxCw _2bsdN6NeEeWbqpv8ZvYxCw _HxQaoKNfEeWbqpv8ZvYxCw _QVlMIKNfEeWbqpv8ZvYxCw _0rIMYKNgEeWbqpv8ZvYxCw" outgoing="_2bsdLaNeEeWbqpv8ZvYxCw _JZ-r8KNfEeWbqpv8ZvYxCw">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdOqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdOaNeEeWbqpv8ZvYxCw _2bsdOaNeEeWbqpv8ZvYxCw _2bsdOaNeEeWbqpv8ZvYxCw _2bsdOaNeEeWbqpv8ZvYxCw">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdOqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdOaNeEeWbqpv8ZvYxCw">
                 <body>In this state, the system is waiting for a drone request from the app. The drone is landed in the base.</body>
               </ownedComment>
             </node>
             <node xmi:type="uml:DecisionNode" xmi:id="_2bsdO6NeEeWbqpv8ZvYxCw" name="Drones left?" incoming="_2bsdLaNeEeWbqpv8ZvYxCw _JZ-r8KNfEeWbqpv8ZvYxCw" outgoing="_2bsdL6NeEeWbqpv8ZvYxCw _2bsdNqNeEeWbqpv8ZvYxCw _LOaeAKNfEeWbqpv8ZvYxCw _R_XNYKNfEeWbqpv8ZvYxCw">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdPKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdO6NeEeWbqpv8ZvYxCw _2bsdO6NeEeWbqpv8ZvYxCw _2bsdO6NeEeWbqpv8ZvYxCw _2bsdO6NeEeWbqpv8ZvYxCw">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdPKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdO6NeEeWbqpv8ZvYxCw">
                 <body>When a drone is requested, the system has to say if there are drones left.</body>
               </ownedComment>
             </node>
             <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdPaNeEeWbqpv8ZvYxCw" name="DRONE_TO_USER" incoming="_2bsdL6NeEeWbqpv8ZvYxCw _LOaeAKNfEeWbqpv8ZvYxCw" outgoing="_2bsdMKNeEeWbqpv8ZvYxCw _MJSx4KNfEeWbqpv8ZvYxCw">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdPqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdPaNeEeWbqpv8ZvYxCw _2bsdPaNeEeWbqpv8ZvYxCw _2bsdPaNeEeWbqpv8ZvYxCw _2bsdPaNeEeWbqpv8ZvYxCw">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdPqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdPaNeEeWbqpv8ZvYxCw">
                 <body>The system assigns a drone to the user, and guides it (the drone) to the meeting point.</body>
               </ownedComment>
             </node>
             <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdP6NeEeWbqpv8ZvYxCw" name="GUIDING" incoming="_2bsdMaNeEeWbqpv8ZvYxCw _NFRR8KNfEeWbqpv8ZvYxCw" outgoing="_2bsdMqNeEeWbqpv8ZvYxCw _Nwmt8KNfEeWbqpv8ZvYxCw">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdQKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdP6NeEeWbqpv8ZvYxCw _2bsdP6NeEeWbqpv8ZvYxCw _2bsdP6NeEeWbqpv8ZvYxCw _2bsdP6NeEeWbqpv8ZvYxCw">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdQKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdP6NeEeWbqpv8ZvYxCw">
                 <body>The drone guides the user throught the university.&#xD;
 This state should be discussed by the team to specify how the guidance will be performed.</body>
               </ownedComment>
             </node>
             <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdQaNeEeWbqpv8ZvYxCw" name="BACK_HOME" incoming="_2bsdMqNeEeWbqpv8ZvYxCw _2bsdNKNeEeWbqpv8ZvYxCw _Nwmt8KNfEeWbqpv8ZvYxCw _Wde-gKNfEeWbqpv8ZvYxCw" outgoing="_2bsdNaNeEeWbqpv8ZvYxCw _0rIMYKNgEeWbqpv8ZvYxCw">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdQqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdQaNeEeWbqpv8ZvYxCw _2bsdQaNeEeWbqpv8ZvYxCw _2bsdQaNeEeWbqpv8ZvYxCw _2bsdQaNeEeWbqpv8ZvYxCw">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdQqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdQaNeEeWbqpv8ZvYxCw">
                 <body>The drone returns to the base. &#xD;
 The procedure of control should be similar to the guidance.</body>
               </ownedComment>
             </node>
             <node xmi:type="uml:DecisionNode" xmi:id="_2bsdQ6NeEeWbqpv8ZvYxCw" name="User sees the drone?" incoming="_2bsdMKNeEeWbqpv8ZvYxCw _MJSx4KNfEeWbqpv8ZvYxCw" outgoing="_2bsdLqNeEeWbqpv8ZvYxCw _2bsdMaNeEeWbqpv8ZvYxCw _NFRR8KNfEeWbqpv8ZvYxCw _UmmVYKNfEeWbqpv8ZvYxCw">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdRKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdQ6NeEeWbqpv8ZvYxCw _2bsdQ6NeEeWbqpv8ZvYxCw _2bsdQ6NeEeWbqpv8ZvYxCw _2bsdQ6NeEeWbqpv8ZvYxCw">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdRKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdQ6NeEeWbqpv8ZvYxCw">
                 <body>When the drone reaches the meeting point, the app asks to the user if he can see the drone. &#xD;
 As the drone is in the meeting point, if the user can't see it is because he is in a wrong place.&#xD;
 The app would say to the system if the user sees the drone.</body>
               </ownedComment>
             </node>
             <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdRaNeEeWbqpv8ZvYxCw" name="ERROR_NOTIFICATION" incoming="_2bsdLqNeEeWbqpv8ZvYxCw _UmmVYKNfEeWbqpv8ZvYxCw" outgoing="_2bsdNKNeEeWbqpv8ZvYxCw _Wde-gKNfEeWbqpv8ZvYxCw">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdRqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdRaNeEeWbqpv8ZvYxCw _2bsdRaNeEeWbqpv8ZvYxCw _2bsdRaNeEeWbqpv8ZvYxCw _2bsdRaNeEeWbqpv8ZvYxCw">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdRqNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdRaNeEeWbqpv8ZvYxCw">
                 <body>The app shows a message to the user saying that he is not in the correct place.&#xD;
 The drone should return home.</body>
               </ownedComment>
             </node>
             <node xmi:type="uml:OpaqueAction" xmi:id="_2bsdR6NeEeWbqpv8ZvYxCw" name="ERROR_NO_DRONE" incoming="_2bsdNqNeEeWbqpv8ZvYxCw _R_XNYKNfEeWbqpv8ZvYxCw" outgoing="_2bsdN6NeEeWbqpv8ZvYxCw _QVlMIKNfEeWbqpv8ZvYxCw">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdSKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdR6NeEeWbqpv8ZvYxCw _2bsdR6NeEeWbqpv8ZvYxCw _2bsdR6NeEeWbqpv8ZvYxCw _2bsdR6NeEeWbqpv8ZvYxCw">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_2bsdSKNeEeWbqpv8ZvYxCw" annotatedElement="_2bsdR6NeEeWbqpv8ZvYxCw">
                 <body>The system sends a message to the app saying that there are not drones aviable, and he can ask to the janitor for &#xD;
 guidance or wait for a drone.</body>
               </ownedComment>
@@ -1021,4 +1059,30 @@ saying to the user that he is not in the correct point, and cancels the guidance
   <Requirements:DeriveReqt xmi:id="_UWg6AKH2EeW__Ok36B6nnw" base_Abstraction="_UVVOQKH2EeW__Ok36B6nnw"/>
   <Requirements:Requirement xmi:id="_eBi04KH2EeW__Ok36B6nnw" text="The interface shall allow sending data from server to drone and vice versa.&#xD;&#xA;" id="SI 2.3" base_Class="_eBhmwKH2EeW__Ok36B6nnw"/>
   <Requirements:DeriveReqt xmi:id="_PiacYKH3EeW__Ok36B6nnw" base_Abstraction="_PhOwoKH3EeW__Ok36B6nnw"/>
+  <Requirements:Requirement xmi:id="_J12TQKRJEeWgi7KlsSiF6g" text="The system shall guide the user to any requested location within the available locations of the ETSII" id="FR1" base_Class="_J1z3AKRJEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_J14IcKRJEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_J1z3AaRJEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_hvHOcKRJEeWgi7KlsSiF6g" text="The system shall guarantee the minimum security conditions listed under &quot;Security Requirements&quot;" id="FR2" base_Class="_hvEyMKRJEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_hvIckKRJEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_hvEyMaRJEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_v-4f0KRJEeWgi7KlsSiF6g" text="The drones belonging to the guidance system shall be adequately able to fly within their working area in the ETSII" id="FR1.1" base_Class="_v-2qoKRJEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_v-5G4KRJEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_v-2qoaRJEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_6dDu4KRJEeWgi7KlsSiF6g" text="The system shall be able to orientate its flying drones through the halls and corridors of the ETSII" id="FR1.2" base_Class="_6dCgwKRJEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_6dDu4aRJEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_6dCgwaRJEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_Cel8YKRKEeWgi7KlsSiF6g" text="The system shall be able to orientate its flying drones through the halls and corridors of the ETSII" id="FR1.2" base_Class="_CejgIKRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_CemjcKRKEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_CejgIaRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_DGoMwKRKEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_DGmXk6RKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_DGoz0KRKEeWgi7KlsSiF6g" text="The user shall be able to interact with the system to request guidance service" id="FR3" base_Class="_DGmXkKRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_DGoz0aRKEeWgi7KlsSiF6g" text="The system shall be able to orientate its flying drones through the halls and corridors of the ETSII" id="FR1.2" base_Class="_DGmXkqRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_DGpa4KRKEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_DGmXkaRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_ZTtS8KRKEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_ZTrdw6RKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_ZTt6AKRKEeWgi7KlsSiF6g" text="The system shall be able to orientate its flying drones through the halls and corridors of the ETSII" id="FR1.2" base_Class="_ZTrdwKRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_ZTt6AaRKEeWgi7KlsSiF6g" text="The system shall be able to orientate its flying drones through the halls and corridors of the ETSII" id="FR1.2" base_Class="_ZTrdwqRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_ZTuhEKRKEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_ZTrdwaRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_Z3tX4KRKEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_Z3qUk6RKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_Z3t-8KRKEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_Z3qUl6RKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_Z3t-8aRKEeWgi7KlsSiF6g" text="The system shall be able to orientate its flying drones through the halls and corridors of the ETSII" id="FR1.2" base_Class="_Z3qUlqRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_Z3umAKRKEeWgi7KlsSiF6g" text="The system shall be able to orientate its flying drones through the halls and corridors of the ETSII" id="FR1.2" base_Class="_Z3qUlKRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_Z3vNEKRKEeWgi7KlsSiF6g" text="The system shall not only guide the user to the requested location, but also ensure that the drone involved flies back to its basis" id="FR1.3" base_Class="_Z3qUkKRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_Z3vNEaRKEeWgi7KlsSiF6g" text="The system shall be able to orientate its flying drones through the halls and corridors of the ETSII" id="FR1.2" base_Class="_Z3qUkqRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_Z3v0IKRKEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_Z3qUkaRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_Z3v0IaRKEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_Z3qUlaRKEeWgi7KlsSiF6g"/>
 </xmi:XMI>
