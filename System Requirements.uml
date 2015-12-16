@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ModelElements="http://www.eclipse.org/papyrus/0.7.0/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/ModelElements http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
-  <uml:Model xmi:id="_G9B74KA_EeW7BLzk3SvFLg" name="RootElement">
+  <uml:Model xmi:id="_G9B74KA_EeW7BLzk3SvFLg" name="RootElement" visibility="public" URI="">
     <ownedComment xmi:type="uml:Comment" xmi:id="_XMTK8KCvEeW83YomzJF75w">
       <body>Division and organization of the System Requirements has been done according to the International Standard ISO/IEC/IEEE 29148</body>
     </ownedComment>
+    <packageMerge xmi:type="uml:PackageMerge" xmi:id="_fHp_oKQrEeWyJrW8tSXeYA" mergedPackage="_6S37IKQoEeWyJrW8tSXeYA"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_pGqUMKCuEeW83YomzJF75w" name="System Requirements">
       <packagedElement xmi:type="uml:Package" xmi:id="_BKij8KCvEeW83YomzJF75w" name="7. Physical Characteristics">
         <ownedComment xmi:type="uml:Comment" xmi:id="_Tmu1oKCzEeW83YomzJF75w">
@@ -46,57 +47,62 @@ Correctivo&#xD;
 Evolutivo&#xD;
 </body>
         </ownedComment>
-        <packagedElement xmi:type="uml:Package" xmi:id="_DQ7E0KCzEeW83YomzJF75w" name="5. System Operations">
-          <packagedElement xmi:type="uml:Abstraction" xmi:id="_DQ7E0aCzEeW83YomzJF75w" name="" client="_DQ7E0KCzEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
-          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Bt2KoKGGEeWY1PxHypAdag" name="" client="_DQ7E0KCzEeW83YomzJF75w" supplier="_3uvdMKGFEeWY1PxHypAdag"/>
-          <packagedElement xmi:type="uml:Abstraction" xmi:id="_CyJgQKGGEeWY1PxHypAdag" name="" client="_DQ7E0KCzEeW83YomzJF75w" supplier="_4M28kKGFEeWY1PxHypAdag"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_3uvdMKGFEeWY1PxHypAdag" name="Maintainability">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_xLARIKGKEeWY1PxHypAdag" name="Structure and propelers Replacement">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_b51SMKGNEeWY1PxHypAdag" name="It should be done when functionality is conditionated or when involves is a risk for people">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_3imlAKGNEeWY1PxHypAdag" name="One or more propelers broken">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_Qd6ogKGNEeWY1PxHypAdag" name="It should be done in less than 5 minutes">
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_o45UMKGOEeWY1PxHypAdag" name="It should be done in less than 5 minutes"/>
+        <packageMerge xmi:type="uml:PackageMerge" xmi:id="_XGqW8KQmEeWyJrW8tSXeYA" mergedPackage="_zc2E4KCuEeW83YomzJF75w"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_6S37IKQoEeWyJrW8tSXeYA" name="Maintanability">
+          <packagedElement xmi:type="uml:Class" xmi:id="_JgLtoKHKEeWOS8AZLewT1w" name="Software capable people"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_3uvdMKGFEeWY1PxHypAdag" name="Maintainability">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_xLARIKGKEeWY1PxHypAdag" name="Structure and propelers Replacement">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_b51SMKGNEeWY1PxHypAdag" name="Replacement Triggers">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_3imlAKGNEeWY1PxHypAdag" name="Propelers">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_Qd6ogKGNEeWY1PxHypAdag" name="Time for replace propellers">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_o45UMKGOEeWY1PxHypAdag" name="It should be done in less than 5 minutes"/>
+                  </nestedClassifier>
                 </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_9UqqQKGNEeWY1PxHypAdag" name="Propellers shielding structure broken">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_u6jUoKGOEeWY1PxHypAdag" name="Time for replacing shield"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_SlGiAKGOEeWY1PxHypAdag" name="Supporting structure broken">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_pNzNMKGOEeWY1PxHypAdag" name="Time for replace structure"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_9lMHoKGPEeWY1PxHypAdag" name="Janitor"/>
               </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_9UqqQKGNEeWY1PxHypAdag" name="Propellers shielding structure broken">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_u6jUoKGOEeWY1PxHypAdag" name="It should be done in less than 2 minutes"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_3mseAKGREeWY1PxHypAdag" name="Problems of high complexity">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_JQOggKGSEeWY1PxHypAdag" name="External support (provider)"/>
               </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_SlGiAKGOEeWY1PxHypAdag" name="Supporting structure broken">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_pNzNMKGOEeWY1PxHypAdag" name="It should be done in less than 20  minutes"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_9lMHoKGPEeWY1PxHypAdag" name="Janitor should be able to acomplish this tasks"/>
             </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_3mseAKGREeWY1PxHypAdag" name="Problems of high complexity">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_JQOggKGSEeWY1PxHypAdag" name="External support (provider)"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_CQWogKGLEeWY1PxHypAdag" name="Hardware Replacement">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_1uqgYKHIEeWOS8AZLewT1w" name="Batteries shift"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_2O-_MKHIEeWOS8AZLewT1w" name="Camera problems"/>
             </nestedClassifier>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_CQWogKGLEeWY1PxHypAdag" name="Hardware Replacement">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_1uqgYKHIEeWOS8AZLewT1w" name="Batteries shal be changed when it has been charged 1000 times."/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_2O-_MKHIEeWOS8AZLewT1w" name="Camera must be cheked and changed in case the drone do not recognise the special pictures"/>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_G6W5gKGLEeWY1PxHypAdag" name="Software"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_G6W5gKGLEeWY1PxHypAdag" name="Software"/>
+          </packagedElement>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_4M28kKGFEeWY1PxHypAdag" name="Reliability">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_nJvsIKHNEeWOS8AZLewT1w" name="Initialitation">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_OoD-sKHQEeWOS8AZLewT1w" name="Systes should initialitate in less than 40 minutes"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_qDDUMKHQEeWOS8AZLewT1w" name="No one should be nearer than 0.75 meters while drone take off"/>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_pJdhIKHNEeWOS8AZLewT1w" name="User request for guidance">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_KVs8MKHREeWOS8AZLewT1w" name="the drone shal be at least 1 meter away from user and from other people"/>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_58qYkKHNEeWOS8AZLewT1w" name="Change drone operational parameters"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_-6chMKHNEeWOS8AZLewT1w" name="Termination"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_BbW-wKHOEeWOS8AZLewT1w" name="Landing in secure"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_EBlaIKHOEeWOS8AZLewT1w" name="Avoiding a colition"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_HJGksKHOEeWOS8AZLewT1w" name="Avoiding flying over crowds"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_JgLtoKHKEeWOS8AZLewT1w" name="Some Proffesors and students should be responsibles of some maintainabiliti aspects"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="__TaWcKQgEeWQN__9Ymhk8w" client="_9lMHoKGPEeWY1PxHypAdag" supplier="_1uqgYKHIEeWOS8AZLewT1w"/>
+        <packagedElement xmi:type="uml:Realization" xmi:id="_AsnlEKQhEeWQN__9Ymhk8w" client="_9lMHoKGPEeWY1PxHypAdag" supplier="_b51SMKGNEeWY1PxHypAdag"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_asbXMKHKEeWOS8AZLewT1w" name="Satisfy1" client="_JgLtoKHKEeWOS8AZLewT1w" supplier="_G6W5gKGLEeWY1PxHypAdag"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_bIMtMKHKEeWOS8AZLewT1w" name="Satisfy2" client="_JgLtoKHKEeWOS8AZLewT1w" supplier="_2O-_MKHIEeWOS8AZLewT1w"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_echksKHKEeWOS8AZLewT1w" name="Satisfy3" client="_JQOggKGSEeWY1PxHypAdag" supplier="_3mseAKGREeWY1PxHypAdag"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_fwXLIKHKEeWOS8AZLewT1w" name="Satisfy4" client="_9lMHoKGPEeWY1PxHypAdag" supplier="_1uqgYKHIEeWOS8AZLewT1w"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_gmEEEKHKEeWOS8AZLewT1w" name="Satisfy5" client="_9lMHoKGPEeWY1PxHypAdag" supplier="_b51SMKGNEeWY1PxHypAdag"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_d1d70KQnEeWyJrW8tSXeYA" name="DeriveReqt1" client="_3imlAKGNEeWY1PxHypAdag" supplier="_Qd6ogKGNEeWY1PxHypAdag"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_DQ7E0aCzEeW83YomzJF75w" name="" client="_DQ7E0KCzEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DHH_AKQpEeWyJrW8tSXeYA" name="Reliability">
+          <packagedElement xmi:type="uml:Class" xmi:id="_4M28kKGFEeWY1PxHypAdag" name="Reliability">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_nJvsIKHNEeWOS8AZLewT1w" name="Initialitation">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_OoD-sKHQEeWOS8AZLewT1w" name="s"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_qDDUMKHQEeWOS8AZLewT1w"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_pJdhIKHNEeWOS8AZLewT1w" name="User request for guidance">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_KVs8MKHREeWOS8AZLewT1w"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_58qYkKHNEeWOS8AZLewT1w" name="Change drone operational parameters"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_-6chMKHNEeWOS8AZLewT1w" name="Termination"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_BbW-wKHOEeWOS8AZLewT1w" name="Landing in secure"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_EBlaIKHOEeWOS8AZLewT1w" name="Avoiding a colition"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_HJGksKHOEeWOS8AZLewT1w" name="Avoiding flying over crowds"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_DQ7E0KCzEeW83YomzJF75w" name="5. System Operations"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_eOh8EKQnEeWyJrW8tSXeYA" name="DeriveReqt2" client="_SlGiAKGOEeWY1PxHypAdag" supplier="_pNzNMKGOEeWY1PxHypAdag"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_eoWxUKQnEeWyJrW8tSXeYA" name="DeriveReqt3" client="_9UqqQKGNEeWY1PxHypAdag" supplier="_u6jUoKGOEeWY1PxHypAdag"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_yIlnsKCuEeW83YomzJF75w" name="4. System Interfaces">
         <ownedComment xmi:type="uml:Comment" xmi:id="_jmONoKCyEeW83YomzJF75w">
@@ -457,30 +463,26 @@ c) Performance requirements for the operational phases and modes. This means tha
   <Requirements:DeriveReqt xmi:id="_-Jye8KGOEeWHfcy6hmg9jA" base_Abstraction="_-Jm4zKGOEeWHfcy6hmg9jA"/>
   <Requirements:Requirement xmi:id="_3v7I8KGFEeWY1PxHypAdag" text="The system shal be conserved in order to ensure its design especifications, and it should be as simple as posible.&#xD;&#xA;" id="SO1" base_Class="_3uvdMKGFEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_4NmjcKGFEeWY1PxHypAdag" text="The system must adapt to all possible  differents enviroments and meet the imposed safety requiarements." id="SO2" base_Class="_4M28kKGFEeWY1PxHypAdag"/>
-  <Requirements:DeriveReqt xmi:id="_Bu7vwKGGEeWY1PxHypAdag" base_Abstraction="_Bt2KoKGGEeWY1PxHypAdag"/>
-  <Requirements:DeriveReqt xmi:id="_CzHJkKGGEeWY1PxHypAdag" base_Abstraction="_CyJgQKGGEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_xLvQ8KGKEeWY1PxHypAdag" base_Class="_xLARIKGKEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_xLvQ8KGKEeWY1PxHypAdag" text="The structure and propellers  shal be replaced in case of those are not acording to SO1" id="" base_Class="_xLARIKGKEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_CRKg0KGLEeWY1PxHypAdag" id="" base_Class="_CQWogKGLEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_G7N1IKGLEeWY1PxHypAdag" text="If there is a change on system enviroment that afects software, it shal be adapted" id="" base_Class="_G6W5gKGLEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_QfNB8KGNEeWY1PxHypAdag" base_Class="_Qd6ogKGNEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_b7KH4KGNEeWY1PxHypAdag" base_Class="_b51SMKGNEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_3jfV0KGNEeWY1PxHypAdag" base_Class="_3imlAKGNEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_9VrW4KGNEeWY1PxHypAdag" base_Class="_9UqqQKGNEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_SmIcwKGOEeWY1PxHypAdag" base_Class="_SlGiAKGOEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_QfNB8KGNEeWY1PxHypAdag" text="It should be done in less than 5 minutes for each propeller replaced" id="" base_Class="_Qd6ogKGNEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_b7KH4KGNEeWY1PxHypAdag" text="It shal be done when functionality is conditionated or when it  involves a risk for people" id="" base_Class="_b51SMKGNEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_3jfV0KGNEeWY1PxHypAdag" text="One or more propelers broken" id="" base_Class="_3imlAKGNEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_9VrW4KGNEeWY1PxHypAdag" text="The shield is damaged in a way that involves risk for people or compromise the well functioning of the system" id="" base_Class="_9UqqQKGNEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_SmIcwKGOEeWY1PxHypAdag" text="A defect in the structure compromise the system reliability" id="" base_Class="_SlGiAKGOEeWY1PxHypAdag"/>
   <Requirements:Requirement xmi:id="_o5CeIKGOEeWY1PxHypAdag" base_Class="_o45UMKGOEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_pN5T0KGOEeWY1PxHypAdag" base_Class="_pNzNMKGOEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_u6oNIKGOEeWY1PxHypAdag" base_Class="_u6jUoKGOEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_9miygKGPEeWY1PxHypAdag" base_Class="_9lMHoKGPEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_3oEXAKGREeWY1PxHypAdag" base_Class="_3mseAKGREeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_JRmZgKGSEeWY1PxHypAdag" id="" base_Class="_JQOggKGSEeWY1PxHypAdag"/>
-  <Requirements:Requirement xmi:id="_1w4t8KHIEeWOS8AZLewT1w" base_Class="_1uqgYKHIEeWOS8AZLewT1w"/>
-  <Requirements:Requirement xmi:id="_2Q644KHIEeWOS8AZLewT1w" base_Class="_2O-_MKHIEeWOS8AZLewT1w"/>
-  <Requirements:Requirement xmi:id="_JiEkAKHKEeWOS8AZLewT1w" base_Class="_JgLtoKHKEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_pN5T0KGOEeWY1PxHypAdag" text="It should be done in less than 20  minutes" id="" base_Class="_pNzNMKGOEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_u6oNIKGOEeWY1PxHypAdag" text="It should be done in less than 2 minutes" id="" base_Class="_u6jUoKGOEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_9miygKGPEeWY1PxHypAdag" text="Janitor should be able to acomplish this tasks" id="" base_Class="_9lMHoKGPEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_3oEXAKGREeWY1PxHypAdag" text="Mechanical problems that can not be resolved by university janitor" id="" base_Class="_3mseAKGREeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_JRmZgKGSEeWY1PxHypAdag" text="The provider support department shal be informed in case of high complexity problems" id="" base_Class="_JQOggKGSEeWY1PxHypAdag"/>
+  <Requirements:Requirement xmi:id="_1w4t8KHIEeWOS8AZLewT1w" text="Batteries shal be changed when it has been charged 1000 times." id="" base_Class="_1uqgYKHIEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_2Q644KHIEeWOS8AZLewT1w" text="Camera must be cheked and changed in case the drone do not recognise the special pictures" id="" base_Class="_2O-_MKHIEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_JiEkAKHKEeWOS8AZLewT1w" text="Some Proffesors and students should be responsibles of some maintainability aspects" id="" base_Class="_JgLtoKHKEeWOS8AZLewT1w"/>
   <Requirements:Satisfy xmi:id="_avR24KHKEeWOS8AZLewT1w" base_Abstraction="_asbXMKHKEeWOS8AZLewT1w"/>
   <Requirements:Satisfy xmi:id="_bLw-kKHKEeWOS8AZLewT1w" base_Abstraction="_bIMtMKHKEeWOS8AZLewT1w"/>
   <Requirements:Satisfy xmi:id="_eeq5wKHKEeWOS8AZLewT1w" base_Abstraction="_echksKHKEeWOS8AZLewT1w"/>
-  <Requirements:Satisfy xmi:id="_fzQuIKHKEeWOS8AZLewT1w" base_Abstraction="_fwXLIKHKEeWOS8AZLewT1w"/>
-  <Requirements:Satisfy xmi:id="_gpHYEKHKEeWOS8AZLewT1w" base_Abstraction="_gmEEEKHKEeWOS8AZLewT1w"/>
   <Requirements:Requirement xmi:id="_nL95sKHNEeWOS8AZLewT1w" base_Class="_nJvsIKHNEeWOS8AZLewT1w"/>
   <Requirements:Requirement xmi:id="_pLqgkKHNEeWOS8AZLewT1w" base_Class="_pJdhIKHNEeWOS8AZLewT1w"/>
   <Requirements:Requirement xmi:id="_5-qjsKHNEeWOS8AZLewT1w" base_Class="_58qYkKHNEeWOS8AZLewT1w"/>
@@ -488,7 +490,10 @@ c) Performance requirements for the operational phases and modes. This means tha
   <Requirements:Requirement xmi:id="_BdcpcKHOEeWOS8AZLewT1w" base_Class="_BbW-wKHOEeWOS8AZLewT1w"/>
   <Requirements:Requirement xmi:id="_ED3SEKHOEeWOS8AZLewT1w" base_Class="_EBlaIKHOEeWOS8AZLewT1w"/>
   <Requirements:Requirement xmi:id="_HLTkIKHOEeWOS8AZLewT1w" base_Class="_HJGksKHOEeWOS8AZLewT1w"/>
-  <Requirements:Requirement xmi:id="_OqXEwKHQEeWOS8AZLewT1w" base_Class="_OoD-sKHQEeWOS8AZLewT1w"/>
-  <Requirements:Requirement xmi:id="_qFQToKHQEeWOS8AZLewT1w" base_Class="_qDDUMKHQEeWOS8AZLewT1w"/>
-  <Requirements:Requirement xmi:id="_KX24UKHREeWOS8AZLewT1w" base_Class="_KVs8MKHREeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_OqXEwKHQEeWOS8AZLewT1w" text="Systes should initialitate in less than 40 minute" id="" base_Class="_OoD-sKHQEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_qFQToKHQEeWOS8AZLewT1w" text="No one should be nearer than 0.75 meters while drone take off" id="" base_Class="_qDDUMKHQEeWOS8AZLewT1w"/>
+  <Requirements:Requirement xmi:id="_KX24UKHREeWOS8AZLewT1w" text="the drone shal be at least 1 meter away from user and from other people" id="" base_Class="_KVs8MKHREeWOS8AZLewT1w"/>
+  <Requirements:DeriveReqt xmi:id="_d5ybIKQnEeWyJrW8tSXeYA" base_Abstraction="_d1d70KQnEeWyJrW8tSXeYA"/>
+  <Requirements:DeriveReqt xmi:id="_eSgdIKQnEeWyJrW8tSXeYA" base_Abstraction="_eOh8EKQnEeWyJrW8tSXeYA"/>
+  <Requirements:DeriveReqt xmi:id="_eslxEKQnEeWyJrW8tSXeYA" base_Abstraction="_eoWxUKQnEeWyJrW8tSXeYA"/>
 </xmi:XMI>
