@@ -20,7 +20,33 @@ Identification: PC1.1&#xD;
         </ownedComment>
         <packagedElement xmi:type="uml:Package" xmi:id="_Tmu1oaCzEeW83YomzJF75w" name="7. Physical Characteristics">
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_Tmu1oqCzEeW83YomzJF75w" name="" client="_Tmu1oaCzEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_fKn3cKRUEeWf04sq-Xd2gQ" name="Physical requirements">
+            <packagedElement xmi:type="uml:Package" xmi:id="_jpLGYKRUEeWf04sq-Xd2gQ" name="Drone requiremets">
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_zfPxwKRVEeWf04sq-Xd2gQ" name="" client="_jpLGYKRUEeWf04sq-Xd2gQ" supplier="_10KQIKRUEeWf04sq-Xd2gQ"/>
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_0KKXAKRVEeWf04sq-Xd2gQ" name="" client="_jpLGYKRUEeWf04sq-Xd2gQ" supplier="_mFEhEKRUEeWf04sq-Xd2gQ"/>
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_2O0WYKRVEeWf04sq-Xd2gQ" name="" client="_jpLGYKRUEeWf04sq-Xd2gQ" supplier="_APxTYKRVEeWf04sq-Xd2gQ"/>
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_25wJwKRVEeWf04sq-Xd2gQ" name="" client="_jpLGYKRUEeWf04sq-Xd2gQ" supplier="_ORW-0KRVEeWf04sq-Xd2gQ"/>
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_3gTzcKRVEeWf04sq-Xd2gQ" name="" client="_jpLGYKRUEeWf04sq-Xd2gQ" supplier="_fL1i8KRVEeWf04sq-Xd2gQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_7jmpwKRVEeWf04sq-Xd2gQ" name="Base requirements">
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_fgiLIKRWEeWf04sq-Xd2gQ" name="" client="_7jmpwKRVEeWf04sq-Xd2gQ" supplier="_9gUOEKRVEeWf04sq-Xd2gQ"/>
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_hH6_sKRWEeWf04sq-Xd2gQ" name="" client="_7jmpwKRVEeWf04sq-Xd2gQ" supplier="_GW50QKRWEeWf04sq-Xd2gQ"/>
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_cZIf4KRXEeWf04sq-Xd2gQ" name="" client="_7jmpwKRVEeWf04sq-Xd2gQ" supplier="_H0QtoKRXEeWf04sq-Xd2gQ"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_kNozcKRWEeWf04sq-Xd2gQ" name="Adaptability requirements">
+            <packagedElement xmi:type="uml:Abstraction" xmi:id="_3u_TMKRWEeWf04sq-Xd2gQ" name="" client="_kNozcKRWEeWf04sq-Xd2gQ" supplier="_m72GIKRWEeWf04sq-Xd2gQ"/>
+          </packagedElement>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mFEhEKRUEeWf04sq-Xd2gQ" name="Positioning system"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_10KQIKRUEeWf04sq-Xd2gQ" name="Weight"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_APxTYKRVEeWf04sq-Xd2gQ" name="Battery"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ORW-0KRVEeWf04sq-Xd2gQ" name="Drone Camera"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fL1i8KRVEeWf04sq-Xd2gQ" name="Drone measurement"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9gUOEKRVEeWf04sq-Xd2gQ" name="Drone recharge"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GW50QKRWEeWf04sq-Xd2gQ" name="Drone communication"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_m72GIKRWEeWf04sq-Xd2gQ" name="Increase the number of drones and destinations"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_H0QtoKRXEeWf04sq-Xd2gQ" name="Reliability"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_zc2E4KCuEeW83YomzJF75w" name="5. System Operations">
         <ownedComment xmi:type="uml:Comment" xmi:id="_DQ7r4KCzEeW83YomzJF75w">
@@ -1085,4 +1111,22 @@ saying to the user that he is not in the correct point, and cancels the guidance
   <Requirements:Requirement xmi:id="_Z3vNEaRKEeWgi7KlsSiF6g" text="The system shall be able to orientate its flying drones through the halls and corridors of the ETSII" id="FR1.2" base_Class="_Z3qUkqRKEeWgi7KlsSiF6g"/>
   <Requirements:Requirement xmi:id="_Z3v0IKRKEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_Z3qUkaRKEeWgi7KlsSiF6g"/>
   <Requirements:Requirement xmi:id="_Z3v0IaRKEeWgi7KlsSiF6g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_Z3qUlaRKEeWgi7KlsSiF6g"/>
+  <Requirements:Requirement xmi:id="_mFcUgKRUEeWf04sq-Xd2gQ" text="The drone shall have GPS&#xD;&#xA;" id="Pc.1" base_Class="_mFEhEKRUEeWf04sq-Xd2gQ"/>
+  <Requirements:Requirement xmi:id="_10j4wKRUEeWf04sq-Xd2gQ" text="The drone shall not weight mora than 500 grams&#xD;&#xA;" id="PC.2" base_Class="_10KQIKRUEeWf04sq-Xd2gQ"/>
+  <Requirements:Requirement xmi:id="_AQKU8KRVEeWf04sq-Xd2gQ" text="The drone shall fly at least for 20 minutes without returning to the base or be equiped with a battery of at leas 1200mAh&#xD;&#xA;" id="PC.3" base_Class="_APxTYKRVEeWf04sq-Xd2gQ"/>
+  <Requirements:Requirement xmi:id="_ORzDsKRVEeWf04sq-Xd2gQ" text="The drone shall have a camera that is capable of recording video in HD resolution." id="PC.4" base_Class="_ORW-0KRVEeWf04sq-Xd2gQ"/>
+  <Requirements:Requirement xmi:id="_fMOkgKRVEeWf04sq-Xd2gQ" text="The drone shall not be bigger than a square of 28 cm and 5 cm high-" id="PC.5" base_Class="_fL1i8KRVEeWf04sq-Xd2gQ"/>
+  <Requirements:DeriveReqt xmi:id="_zgCb8KRVEeWf04sq-Xd2gQ" base_Abstraction="_zfPxwKRVEeWf04sq-Xd2gQ"/>
+  <Requirements:DeriveReqt xmi:id="_0K7MAKRVEeWf04sq-Xd2gQ" base_Abstraction="_0KKXAKRVEeWf04sq-Xd2gQ"/>
+  <Requirements:DeriveReqt xmi:id="_2PtuQKRVEeWf04sq-Xd2gQ" base_Abstraction="_2O0WYKRVEeWf04sq-Xd2gQ"/>
+  <Requirements:DeriveReqt xmi:id="_26nFYKRVEeWf04sq-Xd2gQ" base_Abstraction="_25wJwKRVEeWf04sq-Xd2gQ"/>
+  <Requirements:DeriveReqt xmi:id="_3hNLUKRVEeWf04sq-Xd2gQ" base_Abstraction="_3gTzcKRVEeWf04sq-Xd2gQ"/>
+  <Requirements:Requirement xmi:id="_9g5c4KRVEeWf04sq-Xd2gQ" text="The base shall be able to recharge the drone battery in 5 hours&#xD;&#xA;" id="PC.6" base_Class="_9gUOEKRVEeWf04sq-Xd2gQ"/>
+  <Requirements:Requirement xmi:id="_GXm-4KRWEeWf04sq-Xd2gQ" text="The base shall be able to comunicate with all the drones and register their location and destination&#xD;&#xA;" id="PC.7" base_Class="_GW50QKRWEeWf04sq-Xd2gQ"/>
+  <Requirements:DeriveReqt xmi:id="_fhje0KRWEeWf04sq-Xd2gQ" base_Abstraction="_fgiLIKRWEeWf04sq-Xd2gQ"/>
+  <Requirements:DeriveReqt xmi:id="_hJEPMKRWEeWf04sq-Xd2gQ" base_Abstraction="_hH6_sKRWEeWf04sq-Xd2gQ"/>
+  <Requirements:Requirement xmi:id="_m8ltAKRWEeWf04sq-Xd2gQ" text="The system shall be prepared for expansions for unlimetted destinations and 2 more drones with no modifications whatsoever" id="PC.8" base_Class="_m72GIKRWEeWf04sq-Xd2gQ"/>
+  <Requirements:DeriveReqt xmi:id="_3wOpUKRWEeWf04sq-Xd2gQ" base_Abstraction="_3u_TMKRWEeWf04sq-Xd2gQ"/>
+  <Requirements:Requirement xmi:id="_H1CJsKRXEeWf04sq-Xd2gQ" text="The base shall be water resistant in order to recharge the drone even when it returns wet from rain.&#xD;&#xA;The base shall stands impacts when the drones land." id="PC.9" base_Class="_H0QtoKRXEeWf04sq-Xd2gQ"/>
+  <Requirements:DeriveReqt xmi:id="_caZEIKRXEeWf04sq-Xd2gQ" base_Abstraction="_cZIf4KRXEeWf04sq-Xd2gQ"/>
 </xmi:XMI>
