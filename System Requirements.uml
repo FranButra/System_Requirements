@@ -202,7 +202,7 @@ Identification: 11052</body>
         </ownedComment>
         <packagedElement xmi:type="uml:Package" xmi:id="_wxuMUKC3EeW83YomzJF75w" name="10. System Security">
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_wxuMUaC3EeW83YomzJF75w" name="" client="_wxuMUKC3EeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
-          <packagedElement xmi:type="uml:Abstraction" xmi:id="_pREmkKmEEeWT0rELCh659g" name="" client="_wxuMUKC3EeW83YomzJF75w" supplier="_Ec1koKF_EeW2oLsE_WICRw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_pREmkKmEEeWT0rELCh659g" name="" client="_Hgh1oKCvEeW83YomzJF75w" supplier="_Hgh1oKCvEeW83YomzJF75w"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_rTi0oKmEEeWT0rELCh659g" name="" client="_Hgh1oKCvEeW83YomzJF75w" supplier="_3XSOMKF_EeW2oLsE_WICRw"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ec0XcKmLEeWT0rELCh659g" name="" client="_wxuMUKC3EeW83YomzJF75w" supplier="_clP3YKmIEeWT0rELCh659g"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_R4CmcKmLEeWT0rELCh659g" name="" client="_wxuMUKC3EeW83YomzJF75w" supplier="_hjJUwKmIEeWT0rELCh659g"/>
@@ -228,10 +228,10 @@ Identification: 11052</body>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_BNgKgamFEeWT0rELCh659g" name="Improper access"/>
           </nestedClassifier>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_XlZ7gKGAEeW2oLsE_WICRw" name="Buildings">
+        <packagedElement xmi:type="uml:Class" xmi:id="_XlZ7gKGAEeW2oLsE_WICRw" name="Objects">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_XlZ7gaGAEeW2oLsE_WICRw" name="Improper access"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_swrhAKmEEeWT0rELCh659g" name="" client="_Ec1koKF_EeW2oLsE_WICRw" supplier="_UK0rAKGAEeW2oLsE_WICRw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_swrhAKmEEeWT0rELCh659g" name="" client="_Hgh1oKCvEeW83YomzJF75w" supplier="_UK0rAKGAEeW2oLsE_WICRw"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_uTWNoKmEEeWT0rELCh659g" name="" client="_Ec1koKF_EeW2oLsE_WICRw" supplier="_VL5GcKGAEeW2oLsE_WICRw"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_xNIeMKmEEeWT0rELCh659g" name="" client="_3XSOMKF_EeW2oLsE_WICRw" supplier="_WsFG0KGAEeW2oLsE_WICRw"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_zZ0_QKmEEeWT0rELCh659g" name="" client="_3XSOMKF_EeW2oLsE_WICRw" supplier="_XlZ7gKGAEeW2oLsE_WICRw"/>
@@ -253,7 +253,7 @@ Identification: 11052</body>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_znWBY6mFEeWT0rELCh659g" name="Improper access"/>
           </nestedClassifier>
         </packagedElement>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_uCp-4KmHEeWT0rELCh659g" name="" client="_WsFG0KGAEeW2oLsE_WICRw" supplier="_E8zt0KmFEeWT0rELCh659g"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_uCp-4KmHEeWT0rELCh659g" name="" client="_WsFG0KGAEeW2oLsE_WICRw" supplier="_Hgh1oKCvEeW83YomzJF75w"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_xDy0oKmHEeWT0rELCh659g" name="" client="_WsFG0KGAEeW2oLsE_WICRw" supplier="_NPc5cKmFEeWT0rELCh659g"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_clP3YKmIEeWT0rELCh659g" name="Low batery">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_clP3YamIEeWT0rELCh659g" name="Improper access"/>
@@ -1049,9 +1049,9 @@ saying to the user that he is not in the correct point, and cancels the guidance
   <Requirements:DeriveReqt xmi:id="_MCGjwKD5EeWAlK9P2ItRIg" base_Abstraction="_MAXeYKD5EeWAlK9P2ItRIg"/>
   <Requirements:Requirement xmi:id="_ik8ekKD5EeWAlK9P2ItRIg" text="The design of the mobile application shall agree with the connection speed of the system." id="UR5" base_Class="_ij9nIKD5EeWAlK9P2ItRIg"/>
   <Requirements:DeriveReqt xmi:id="_9vkc0KD5EeWAlK9P2ItRIg" base_Abstraction="_9tuCsKD5EeWAlK9P2ItRIg"/>
-  <Requirements:Requirement xmi:id="_EfugkKF_EeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="SS1" base_Class="_Ec1koKF_EeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_EfugkKF_EeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses.         Trace to U1.1" id="SS1" base_Class="_Ec1koKF_EeW2oLsE_WICRw"/>
   <Requirements:Requirement xmi:id="_15CukKF_EeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_140FEKF_EeW2oLsE_WICRw"/>
-  <Requirements:Requirement xmi:id="_3XcmQKF_EeW2oLsE_WICRw" text="The control system has to avoid drones collisions" id="SS2" base_Class="_3XSOMKF_EeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_3XcmQKF_EeW2oLsE_WICRw" text="The control system has to avoid drones collisions.                         Trace to U1.1.1" id="SS2" base_Class="_3XSOMKF_EeW2oLsE_WICRw"/>
   <Requirements:Requirement xmi:id="_3XhewKF_EeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_3XSOMaF_EeW2oLsE_WICRw"/>
   <Requirements:Requirement xmi:id="_UK-cAKGAEeW2oLsE_WICRw" text="The system should require a password in order to access to the system" id="SS1.1" base_Class="_UK0rAKGAEeW2oLsE_WICRw"/>
   <Requirements:Requirement xmi:id="_ULCGYKGAEeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_UK1SEKGAEeW2oLsE_WICRw"/>
@@ -1199,11 +1199,11 @@ saying to the user that he is not in the correct point, and cancels the guidance
   <Requirements:Requirement xmi:id="_clo48KmIEeWT0rELCh659g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_clP3YamIEeWT0rELCh659g"/>
   <Requirements:Requirement xmi:id="_cltKYKmIEeWT0rELCh659g" text="If there is a person in the drone's trayectory, the control has to dodge him or if it is impossible, to wait until him has gone out from that trayectory" id="UR2.1" base_Class="_clP3YqmIEeWT0rELCh659g"/>
   <Requirements:Requirement xmi:id="_clwNsKmIEeWT0rELCh659g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_clP3Y6mIEeWT0rELCh659g"/>
-  <Requirements:Requirement xmi:id="_cl0fIKmIEeWT0rELCh659g" text="If the drone detects that battery is low, it coudn´t take off. It has to send an advise in order to another drone take its place or if it is not possible send a message to user's mobile" id="SS3" base_Class="_clP3YKmIEeWT0rELCh659g"/>
+  <Requirements:Requirement xmi:id="_cl0fIKmIEeWT0rELCh659g" text="If the drone detects that battery is low, it coudn´t take off. It has to send an advise in order to another drone take its place or if it is not possible send a message to user's mobile                                     Trace to U1.1" id="SS3" base_Class="_clP3YKmIEeWT0rELCh659g"/>
   <Requirements:Requirement xmi:id="_hjTs0KmIEeWT0rELCh659g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_hjJUwamIEeWT0rELCh659g"/>
   <Requirements:Requirement xmi:id="_hjWwIKmIEeWT0rELCh659g" text="If there is a person in the drone's trayectory, the control has to dodge him or if it is impossible, to wait until him has gone out from that trayectory" id="UR2.1" base_Class="_hjJUwqmIEeWT0rELCh659g"/>
   <Requirements:Requirement xmi:id="_hjYlUKmIEeWT0rELCh659g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_hjJUw6mIEeWT0rELCh659g"/>
-  <Requirements:Requirement xmi:id="_hjaagKmIEeWT0rELCh659g" text="There are some reasons why the drone can be lost. The system shall send an advise to the central system to put on an alarm" id="SS4" base_Class="_hjJUwKmIEeWT0rELCh659g"/>
+  <Requirements:Requirement xmi:id="_hjaagKmIEeWT0rELCh659g" text="There are some reasons why the drone can be lost. The system shall send an advise to the central system to put on an alarm                          Trace to U1.1" id="SS4" base_Class="_hjJUwKmIEeWT0rELCh659g"/>
   <Requirements:DeriveReqt xmi:id="_EqwFwKmLEeWT0rELCh659g" base_Abstraction="_Ec0XcKmLEeWT0rELCh659g"/>
   <Requirements:Requirement xmi:id="_NCw5kKmLEeWT0rELCh659g" text="If there is a person in the drone's trayectory, the control has to dodge him or if it is impossible, to wait until him has gone out from that trayectory" id="UR2.1" base_Class="_NCS_gqmLEeWT0rELCh659g"/>
   <Requirements:Requirement xmi:id="_NCz84KmLEeWT0rELCh659g" text="If the drone is inside a room where all doors are closed, the system has to be abel to send an warning including where is it" id="SS4" base_Class="_NCS_gKmLEeWT0rELCh659g"/>
