@@ -341,7 +341,7 @@ Identification: FR1.1</body>
         </ownedComment>
         <ownedComment xmi:type="uml:Comment" xmi:id="_MslY4KCxEeW83YomzJF75w">
           <body>USABILITY REQUIREMENTS&#xD;
-Verision Dic15-12, developed and written down by Jorge Salvador&#xD;
+Verision Dic25-12, developed and written down by Jorge Salvador&#xD;
 </body>
         </ownedComment>
         <packagedElement xmi:type="uml:Package" xmi:id="_EmOLMKCwEeW83YomzJF75w" name="2. Usability Requirements Specification">
@@ -362,8 +362,12 @@ Verision Dic15-12, developed and written down by Jorge Salvador&#xD;
         <packagedElement xmi:type="uml:Class" xmi:id="_Qa_FAKD4EeWAlK9P2ItRIg" name="Availability information"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_tfdg0KD4EeWAlK9P2ItRIg" name="" client="_1bTdYKD1EeWAlK9P2ItRIg" supplier="_Qa_FAKD4EeWAlK9P2ItRIg"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_yac0IKD4EeWAlK9P2ItRIg" name="User state"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_MAXeYKD5EeWAlK9P2ItRIg" name="" client="_ed9F8KD3EeWAlK9P2ItRIg" supplier="_yac0IKD4EeWAlK9P2ItRIg"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_ij9nIKD5EeWAlK9P2ItRIg" name="Design adapted to speed of connection"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Rfsj8Kq0EeWjM-flWsQ7sg" name="" client="_ed9F8KD3EeWAlK9P2ItRIg" supplier="_yac0IKD4EeWAlK9P2ItRIg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_kM5p8Kq0EeWjM-flWsQ7sg" name="Connection mobile application-server"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5_sn4Kq0EeWjM-flWsQ7sg" name="Connection drone-server"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_MpfNgKq1EeWjM-flWsQ7sg" name="" client="_ij9nIKD5EeWAlK9P2ItRIg" supplier="_5_sn4Kq0EeWjM-flWsQ7sg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_QOuO0Kq1EeWjM-flWsQ7sg" name="" client="_ij9nIKD5EeWAlK9P2ItRIg" supplier="_kM5p8Kq0EeWjM-flWsQ7sg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_wWU_4KCuEeW83YomzJF75w" name="3. Performance Requirements">
         <ownedComment xmi:type="uml:Comment" xmi:id="_QxPEoKCyEeW83YomzJF75w">
@@ -1025,17 +1029,16 @@ saying to the user that he is not in the correct point, and cancels the guidance
   <ModelElements:Rationale xmi:id="_l_CCoKCzEeW83YomzJF75w" base_Comment="_l-4RoKCzEeW83YomzJF75w"/>
   <Requirements:DeriveReqt xmi:id="_wxwBgKC3EeW83YomzJF75w" base_Abstraction="_wxuMUaC3EeW83YomzJF75w"/>
   <ModelElements:Rationale xmi:id="_2U9ycKC3EeW83YomzJF75w" base_Comment="_2U0BcKC3EeW83YomzJF75w"/>
-  <Requirements:Requirement xmi:id="_1cmd4KD1EeWAlK9P2ItRIg" text="The user shall be able to know whether the system is available or not at every moment." id="UR2" base_Class="_1bTdYKD1EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_1cmd4KD1EeWAlK9P2ItRIg" text="The user shall be able to know whether the system is available or not at every moment.&#xD;&#xA;Traced to: U1.2 &quot;Ease of use&quot; under User Requirements-> Students Requirements" id="UR2" base_Class="_1bTdYKD1EeWAlK9P2ItRIg"/>
   <Requirements:DeriveReqt xmi:id="_g1HAAKD2EeWAlK9P2ItRIg" base_Abstraction="_gzgdgKD2EeWAlK9P2ItRIg"/>
-  <Requirements:Requirement xmi:id="_2CBCoKD2EeWAlK9P2ItRIg" text="The interface of the mobile application shall be clear, simple, understandable and balanced." id="UR4" base_Class="_2BHqwKD2EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_2CBCoKD2EeWAlK9P2ItRIg" text="The interface of the mobile application shall be clear, simple, understandable and balanced.&#xD;&#xA;Traced to: U1.2.2 &quot;Easy-to-use user interface&quot; under User Requirements-> Students Requirements" id="UR4" base_Class="_2BHqwKD2EeWAlK9P2ItRIg"/>
   <Requirements:DeriveReqt xmi:id="_XJARoKD3EeWAlK9P2ItRIg" base_Abstraction="_XH1M8KD3EeWAlK9P2ItRIg"/>
-  <Requirements:Requirement xmi:id="_eevJEKD3EeWAlK9P2ItRIg" text="The mobile application shall be able to know the state of the user from time to time" id="UR3" base_Class="_ed9F8KD3EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_eevJEKD3EeWAlK9P2ItRIg" text="The mobile application shall be able to know the state of the user from time to time.&#xD;&#xA;Traced to: U1.3 &quot;Usefulness&quot; under User Requirements-> Students Requirements" id="UR3" base_Class="_ed9F8KD3EeWAlK9P2ItRIg"/>
   <Requirements:DeriveReqt xmi:id="_6HqM4KD3EeWAlK9P2ItRIg" base_Abstraction="_6GfvQKD3EeWAlK9P2ItRIg"/>
   <Requirements:Requirement xmi:id="_QbvS8KD4EeWAlK9P2ItRIg" text="The mobile application shall contain the information of availability at every moment." id="UR2.1" base_Class="_Qa_FAKD4EeWAlK9P2ItRIg"/>
   <Requirements:DeriveReqt xmi:id="_tgk7IKD4EeWAlK9P2ItRIg" base_Abstraction="_tfdg0KD4EeWAlK9P2ItRIg"/>
   <Requirements:Requirement xmi:id="_ybO3QKD4EeWAlK9P2ItRIg" text="The mobile application shall communicate with the user from time to time to know his state." id="UR3.1" base_Class="_yac0IKD4EeWAlK9P2ItRIg"/>
-  <Requirements:DeriveReqt xmi:id="_MCGjwKD5EeWAlK9P2ItRIg" base_Abstraction="_MAXeYKD5EeWAlK9P2ItRIg"/>
-  <Requirements:Requirement xmi:id="_ik8ekKD5EeWAlK9P2ItRIg" text="The design of the mobile application shall agree with the connection speed of the system." id="UR5" base_Class="_ij9nIKD5EeWAlK9P2ItRIg"/>
+  <Requirements:Requirement xmi:id="_ik8ekKD5EeWAlK9P2ItRIg" text="The design of the mobile application shall agree with the connection speed of the system.&#xD;&#xA;Traced to: U1.3 &quot;Usefulness&quot; under User Requirements-> Students Requirements" id="UR5" base_Class="_ij9nIKD5EeWAlK9P2ItRIg"/>
   <Requirements:DeriveReqt xmi:id="_9vkc0KD5EeWAlK9P2ItRIg" base_Abstraction="_9tuCsKD5EeWAlK9P2ItRIg"/>
   <Requirements:Requirement xmi:id="_EfugkKF_EeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses.         Trace to U1.1" id="SS1" base_Class="_Ec1koKF_EeW2oLsE_WICRw"/>
   <Requirements:Requirement xmi:id="_15CukKF_EeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_140FEKF_EeW2oLsE_WICRw"/>
@@ -1188,4 +1191,9 @@ saying to the user that he is not in the correct point, and cancels the guidance
   <Requirements:Requirement xmi:id="_NCz84KmLEeWT0rELCh659g" text="If the drone is inside a room where all doors are closed, the system has to be abel to send an warning including where is it" id="SS4" base_Class="_NCS_gKmLEeWT0rELCh659g"/>
   <Requirements:Requirement xmi:id="_NC3nQKmLEeWT0rELCh659g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_NCS_gamLEeWT0rELCh659g"/>
   <Requirements:Requirement xmi:id="_NC7RoKmLEeWT0rELCh659g" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_NCS_g6mLEeWT0rELCh659g"/>
+  <Requirements:DeriveReqt xmi:id="_RhkzQKq0EeWjM-flWsQ7sg" base_Abstraction="_Rfsj8Kq0EeWjM-flWsQ7sg"/>
+  <Requirements:Requirement xmi:id="_kN0P8Kq0EeWjM-flWsQ7sg" text="The mobile application shall be designed so that communication with the server is done properly" id="UR5.2" base_Class="_kM5p8Kq0EeWjM-flWsQ7sg"/>
+  <Requirements:Requirement xmi:id="_6AkxoKq0EeWjM-flWsQ7sg" text="The system shall be designed so that the connection drone-server is done properly" id="UR5.1" base_Class="_5_sn4Kq0EeWjM-flWsQ7sg"/>
+  <Requirements:DeriveReqt xmi:id="_Mrc8YKq1EeWjM-flWsQ7sg" base_Abstraction="_MpfNgKq1EeWjM-flWsQ7sg"/>
+  <Requirements:DeriveReqt xmi:id="_QQd7QKq1EeWjM-flWsQ7sg" base_Abstraction="_QOuO0Kq1EeWjM-flWsQ7sg"/>
 </xmi:XMI>
