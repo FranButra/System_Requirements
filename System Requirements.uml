@@ -141,7 +141,27 @@ Identification: EC1.1&#xD;
         </ownedComment>
         <packagedElement xmi:type="uml:Package" xmi:id="_hgBgsKCzEeW83YomzJF75w" name="8. Environmental Conditions">
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_hgBgsaCzEeW83YomzJF75w" name="" client="_hgBgsKCzEeW83YomzJF75w" supplier="_b_ZREKCwEeW83YomzJF75w"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_YoWSEKv7EeWUscpRR1nnaQ" client="_hgBgsKCzEeW83YomzJF75w" supplier="_95d8AKv3EeWUscpRR1nnaQ"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_a7muIKv7EeWUscpRR1nnaQ" client="_hgBgsKCzEeW83YomzJF75w" supplier="_Fy26IKv4EeWUscpRR1nnaQ"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_ekC0cKv7EeWUscpRR1nnaQ" client="_hgBgsKCzEeW83YomzJF75w" supplier="_QXEfwKv4EeWUscpRR1nnaQ"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_95d8AKv3EeWUscpRR1nnaQ" name="Environmental Conditions&#xD;"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_CmE1EKv4EeWUscpRR1nnaQ" name="Low noise"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EmGzIKv4EeWUscpRR1nnaQ" name="WIFI communications&#xD;"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Fy26IKv4EeWUscpRR1nnaQ" name="Environmental Friendly&#xD;"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OGzGQKv4EeWUscpRR1nnaQ" name="Low-carbon footprint&#xD;"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PDew8Kv4EeWUscpRR1nnaQ" name="Recyclable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QXEfwKv4EeWUscpRR1nnaQ" name="Comply with Regulation"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RVw8oKv4EeWUscpRR1nnaQ" name="The drone must be identified&#xD;"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SOKkQKv4EeWUscpRR1nnaQ" name="Fly in UPM ETSII facilities&#xD;"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UVFNcKv4EeWUscpRR1nnaQ" name="Low-risk drone"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_kHyJ0Kv7EeWUscpRR1nnaQ" client="_95d8AKv3EeWUscpRR1nnaQ" supplier="_CmE1EKv4EeWUscpRR1nnaQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_mmbWgKv7EeWUscpRR1nnaQ" client="_95d8AKv3EeWUscpRR1nnaQ" supplier="_EmGzIKv4EeWUscpRR1nnaQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_tZLcsKv7EeWUscpRR1nnaQ" client="_Fy26IKv4EeWUscpRR1nnaQ" supplier="_OGzGQKv4EeWUscpRR1nnaQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ugr3UKv7EeWUscpRR1nnaQ" client="_Fy26IKv4EeWUscpRR1nnaQ" supplier="_PDew8Kv4EeWUscpRR1nnaQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_wjhRwKv7EeWUscpRR1nnaQ" client="_QXEfwKv4EeWUscpRR1nnaQ" supplier="_SOKkQKv4EeWUscpRR1nnaQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_zPqH4Kv7EeWUscpRR1nnaQ" client="_QXEfwKv4EeWUscpRR1nnaQ" supplier="_RVw8oKv4EeWUscpRR1nnaQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_4zXoEKv7EeWUscpRR1nnaQ" name="" client="_QXEfwKv4EeWUscpRR1nnaQ" supplier="_UVFNcKv4EeWUscpRR1nnaQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_Mp48IKCvEeW83YomzJF75w" name="9. Information Management Specification">
         <ownedComment xmi:type="uml:Comment" xmi:id="_Pd9EgKGGEeWHfcy6hmg9jA">
@@ -1196,4 +1216,24 @@ saying to the user that he is not in the correct point, and cancels the guidance
   <Requirements:Requirement xmi:id="_6AkxoKq0EeWjM-flWsQ7sg" text="The system shall be designed so that the connection drone-server is done properly" id="UR5.1" base_Class="_5_sn4Kq0EeWjM-flWsQ7sg"/>
   <Requirements:DeriveReqt xmi:id="_Mrc8YKq1EeWjM-flWsQ7sg" base_Abstraction="_MpfNgKq1EeWjM-flWsQ7sg"/>
   <Requirements:DeriveReqt xmi:id="_QQd7QKq1EeWjM-flWsQ7sg" base_Abstraction="_QOuO0Kq1EeWjM-flWsQ7sg"/>
+  <Requirements:Requirement xmi:id="_95kCoKv3EeWUscpRR1nnaQ" text="The system shall respect natural and induced environmental conditions (noise, electromagnetic, ...). &#xA;Traced to: Requirements. U1.4. &quot;Environmental Concerns&quot;, Students requirement" id="ER1" base_Class="_95d8AKv3EeWUscpRR1nnaQ"/>
+  <Requirements:Requirement xmi:id="_CmIfcKv4EeWUscpRR1nnaQ" text="The system shall produce noise below 60dB." id="ER1.1" base_Class="_CmE1EKv4EeWUscpRR1nnaQ"/>
+  <Requirements:Requirement xmi:id="_EmIoUKv4EeWUscpRR1nnaQ" text="The system shall use WIFI in 2.4GHz or 5 GHz. " id="ER1.2" base_Class="_EmGzIKv4EeWUscpRR1nnaQ"/>
+  <Requirements:Requirement xmi:id="_Fy4vUKv4EeWUscpRR1nnaQ" text="The resulting  system must be environmental friendly. &#xA;Traced to: Requirements. U1.4. &quot;Environmental Concerns&quot;, Students requirement" id="ER2" base_Class="_Fy26IKv4EeWUscpRR1nnaQ"/>
+  <Requirements:Requirement xmi:id="_OG07cKv4EeWUscpRR1nnaQ" text="The drone used should by manufactured following a low carbon footprint process. It should be below 60 Kg. of CO2." id="UR2.1" base_Class="_OGzGQKv4EeWUscpRR1nnaQ"/>
+  <Requirements:Requirement xmi:id="_PDgmIKv4EeWUscpRR1nnaQ" text="The drone used should be made of recyclable materials (ion-litium batteries,  integrated circuits, and thermoplastics, …)" id="UR2.2" base_Class="_PDew8Kv4EeWUscpRR1nnaQ"/>
+  <Requirements:Requirement xmi:id="_QXG8AKv4EeWUscpRR1nnaQ" text="The system shall respect Spanish legal and regulatory conditions for low-risk drones.&#xA;Traced to: Requirements. U1.4. &quot;Environmental Concerns&quot;, Students requirement" id="ER3" base_Class="_QXEfwKv4EeWUscpRR1nnaQ"/>
+  <Requirements:Requirement xmi:id="_RVyKwKv4EeWUscpRR1nnaQ" text="The system shall have an identification that must be included in communications." id="ER3.1" base_Class="_RVw8oKv4EeWUscpRR1nnaQ"/>
+  <Requirements:Requirement xmi:id="_SOLyYKv4EeWUscpRR1nnaQ" text="The system shall fly only inside ETSII installations avoiding fly in open space. Geo-fencing should be used to avoid crossing limits." id="ER3.3" base_Class="_SOKkQKv4EeWUscpRR1nnaQ"/>
+  <Requirements:Requirement xmi:id="_UVGbkKv4EeWUscpRR1nnaQ" text="The system shall weight less than 2 Kg, fly lower than 120 meters, and fly with daylight." id="ER3.2" base_Class="_UVFNcKv4EeWUscpRR1nnaQ"/>
+  <Requirements:DeriveReqt xmi:id="_YqPIcKv7EeWUscpRR1nnaQ" base_Abstraction="_YoWSEKv7EeWUscpRR1nnaQ"/>
+  <Requirements:DeriveReqt xmi:id="_a9YPwKv7EeWUscpRR1nnaQ" base_Abstraction="_a7muIKv7EeWUscpRR1nnaQ"/>
+  <Requirements:DeriveReqt xmi:id="_elyg4Kv7EeWUscpRR1nnaQ" base_Abstraction="_ekC0cKv7EeWUscpRR1nnaQ"/>
+  <Requirements:DeriveReqt xmi:id="_kJVpAKv7EeWUscpRR1nnaQ" base_Abstraction="_kHyJ0Kv7EeWUscpRR1nnaQ"/>
+  <Requirements:DeriveReqt xmi:id="_mn8ZcKv7EeWUscpRR1nnaQ" base_Abstraction="_mmbWgKv7EeWUscpRR1nnaQ"/>
+  <Requirements:DeriveReqt xmi:id="_tbDsAKv7EeWUscpRR1nnaQ" base_Abstraction="_tZLcsKv7EeWUscpRR1nnaQ"/>
+  <Requirements:DeriveReqt xmi:id="_uiWrQKv7EeWUscpRR1nnaQ" base_Abstraction="_ugr3UKv7EeWUscpRR1nnaQ"/>
+  <Requirements:DeriveReqt xmi:id="_wlbWQKv7EeWUscpRR1nnaQ" base_Abstraction="_wjhRwKv7EeWUscpRR1nnaQ"/>
+  <Requirements:DeriveReqt xmi:id="_zRXYEKv7EeWUscpRR1nnaQ" base_Abstraction="_zPqH4Kv7EeWUscpRR1nnaQ"/>
+  <Requirements:DeriveReqt xmi:id="_41OpQKv7EeWUscpRR1nnaQ" base_Abstraction="_4zXoEKv7EeWUscpRR1nnaQ"/>
 </xmi:XMI>
