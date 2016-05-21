@@ -19,12 +19,228 @@ Traced to: Enginnering team discussion on 7-12-15&#xD;
 This version was shared on: 10-12-15, 18:45&#xD;
 USER REQUIREMENTS have been investigated and classified according to the differernt stakeholders in the project</body>
       </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_tJ9WMRRMEeaBl-joRckJAg">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_tJ9WMRRMEeaBl-joRckJAg" annotatedElement="_-R0ukBXXEeaAKLZqDvLp5A">
         <body>No requirements was addressed by drone manufacturers&#xD;
 </body>
       </ownedComment>
       <packagedElement xmi:type="uml:Package" xmi:id="_tJ9WMhRMEeaBl-joRckJAg" name="User Requirements">
         <packagedElement xmi:type="uml:Package" xmi:id="_tJ9WMxRMEeaBl-joRckJAg" name="User Requirements"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WNhRMEeaBl-joRckJAg" name="Stakeholders">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WNxRMEeaBl-joRckJAg" name=" " type="_tJ9WPRRMEeaBl-joRckJAg" aggregation="composite" association="_tKBnoBRMEeaBl-joRckJAg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WOBRMEeaBl-joRckJAg" name=" " type="_tJ9WPhRMEeaBl-joRckJAg" aggregation="composite" association="_tKBAvBRMEeaBl-joRckJAg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WORRMEeaBl-joRckJAg" name=" " type="_tJ9WQhRMEeaBl-joRckJAg" aggregation="composite" association="_tKBnpBRMEeaBl-joRckJAg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WOhRMEeaBl-joRckJAg" name=" " type="_tJ9WQRRMEeaBl-joRckJAg" aggregation="composite" association="_tKBAtBRMEeaBl-joRckJAg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WOxRMEeaBl-joRckJAg" name=" " type="_tJ9WPxRMEeaBl-joRckJAg" aggregation="composite" association="_tKBAuBRMEeaBl-joRckJAg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WPBRMEeaBl-joRckJAg" name=" " type="_tJ9WQBRMEeaBl-joRckJAg" aggregation="composite" association="_tKBnqBRMEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WPRRMEeaBl-joRckJAg" name="0. Drone manufacturers"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WPhRMEeaBl-joRckJAg" name="1. Students and final users"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WPxRMEeaBl-joRckJAg" name="2. University administrators"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WQBRMEeaBl-joRckJAg" name="3. Drone regulators"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WQRRMEeaBl-joRckJAg" name="4. Operators and pilots"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WQhRMEeaBl-joRckJAg" name="5. Installing and maintenance staff"/>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tJ9WQxRMEeaBl-joRckJAg" memberEnd="_tJ9WRhRMEeaBl-joRckJAg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tJ9WRBRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tJ9WRRRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tJ9WRhRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tJ9WQxRMEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tJ9WRxRMEeaBl-joRckJAg" memberEnd="_tJ9WShRMEeaBl-joRckJAg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tJ9WSBRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tJ9WSRRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tJ9WShRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tJ9WRxRMEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tJ9WSxRMEeaBl-joRckJAg" memberEnd="_tJ9WThRMEeaBl-joRckJAg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tJ9WTBRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tJ9WTRRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tJ9WThRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tJ9WSxRMEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tJ9WTxRMEeaBl-joRckJAg" memberEnd="_tJ9WUhRMEeaBl-joRckJAg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tJ9WUBRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tJ9WURRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tJ9WUhRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tJ9WTxRMEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tJ9WUxRMEeaBl-joRckJAg" memberEnd="_tJ9WVhRMEeaBl-joRckJAg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tJ9WVBRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tJ9WVRRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tJ9WVhRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tJ9WUxRMEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tJ9WVxRMEeaBl-joRckJAg" memberEnd="_tJ9WWhRMEeaBl-joRckJAg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tJ9WWBRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tJ9WWRRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tJ9WWhRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tJ9WVxRMEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_VXwP0BRNEeaBl-joRckJAg" name="Students' requirements">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Z5jAABRNEeaBl-joRckJAg" name="Security"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_sTZsMBRNEeaBl-joRckJAg" name="Ease of use">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_y2iCABRNEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_zGAocBRNEeaBl-joRckJAg" name="Usefulness">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_zGAocRRNEeaBl-joRckJAg" name="Security"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_5Vj68BRNEeaBl-joRckJAg" name="Usefulness">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_5Vj68RRNEeaBl-joRckJAg" name="Security"/>
+            </nestedClassifier>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_5ncVIBRNEeaBl-joRckJAg" name="Environmental concern">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_5ncVIRRNEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_KSTI4BROEeaBl-joRckJAg" name=" " client="_Z5jAABRNEeaBl-joRckJAg" supplier="_EQohYBROEeaBl-joRckJAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_ZnLoMBROEeaBl-joRckJAg" name=" " client="_zGAocBRNEeaBl-joRckJAg" supplier="_TIWjkBROEeaBl-joRckJAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_almYQBROEeaBl-joRckJAg" name=" " client="_zGAocBRNEeaBl-joRckJAg" supplier="_NZxQIBROEeaBl-joRckJAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_sjT7ABROEeaBl-joRckJAg" name=" " client="_sTZsMBRNEeaBl-joRckJAg" supplier="_ejOEYBROEeaBl-joRckJAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_toKDMBROEeaBl-joRckJAg" name=" " client="_sTZsMBRNEeaBl-joRckJAg" supplier="_fHDKMBROEeaBl-joRckJAg"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_EQohYBROEeaBl-joRckJAg" name="Collision avoidance"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_NZxQIBROEeaBl-joRckJAg" name="Efficiency">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_NZxQIRROEeaBl-joRckJAg" name="Security"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_NZxQIhROEeaBl-joRckJAg" name="Usefulness">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_NZxQIxROEeaBl-joRckJAg" name="Security"/>
+            </nestedClassifier>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_TIWjkBROEeaBl-joRckJAg" name="Reliability">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_TIWjkRROEeaBl-joRckJAg" name="Security"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_TIWjkhROEeaBl-joRckJAg" name="Usefulness">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_TIWjkxROEeaBl-joRckJAg" name="Security"/>
+            </nestedClassifier>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ejOEYBROEeaBl-joRckJAg" name="Easy drone tracking">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_ejOEYRROEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_fHDKMBROEeaBl-joRckJAg" name="Easy-to-use user interface">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_fHDKMRROEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vHgWEBROEeaBl-joRckJAg" name="Instruction set">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_vHgWERROEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_wa-wIBROEeaBl-joRckJAg" name="Mobile device app">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_wa-wIRROEeaBl-joRckJAg" name="Security"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_xWn5ABROEeaBl-joRckJAg" name="Ease of use">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_xWn5ARROEeaBl-joRckJAg" name="Security"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_-v_G0BROEeaBl-joRckJAg" name="Mobile device app" visibility="public"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_xw_g0BROEeaBl-joRckJAg" name="Languages">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_xw_g0RROEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_DbP8EBRPEeaBl-joRckJAg" name=" " client="_fHDKMBROEeaBl-joRckJAg" supplier="_xw_g0BROEeaBl-joRckJAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_ErifQBRPEeaBl-joRckJAg" name=" " client="_fHDKMBROEeaBl-joRckJAg" supplier="_wa-wIBROEeaBl-joRckJAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_F7LiMBRPEeaBl-joRckJAg" name=" " client="_fHDKMBROEeaBl-joRckJAg" supplier="_vHgWEBROEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_YzmZsBRPEeaBl-joRckJAg" name="University administrators' requirements">
+          <packagedElement xmi:type="uml:Class" xmi:id="_WyiEYBRQEeaBl-joRckJAg" name="Legality">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_WyiEYRRQEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_JKPX0BRSEeaBl-joRckJAg" name="Zero interference aim">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_JKPX0RRSEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_eparoBRREeaBl-joRckJAg" name="Easiness of operation">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_eparoRRREeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_UVuOQBRREeaBl-joRckJAg" name="Visibility">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_UVuOQRRREeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_GsLE0BRQEeaBl-joRckJAg" name="Security">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_J5PdwBRQEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_mX9hIBRQEeaBl-joRckJAg" name="Corporate image">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_mX9hIRRQEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oS1c8BRREeaBl-joRckJAg" name="Developability">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_oS1c8RRREeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_XzHswBRSEeaBl-joRckJAg" name=" " client="_oS1c8BRREeaBl-joRckJAg" supplier="_BgD6YBRSEeaBl-joRckJAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_YnZpYBRSEeaBl-joRckJAg" name=" " client="_mX9hIBRQEeaBl-joRckJAg" supplier="_N74-YBRREeaBl-joRckJAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Zr6aYBRSEeaBl-joRckJAg" name=" " client="_mX9hIBRQEeaBl-joRckJAg" supplier="_rAADQBRQEeaBl-joRckJAg"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_rAADQBRQEeaBl-joRckJAg" name="Reliability">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_rAADQRRQEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_N74-YBRREeaBl-joRckJAg" name="Efficiency">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_N74-YRRREeaBl-joRckJAg" name="Security"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_N74-YhRREeaBl-joRckJAg" name="Usefulness">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_N74-YxRREeaBl-joRckJAg" name="Security"/>
+            </nestedClassifier>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_BgD6YBRSEeaBl-joRckJAg" name="Documentation">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_BgD6YRRSEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_nWNnMBRSEeaBl-joRckJAg" name="Drone regulators' requirements">
+          <packagedElement xmi:type="uml:Class" xmi:id="_tCvsMBRSEeaBl-joRckJAg" name="Legality">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_tCvsMRRSEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_voDhkBRSEeaBl-joRckJAg" name="Responsability"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_qhYisBRSEeaBl-joRckJAg" name="Security"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_J2DfgBRTEeaBl-joRckJAg" name="Operators' and pilots' requirements">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Mxze8BRTEeaBl-joRckJAg" name="Automation">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_Mxze8RRTEeaBl-joRckJAg" name="Security"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_Mxze8hRTEeaBl-joRckJAg" name="Usefulness">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Mxze8xRTEeaBl-joRckJAg" name="Security"/>
+            </nestedClassifier>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_fC6e0BRTEeaBl-joRckJAg" name="Installing and maintenance staff's requirements">
+          <packagedElement xmi:type="uml:Class" xmi:id="_mKeXYBRTEeaBl-joRckJAg" name="Staffing">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_mKeXYRRTEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_muOksBRTEeaBl-joRckJAg" name="Emergency location signal">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_muOksRRTEeaBl-joRckJAg" name="Security"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_nIA9sBRTEeaBl-joRckJAg" name="CopyOf_Security_1">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_nIA9sRRTEeaBl-joRckJAg" name="Security"/>
+            </nestedClassifier>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_nZRs0BRTEeaBl-joRckJAg" name="Easiness of operation">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_nZRs0RRTEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_qrN-sBRTEeaBl-joRckJAg" name="Documentation">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_qrN-sRRTEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_TFGzkBRUEeaBl-joRckJAg" name=" " client="_mKeXYBRTEeaBl-joRckJAg" supplier="_yQDpIBRTEeaBl-joRckJAg"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_yQDpIBRTEeaBl-joRckJAg" name="Staff hiring">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_yQDpIRRTEeaBl-joRckJAg" name="Security"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_-R0ukBXXEeaAKLZqDvLp5A" name="Drone manufacturers' requirements"/>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tKBAtBRMEeaBl-joRckJAg" memberEnd="_tKBAtxRMEeaBl-joRckJAg _tJ9WOhRMEeaBl-joRckJAg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBAtRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBAthRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tKBAtxRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tKBAtBRMEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tKBAuBRMEeaBl-joRckJAg" memberEnd="_tKBAuxRMEeaBl-joRckJAg _tJ9WOxRMEeaBl-joRckJAg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBAuRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBAuhRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tKBAuxRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tKBAuBRMEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tKBAvBRMEeaBl-joRckJAg" memberEnd="_tKBAvxRMEeaBl-joRckJAg _tJ9WOBRMEeaBl-joRckJAg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBAvRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBAvhRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tKBAvxRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tKBAvBRMEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tKBnoBRMEeaBl-joRckJAg" memberEnd="_tKBnoxRMEeaBl-joRckJAg _tJ9WNxRMEeaBl-joRckJAg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBnoRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBnohRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tKBnoxRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tKBnoBRMEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tKBnpBRMEeaBl-joRckJAg" memberEnd="_tKBnpxRMEeaBl-joRckJAg _tJ9WORRMEeaBl-joRckJAg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBnpRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBnphRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tKBnpxRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tKBnpBRMEeaBl-joRckJAg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tKBnqBRMEeaBl-joRckJAg" memberEnd="_tKBnqxRMEeaBl-joRckJAg _tJ9WPBRMEeaBl-joRckJAg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBnqRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBnqhRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tKBnqxRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tKBnqBRMEeaBl-joRckJAg"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_tJ9WNBRMEeaBl-joRckJAg" name="System requirements" URI="">
         <ownedComment xmi:type="uml:Comment" xmi:id="_7Xa8YBT6EeaBl-joRckJAg">
@@ -37,57 +253,33 @@ USER REQUIREMENTS have been investigated and classified according to the differe
         <packagedElement xmi:type="uml:Package" xmi:id="_mjQ7gBT7EeaBl-joRckJAg" name="1. Functional requirements">
           <ownedComment xmi:type="uml:Comment" xmi:id="_S2TMMBT8EeaBl-joRckJAg">
             <body>FUNCTIONAL REQUIREMENTS&#xD;
-Verision Dic15-17, developed and written down by Alberto Díaz&#xD;
-Identification: FR1.1</body>
+Identification: FR1.1&#xD;
+1st Version Dic15-17, developed and written down by Alberto Díaz&#xD;
+2nd Version May16-21, modifications made by Alberto Díaz&#xD;
+&#xD;
+</body>
           </ownedComment>
           <ownedComment xmi:type="uml:Comment" xmi:id="_S2TMMRT8EeaBl-joRckJAg" annotatedElement="_S2SlIBT8EeaBl-joRckJAg">
             <body>FUNCTIONAL REQUIREMENTS: should include a detailed explanation of all the requirements applicable to system operation. Definition of the different functions that the system must have. This functions must be listed in order of decreasing importance and explain in detail</body>
           </ownedComment>
           <packagedElement xmi:type="uml:Package" xmi:id="_S2SlIBT8EeaBl-joRckJAg" name="1. Functional Requirements">
-            <packagedElement xmi:type="uml:Abstraction" xmi:id="_S2SlIRT8EeaBl-joRckJAg" name="" client="_S2SlIBT8EeaBl-joRckJAg">
-              <supplier xmi:type="uml:Class" href="System%20Requirements.uml#_b_ZREKCwEeW83YomzJF75w"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_G9Wy0BT9EeaBl-joRckJAg" name="System interactions">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Jc4d8B89EeaSQLDyyOML2w" name="User interaction"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_S5fiUB89EeaSQLDyyOML2w" name="Environment interaction"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Package" xmi:id="_S2SlIhT8EeaBl-joRckJAg" name="Types of information">
-              <packagedElement xmi:type="uml:Package" xmi:id="_S2SlIxT8EeaBl-joRckJAg" name="Received information">
-                <packagedElement xmi:type="uml:Abstraction" xmi:id="_S2SlJBT8EeaBl-joRckJAg" name="" client="_S2SlIxT8EeaBl-joRckJAg">
-                  <supplier xmi:type="uml:Class" href="System%20Requirements.uml#__vxawKGNEeWHfcy6hmg9jA"/>
-                </packagedElement>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Package" xmi:id="_S2SlJRT8EeaBl-joRckJAg" name="Newly produced information">
-                <packagedElement xmi:type="uml:Package" xmi:id="_S2SlJhT8EeaBl-joRckJAg" name="Code">
-                  <packagedElement xmi:type="uml:Abstraction" xmi:id="_S2SlJxT8EeaBl-joRckJAg" name="" client="_S2SlJhT8EeaBl-joRckJAg">
-                    <supplier xmi:type="uml:Class" href="System%20Requirements.uml#_292uoKGMEeWHfcy6hmg9jA"/>
-                  </packagedElement>
-                </packagedElement>
-                <packagedElement xmi:type="uml:Package" xmi:id="_S2SlKBT8EeaBl-joRckJAg" name="Models">
-                  <packagedElement xmi:type="uml:Abstraction" xmi:id="_S2SlKRT8EeaBl-joRckJAg" name="" client="_S2SlKBT8EeaBl-joRckJAg">
-                    <supplier xmi:type="uml:Class" href="System%20Requirements.uml#_m30fMKGMEeWHfcy6hmg9jA"/>
-                  </packagedElement>
-                </packagedElement>
-                <packagedElement xmi:type="uml:Package" xmi:id="_S2SlKhT8EeaBl-joRckJAg" name="Documents and presentations">
-                  <packagedElement xmi:type="uml:Abstraction" xmi:id="_S2SlKxT8EeaBl-joRckJAg" name="" client="_S2SlKhT8EeaBl-joRckJAg">
-                    <supplier xmi:type="uml:Class" href="System%20Requirements.uml#_FTrksKGNEeWHfcy6hmg9jA"/>
-                  </packagedElement>
-                </packagedElement>
-              </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_9UEkYBT8EeaBl-joRckJAg" name="Guidance">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_8UncoB87EeaSQLDyyOML2w" name="Navigation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_EbT28B88EeaSQLDyyOML2w" name="Orientation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_hib-IB88EeaSQLDyyOML2w" name="Decission making"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Abstraction" xmi:id="_S2SlLBT8EeaBl-joRckJAg" name="" client="_S2SlIBT8EeaBl-joRckJAg">
-              <supplier xmi:type="uml:Class" href="System%20Requirements.uml#_uBHIAKGKEeWHfcy6hmg9jA"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_4mpzABT8EeaBl-joRckJAg" name="Security requirements">
+              <packagedElement xmi:type="uml:Class" xmi:id="_PV4sgBXYEeaAKLZqDvLp5A" name="Requirement1"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Abstraction" xmi:id="_S2SlLRT8EeaBl-joRckJAg" name="" client="_S2SlIBT8EeaBl-joRckJAg">
-              <supplier xmi:type="uml:Class" href="System%20Requirements.uml#_O0VtgKGLEeWHfcy6hmg9jA"/>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Abstraction" xmi:id="_S2SlLhT8EeaBl-joRckJAg" name="" client="_S2SlIBT8EeaBl-joRckJAg">
-              <supplier xmi:type="uml:Class" href="System%20Requirements.uml#_JGhZoKGMEeWHfcy6hmg9jA"/>
-            </packagedElement>
+            <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ch2JAB8-EeaSQLDyyOML2w" name=" " client="_9UEkYBT8EeaBl-joRckJAg" supplier="_8UncoB87EeaSQLDyyOML2w"/>
+            <packagedElement xmi:type="uml:Abstraction" xmi:id="_DxlSkB8-EeaSQLDyyOML2w" name=" " client="_9UEkYBT8EeaBl-joRckJAg" supplier="_hib-IB88EeaSQLDyyOML2w"/>
+            <packagedElement xmi:type="uml:Abstraction" xmi:id="_GFG0YB8-EeaSQLDyyOML2w" name=" " client="_9UEkYBT8EeaBl-joRckJAg" supplier="_EbT28B88EeaSQLDyyOML2w"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Package" xmi:id="_4mpzABT8EeaBl-joRckJAg" name="Security requirements"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_9UEkYBT8EeaBl-joRckJAg" name="Guidance">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_9UEkYRT8EeaBl-joRckJAg" name="Security"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_G9Wy0BT9EeaBl-joRckJAg" name="User interaction">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_G9Wy0RT9EeaBl-joRckJAg" name="Security"/>
-          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_c17KEBXYEeaAKLZqDvLp5A" name="Requirement1"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_n_54oBT7EeaBl-joRckJAg" name="Non functional requirements">
           <packagedElement xmi:type="uml:Package" xmi:id="_sCVMQBT7EeaBl-joRckJAg" name="2. Usability requirements">
@@ -355,6 +547,74 @@ Identification: SI&#xD;
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_UljpuxUEEeaBl-joRckJAg" name="Connection mobile application-server"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_UljpvBUEEeaBl-joRckJAg" name="Accessible Interface"/>
+              <packagedElement xmi:type="uml:Package" xmi:id="_SMIbIB8_EeaSQLDyyOML2w" name="Types of information">
+                <packagedElement xmi:type="uml:Package" xmi:id="_UXyaYB8_EeaSQLDyyOML2w" name="Newly produced information">
+                  <packagedElement xmi:type="uml:Package" xmi:id="_YstzQB8_EeaSQLDyyOML2w" name="Documents and presentations">
+                    <packagedElement xmi:type="uml:Class" xmi:id="_rs_mQB8_EeaSQLDyyOML2w" name="Collaborative documentation management">
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_rs_mQR8_EeaSQLDyyOML2w" name="Navigation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_rs_mQh8_EeaSQLDyyOML2w" name="Orientation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_rs_mQx8_EeaSQLDyyOML2w" name="Decission making"/>
+                    </packagedElement>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_cca_MB8_EeaSQLDyyOML2w" name="Code">
+                    <packagedElement xmi:type="uml:Class" xmi:id="_2WLLcB8_EeaSQLDyyOML2w" name="Code Management">
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_2WLLcR8_EeaSQLDyyOML2w" name="Navigation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_2WLLch8_EeaSQLDyyOML2w" name="Orientation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_2WLLcx8_EeaSQLDyyOML2w" name="Decission making"/>
+                    </packagedElement>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_WphMcB8_EeaSQLDyyOML2w" name="Models">
+                    <packagedElement xmi:type="uml:Class" xmi:id="_fwleoB8_EeaSQLDyyOML2w" name="Models management">
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_fwleoR8_EeaSQLDyyOML2w" name="Navigation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_fwleoh8_EeaSQLDyyOML2w" name="Orientation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_fwleox8_EeaSQLDyyOML2w" name="Decission making"/>
+                    </packagedElement>
+                  </packagedElement>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Package" xmi:id="_BM_kAB9AEeaSQLDyyOML2w" name="Received information">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_FsYgcB9AEeaSQLDyyOML2w" name="Received documentation management">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_FsYgcR9AEeaSQLDyyOML2w" name="Navigation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_FsYgch9AEeaSQLDyyOML2w" name="Orientation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_FsYgcx9AEeaSQLDyyOML2w" name="Decission making"/>
+                  </packagedElement>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_SFGJkB9AEeaSQLDyyOML2w" name="Organization responsability">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_SFGJkR9AEeaSQLDyyOML2w" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_SFGJkh9AEeaSQLDyyOML2w" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_SFGJkx9AEeaSQLDyyOML2w" name="Decission making"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_WKUdEB9BEeaSQLDyyOML2w" name="Information organization">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_WKUdER9BEeaSQLDyyOML2w" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_WKUdEh9BEeaSQLDyyOML2w" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_WKUdEx9BEeaSQLDyyOML2w" name="Decission making"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_HS9nQB9BEeaSQLDyyOML2w" name="Information record">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_HS9nQR9BEeaSQLDyyOML2w" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_HS9nQh9BEeaSQLDyyOML2w" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_HS9nQx9BEeaSQLDyyOML2w" name="Decission making"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_jSseAB9AEeaSQLDyyOML2w" name="Information accesibility">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_jStFEB9AEeaSQLDyyOML2w" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_jStFER9AEeaSQLDyyOML2w" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_jStFEh9AEeaSQLDyyOML2w" name="Decission making"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_1h71oB9AEeaSQLDyyOML2w" name="Individual information accesibility">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_1h71oR9AEeaSQLDyyOML2w" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_1h71oh9AEeaSQLDyyOML2w" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_1h71ox9AEeaSQLDyyOML2w" name="Decission making"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_q3VUIB9AEeaSQLDyyOML2w" name="Collaborative information accesibility">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_q3VUIR9AEeaSQLDyyOML2w" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_q3VUIh9AEeaSQLDyyOML2w" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_q3VUIx9AEeaSQLDyyOML2w" name="Decission making"/>
+                </nestedClassifier>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_xyyN4B9BEeaSQLDyyOML2w" name=" " client="_HS9nQB9BEeaSQLDyyOML2w" supplier="_MMh-QB9BEeaSQLDyyOML2w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_MMh-QB9BEeaSQLDyyOML2w" name="Version history">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_MMh-QR9BEeaSQLDyyOML2w" name="Navigation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_MMh-Qh9BEeaSQLDyyOML2w" name="Orientation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_MMh-Qx9BEeaSQLDyyOML2w" name="Decission making"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_JQBOcBT8EeaBl-joRckJAg" name="9. System security" URI="">
@@ -396,223 +656,8 @@ Identification: SI&#xD;
           </packagedElement>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WNhRMEeaBl-joRckJAg" name="Stakeholders">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WNxRMEeaBl-joRckJAg" name=" " type="_tJ9WPRRMEeaBl-joRckJAg" aggregation="composite" association="_tKBnoBRMEeaBl-joRckJAg"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WOBRMEeaBl-joRckJAg" name=" " type="_tJ9WPhRMEeaBl-joRckJAg" aggregation="composite" association="_tKBAvBRMEeaBl-joRckJAg"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WORRMEeaBl-joRckJAg" name=" " type="_tJ9WQhRMEeaBl-joRckJAg" aggregation="composite" association="_tKBnpBRMEeaBl-joRckJAg"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WOhRMEeaBl-joRckJAg" name=" " type="_tJ9WQRRMEeaBl-joRckJAg" aggregation="composite" association="_tKBAtBRMEeaBl-joRckJAg"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WOxRMEeaBl-joRckJAg" name=" " type="_tJ9WPxRMEeaBl-joRckJAg" aggregation="composite" association="_tKBAuBRMEeaBl-joRckJAg"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WPBRMEeaBl-joRckJAg" name=" " type="_tJ9WQBRMEeaBl-joRckJAg" aggregation="composite" association="_tKBnqBRMEeaBl-joRckJAg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WPRRMEeaBl-joRckJAg" name="0. Drone manufacturers"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WPhRMEeaBl-joRckJAg" name="1. Students and final users"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WPxRMEeaBl-joRckJAg" name="2. University administrators"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WQBRMEeaBl-joRckJAg" name="3. Drone regulators"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WQRRMEeaBl-joRckJAg" name="4. Operators and pilots"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WQhRMEeaBl-joRckJAg" name="5. Installing and maintenance staff"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_tJ9WQxRMEeaBl-joRckJAg" memberEnd="_tJ9WRhRMEeaBl-joRckJAg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tJ9WRBRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tJ9WRRRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_tJ9WRhRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tJ9WQxRMEeaBl-joRckJAg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_tJ9WRxRMEeaBl-joRckJAg" memberEnd="_tJ9WShRMEeaBl-joRckJAg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tJ9WSBRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tJ9WSRRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_tJ9WShRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tJ9WRxRMEeaBl-joRckJAg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_tJ9WSxRMEeaBl-joRckJAg" memberEnd="_tJ9WThRMEeaBl-joRckJAg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tJ9WTBRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tJ9WTRRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_tJ9WThRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tJ9WSxRMEeaBl-joRckJAg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_tJ9WTxRMEeaBl-joRckJAg" memberEnd="_tJ9WUhRMEeaBl-joRckJAg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tJ9WUBRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tJ9WURRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_tJ9WUhRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tJ9WTxRMEeaBl-joRckJAg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_tJ9WUxRMEeaBl-joRckJAg" memberEnd="_tJ9WVhRMEeaBl-joRckJAg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tJ9WVBRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tJ9WVRRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_tJ9WVhRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tJ9WUxRMEeaBl-joRckJAg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_tJ9WVxRMEeaBl-joRckJAg" memberEnd="_tJ9WWhRMEeaBl-joRckJAg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tJ9WWBRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tJ9WWRRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_tJ9WWhRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tJ9WVxRMEeaBl-joRckJAg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_VXwP0BRNEeaBl-joRckJAg" name="Students' requirements">
-        <packagedElement xmi:type="uml:Class" xmi:id="_Z5jAABRNEeaBl-joRckJAg" name="Security"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_sTZsMBRNEeaBl-joRckJAg" name="Ease of use">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_y2iCABRNEeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_zGAocBRNEeaBl-joRckJAg" name="Usefulness">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_zGAocRRNEeaBl-joRckJAg" name="Security"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_5Vj68BRNEeaBl-joRckJAg" name="Usefulness">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_5Vj68RRNEeaBl-joRckJAg" name="Security"/>
-          </nestedClassifier>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_5ncVIBRNEeaBl-joRckJAg" name="Environmental concern">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_5ncVIRRNEeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_KSTI4BROEeaBl-joRckJAg" name=" " client="_Z5jAABRNEeaBl-joRckJAg" supplier="_EQohYBROEeaBl-joRckJAg"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ZnLoMBROEeaBl-joRckJAg" name=" " client="_zGAocBRNEeaBl-joRckJAg" supplier="_TIWjkBROEeaBl-joRckJAg"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_almYQBROEeaBl-joRckJAg" name=" " client="_zGAocBRNEeaBl-joRckJAg" supplier="_NZxQIBROEeaBl-joRckJAg"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_sjT7ABROEeaBl-joRckJAg" name=" " client="_sTZsMBRNEeaBl-joRckJAg" supplier="_ejOEYBROEeaBl-joRckJAg"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_toKDMBROEeaBl-joRckJAg" name=" " client="_sTZsMBRNEeaBl-joRckJAg" supplier="_fHDKMBROEeaBl-joRckJAg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_EQohYBROEeaBl-joRckJAg" name="Collision avoidance"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_NZxQIBROEeaBl-joRckJAg" name="Efficiency">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_NZxQIRROEeaBl-joRckJAg" name="Security"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_NZxQIhROEeaBl-joRckJAg" name="Usefulness">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_NZxQIxROEeaBl-joRckJAg" name="Security"/>
-        </nestedClassifier>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_TIWjkBROEeaBl-joRckJAg" name="Reliability">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_TIWjkRROEeaBl-joRckJAg" name="Security"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_TIWjkhROEeaBl-joRckJAg" name="Usefulness">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_TIWjkxROEeaBl-joRckJAg" name="Security"/>
-        </nestedClassifier>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_ejOEYBROEeaBl-joRckJAg" name="Easy drone tracking">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_ejOEYRROEeaBl-joRckJAg" name="Security"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_fHDKMBROEeaBl-joRckJAg" name="Easy-to-use user interface">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_fHDKMRROEeaBl-joRckJAg" name="Security"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_vHgWEBROEeaBl-joRckJAg" name="Instruction set">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_vHgWERROEeaBl-joRckJAg" name="Security"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_wa-wIBROEeaBl-joRckJAg" name="Mobile device app">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_wa-wIRROEeaBl-joRckJAg" name="Security"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_xWn5ABROEeaBl-joRckJAg" name="Ease of use">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_xWn5ARROEeaBl-joRckJAg" name="Security"/>
-        </nestedClassifier>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_-v_G0BROEeaBl-joRckJAg" name="Mobile device app" visibility="public"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_xw_g0BROEeaBl-joRckJAg" name="Languages">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_xw_g0RROEeaBl-joRckJAg" name="Security"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_DbP8EBRPEeaBl-joRckJAg" name=" " client="_fHDKMBROEeaBl-joRckJAg" supplier="_xw_g0BROEeaBl-joRckJAg"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_ErifQBRPEeaBl-joRckJAg" name=" " client="_fHDKMBROEeaBl-joRckJAg" supplier="_wa-wIBROEeaBl-joRckJAg"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_F7LiMBRPEeaBl-joRckJAg" name=" " client="_fHDKMBROEeaBl-joRckJAg" supplier="_vHgWEBROEeaBl-joRckJAg"/>
-      <packagedElement xmi:type="uml:Package" xmi:id="_YzmZsBRPEeaBl-joRckJAg" name="University administrators' requirements">
-        <packagedElement xmi:type="uml:Class" xmi:id="_WyiEYBRQEeaBl-joRckJAg" name="Legality">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_WyiEYRRQEeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_JKPX0BRSEeaBl-joRckJAg" name="Zero interference aim">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_JKPX0RRSEeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_eparoBRREeaBl-joRckJAg" name="Easiness of operation">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_eparoRRREeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_UVuOQBRREeaBl-joRckJAg" name="Visibility">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_UVuOQRRREeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_GsLE0BRQEeaBl-joRckJAg" name="Security">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_J5PdwBRQEeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_mX9hIBRQEeaBl-joRckJAg" name="Corporate image">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_mX9hIRRQEeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_oS1c8BRREeaBl-joRckJAg" name="Developability">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_oS1c8RRREeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_XzHswBRSEeaBl-joRckJAg" name=" " client="_oS1c8BRREeaBl-joRckJAg" supplier="_BgD6YBRSEeaBl-joRckJAg"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_YnZpYBRSEeaBl-joRckJAg" name=" " client="_mX9hIBRQEeaBl-joRckJAg" supplier="_N74-YBRREeaBl-joRckJAg"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Zr6aYBRSEeaBl-joRckJAg" name=" " client="_mX9hIBRQEeaBl-joRckJAg" supplier="_rAADQBRQEeaBl-joRckJAg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_rAADQBRQEeaBl-joRckJAg" name="Reliability">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_rAADQRRQEeaBl-joRckJAg" name="Security"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_N74-YBRREeaBl-joRckJAg" name="Efficiency">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_N74-YRRREeaBl-joRckJAg" name="Security"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_N74-YhRREeaBl-joRckJAg" name="Usefulness">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_N74-YxRREeaBl-joRckJAg" name="Security"/>
-        </nestedClassifier>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_BgD6YBRSEeaBl-joRckJAg" name="Documentation">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_BgD6YRRSEeaBl-joRckJAg" name="Security"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_nWNnMBRSEeaBl-joRckJAg" name="Drone regulators' requirements">
-        <packagedElement xmi:type="uml:Class" xmi:id="_tCvsMBRSEeaBl-joRckJAg" name="Legality">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_tCvsMRRSEeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_voDhkBRSEeaBl-joRckJAg" name="Responsability"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_qhYisBRSEeaBl-joRckJAg" name="Security"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_J2DfgBRTEeaBl-joRckJAg" name="Operators' and pilots' requirements">
-        <packagedElement xmi:type="uml:Class" xmi:id="_Mxze8BRTEeaBl-joRckJAg" name="Automation">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_Mxze8RRTEeaBl-joRckJAg" name="Security"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_Mxze8hRTEeaBl-joRckJAg" name="Usefulness">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_Mxze8xRTEeaBl-joRckJAg" name="Security"/>
-          </nestedClassifier>
-        </packagedElement>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_fC6e0BRTEeaBl-joRckJAg" name="Installing and maintenance staff's requirements">
-        <packagedElement xmi:type="uml:Class" xmi:id="_mKeXYBRTEeaBl-joRckJAg" name="Staffing">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_mKeXYRRTEeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_muOksBRTEeaBl-joRckJAg" name="Emergency location signal">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_muOksRRTEeaBl-joRckJAg" name="Security"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_nIA9sBRTEeaBl-joRckJAg" name="CopyOf_Security_1">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_nIA9sRRTEeaBl-joRckJAg" name="Security"/>
-          </nestedClassifier>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_nZRs0BRTEeaBl-joRckJAg" name="Easiness of operation">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_nZRs0RRTEeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_qrN-sBRTEeaBl-joRckJAg" name="Documentation">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_qrN-sRRTEeaBl-joRckJAg" name="Security"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_TFGzkBRUEeaBl-joRckJAg" name=" " client="_mKeXYBRTEeaBl-joRckJAg" supplier="_yQDpIBRTEeaBl-joRckJAg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_yQDpIBRTEeaBl-joRckJAg" name="Staff hiring">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_yQDpIRRTEeaBl-joRckJAg" name="Security"/>
-      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_tJ9WWxRMEeaBl-joRckJAg" name="DC Report"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_tKBAtBRMEeaBl-joRckJAg" memberEnd="_tKBAtxRMEeaBl-joRckJAg _tJ9WOhRMEeaBl-joRckJAg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBAtRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBAthRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_tKBAtxRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tKBAtBRMEeaBl-joRckJAg"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_tKBAuBRMEeaBl-joRckJAg" memberEnd="_tKBAuxRMEeaBl-joRckJAg _tJ9WOxRMEeaBl-joRckJAg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBAuRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBAuhRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_tKBAuxRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tKBAuBRMEeaBl-joRckJAg"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_tKBAvBRMEeaBl-joRckJAg" memberEnd="_tKBAvxRMEeaBl-joRckJAg _tJ9WOBRMEeaBl-joRckJAg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBAvRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBAvhRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_tKBAvxRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tKBAvBRMEeaBl-joRckJAg"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_tKBnoBRMEeaBl-joRckJAg" memberEnd="_tKBnoxRMEeaBl-joRckJAg _tJ9WNxRMEeaBl-joRckJAg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBnoRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBnohRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_tKBnoxRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tKBnoBRMEeaBl-joRckJAg"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_tKBnpBRMEeaBl-joRckJAg" memberEnd="_tKBnpxRMEeaBl-joRckJAg _tJ9WORRMEeaBl-joRckJAg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBnpRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBnphRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_tKBnpxRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tKBnpBRMEeaBl-joRckJAg"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_tKBnqBRMEeaBl-joRckJAg" memberEnd="_tKBnqxRMEeaBl-joRckJAg _tJ9WPBRMEeaBl-joRckJAg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBnqRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBnqhRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_tKBnqxRMEeaBl-joRckJAg" name=" " type="_tJ9WNhRMEeaBl-joRckJAg" association="_tKBnqBRMEeaBl-joRckJAg"/>
-    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_m1B0cBRMEeaBl-joRckJAg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m1DpoBRMEeaBl-joRckJAg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
@@ -764,8 +809,61 @@ Identification: SI&#xD;
   <Requirements:Requirement xmi:id="_yQE3QBRTEeaBl-joRckJAg" text="Additional staff shall be hired if needed, in order to accomplish maintenance tasks" id="U5.1.1" base_Class="_yQDpIBRTEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_yQGFYBRTEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_yQDpIRRTEeaBl-joRckJAg"/>
   <Requirements:DeriveReqt xmi:id="_TGG5IBRUEeaBl-joRckJAg" base_Abstraction="_TFGzkBRUEeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_9UFygBT8EeaBl-joRckJAg" text="The system shall guide the user to any requested location within the available locations of the ETSII" id="FR1" base_Class="_9UEkYBT8EeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_9UGZkBT8EeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_9UEkYRT8EeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_G9YoABT9EeaBl-joRckJAg" text="The user shall be able to interact" id="FR2" base_Class="_G9Wy0BT9EeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_G9ZPEBT9EeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_G9Wy0RT9EeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_9UFygBT8EeaBl-joRckJAg" text="The system shall be able to send the drone to any of the available locations within the ETSII.&#xD;&#xA;" id="FR1" base_Class="_9UEkYBT8EeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_G9YoABT9EeaBl-joRckJAg" text="The system shall be able to interact both with its environment and with the users of the system." id="FR2" base_Class="_G9Wy0BT9EeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_PV56oBXYEeaAKLZqDvLp5A" base_Class="_PV4sgBXYEeaAKLZqDvLp5A"/>
+  <Requirements:Requirement xmi:id="_c17xIBXYEeaAKLZqDvLp5A" base_Class="_c17KEBXYEeaAKLZqDvLp5A"/>
+  <Requirements:Requirement xmi:id="_8UsVIB87EeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_8UncoB87EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_EbYvcB88EeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_EbT28B88EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_hieaYB88EeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_hib-IB88EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_Jc7hQB89EeaSQLDyyOML2w" text="The user shall be able to interact with the system using the computer which hosts the system." id="FR2.1" base_Class="_Jc4d8B89EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_S5h-kB89EeaSQLDyyOML2w" text="The system shall be able to interact with the environment (in this case, the ETSII facilities and people) using the data captured by the drone (e.g. image and altitude measurements)." id="FR2.2" base_Class="_S5fiUB89EeaSQLDyyOML2w"/>
+  <Requirements:DeriveReqt xmi:id="_CiwvAB8-EeaSQLDyyOML2w" base_Abstraction="_Ch2JAB8-EeaSQLDyyOML2w"/>
+  <Requirements:DeriveReqt xmi:id="_DyhGsB8-EeaSQLDyyOML2w" base_Abstraction="_DxlSkB8-EeaSQLDyyOML2w"/>
+  <Requirements:DeriveReqt xmi:id="_GGKkUB8-EeaSQLDyyOML2w" base_Abstraction="_GFG0YB8-EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_fwnT0B8_EeaSQLDyyOML2w" text="Collaborative produced models (e.g. &quot;Information management requirements diagram&quot;) shall be created and modified using GitHub (online repository).&#xD;&#xA;" id="IM4" base_Class="_fwleoB8_EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_fwoh8B8_EeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_fwleox8_EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_fwpwEB8_EeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_fwleoh8_EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_fwq-MB8_EeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_fwleoR8_EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_rtBbcB8_EeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_rs_mQR8_EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_rtCpkB8_EeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_rs_mQx8_EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_rtDQoB8_EeaSQLDyyOML2w" text="Collaborative produced documents (e.g. &quot;ConOps&quot;) shall be shared and modified in GoogleDrive (online repository)." id="IM5" base_Class="_rs_mQB8_EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_rtD3sB8_EeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_rs_mQh8_EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_2WNAoB8_EeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_2WLLcR8_EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_2WNnsB8_EeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_2WLLcx8_EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_2WOOwB8_EeaSQLDyyOML2w" text="Collaborative produced code (e.g. &quot;Hello World&quot; project) shall be created and modified using GitHub (online repository)&#xD;&#xA;" id="IM6" base_Class="_2WLLcB8_EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_2WO10B8_EeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_2WLLch8_EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_Fsa8sB9AEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_FsYgch9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_FsbjwB9AEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_FsYgcR9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_FscK0B9AEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_FsYgcx9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_Fscx4B9AEeaSQLDyyOML2w" text="Received or external documentation (e.g. any international standard) shall be shared in GoogleDrive (online repository)&#xD;&#xA;" id="IM7" base_Class="_FsYgcB9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_SFJz8B9AEeaSQLDyyOML2w" text="There shall be a person responsible for the organization of the information related to each area of the project (e.g. &quot;Requirements&quot;). This person should be the same as the person responsible for each area of the project.&#xD;&#xA;" id="IM1" base_Class="_SFGJkB9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_SFLpIB9AEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_SFGJkh9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_SFM3QB9AEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_SFGJkx9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_SFNeUB9AEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_SFGJkR9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_jSuTMB9AEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_jStFEh9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_jSu6QB9AEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_jStFEB9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_jSvhUB9AEeaSQLDyyOML2w" text="All the information related to the project shall be accesible to each team member&#xD;&#xA;" id="IM2" base_Class="_jSseAB9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_jSwIYB9AEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_jStFER9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_q3XJUB9AEeaSQLDyyOML2w" text="Collaborative information production shall be done in a shared repository aimed to that purpose (e.g. GitHub)" id="IM2.2" base_Class="_q3VUIB9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_q3XwYB9AEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_q3VUIx9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_q3YXcB9AEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_q3VUIh9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_q3Y-gB9AEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_q3VUIR9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_1h_gAB9AEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_1h71oR9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_1iAHEB9AEeaSQLDyyOML2w" text="Individual Information Production (e.g. &quot;Requirements Specification Document&quot;) may be done privately but every delivered version shall be shared with the team." id="IM2.2" base_Class="_1h71oB9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_1iAuIB9AEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_1h71ox9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_1iBVMB9AEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_1h71oh9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_HS-1YB9BEeaSQLDyyOML2w" text="A record of every delivered version shall be kept&#xD;&#xA;" id="IM3" base_Class="_HS9nQB9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_HTADgB9BEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_HS9nQx9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_HTAqkB9BEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_HS9nQh9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_HTBRoB9BEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_HS9nQR9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_MMjMYB9BEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_MMh-Qh9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_MMkagB9BEeaSQLDyyOML2w" text="The person responsible for each area of the project shall be the person responsible for the version history of every document, code or model produced in the area headed by him or her." id="IM3.1" base_Class="_MMh-QB9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_MMlBkB9BEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_MMh-Qx9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_MMlooB9BEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_MMh-QR9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_WKW5UB9BEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_WKUdEh9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_WKYugB9BEeaSQLDyyOML2w" text="The person responsible for each area of the project shall take care of the organization of the information in the orresponding repository (e.g. GoogleDrive)&#xD;&#xA;" id="IM8" base_Class="_WKUdEB9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_WKZ8oB9BEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_WKUdEx9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_WKbKwB9BEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_WKUdER9BEeaSQLDyyOML2w"/>
+  <Requirements:DeriveReqt xmi:id="_x0A88B9BEeaSQLDyyOML2w" base_Abstraction="_xyyN4B9BEeaSQLDyyOML2w"/>
 </xmi:XMI>
