@@ -290,8 +290,8 @@ Identification: FR1.1&#xD;
             <ownedComment xmi:type="uml:Comment" xmi:id="_r1PuURUCEeaBl-joRckJAg">
               <body>USABILITY REQUIREMENTS&#xD;
 Identification: UR&#xD;
-First version: Dic28-12, developed and written down by Jorge Salvador&#xD;
-Second version:&#xD;
+First version: Dic15-28, developed and written down by Jorge Salvador&#xD;
+Second version: May16-22, updated by Jorge Salvador&#xD;
 </body>
             </ownedComment>
             <packagedElement xmi:type="uml:Package" xmi:id="_m38G0BUCEeaBl-joRckJAg" name="2. Usability Requirements">
@@ -309,6 +309,50 @@ Second version:&#xD;
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_m38G2RUCEeaBl-joRckJAg" name="Connection mobile application-server"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_m38G2hUCEeaBl-joRckJAg" name="Accessible Interface"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_lhAmQCAdEeaX18bnSpWEjQ" name="User satisfaction">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_lhAmQSAdEeaX18bnSpWEjQ" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_lhAmQiAdEeaX18bnSpWEjQ" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_lhAmQyAdEeaX18bnSpWEjQ" name="Decission making"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_CPtmYCAeEeaX18bnSpWEjQ" name="Accesible availability information">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_CPtmYSAeEeaX18bnSpWEjQ" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_CPtmYiAeEeaX18bnSpWEjQ" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_CPtmYyAeEeaX18bnSpWEjQ" name="Decission making"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Vw5HBCAeEeaX18bnSpWEjQ" name="User perception">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_Vw5HBSAeEeaX18bnSpWEjQ" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_Vw5HBiAeEeaX18bnSpWEjQ" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_Vw5HByAeEeaX18bnSpWEjQ" name="Decission making"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_l_9WpCAeEeaX18bnSpWEjQ" name="Design adapted to speed of connection">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_l_9WpSAeEeaX18bnSpWEjQ" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_l_9WpiAeEeaX18bnSpWEjQ" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_l_9WpyAeEeaX18bnSpWEjQ" name="Decission making"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_3kDfgCAeEeaX18bnSpWEjQ" name=" " client="_lhAmQCAdEeaX18bnSpWEjQ" supplier="_267fcCAdEeaX18bnSpWEjQ"/>
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_4LpD8CAeEeaX18bnSpWEjQ" name=" " client="_CPtmYCAeEeaX18bnSpWEjQ" supplier="_MoqXMCAeEeaX18bnSpWEjQ"/>
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_4sr7gCAeEeaX18bnSpWEjQ" name=" " client="_Vw5HBCAeEeaX18bnSpWEjQ" supplier="_Vw5HACAeEeaX18bnSpWEjQ"/>
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_5QU0ECAeEeaX18bnSpWEjQ" name=" " client="_l_9WpCAeEeaX18bnSpWEjQ" supplier="_l_9WoCAeEeaX18bnSpWEjQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_267fcCAdEeaX18bnSpWEjQ" name="Satisfaction test">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_267fcSAdEeaX18bnSpWEjQ" name="Navigation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_267fciAdEeaX18bnSpWEjQ" name="Orientation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_267fcyAdEeaX18bnSpWEjQ" name="Decission making"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_MoqXMCAeEeaX18bnSpWEjQ" name="Availability information">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_MoqXMSAeEeaX18bnSpWEjQ" name="Navigation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_MoqXMiAeEeaX18bnSpWEjQ" name="Orientation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_MoqXMyAeEeaX18bnSpWEjQ" name="Decission making"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Vw5HACAeEeaX18bnSpWEjQ" name="Uesr state">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Vw5HASAeEeaX18bnSpWEjQ" name="Navigation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Vw5HAiAeEeaX18bnSpWEjQ" name="Orientation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Vw5HAyAeEeaX18bnSpWEjQ" name="Decission making"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_l_9WoCAeEeaX18bnSpWEjQ" name="Drone-server connection">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_l_9WoSAeEeaX18bnSpWEjQ" name="Navigation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_l_9WoiAeEeaX18bnSpWEjQ" name="Orientation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_l_9WoyAeEeaX18bnSpWEjQ" name="Decission making"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_ttV8kBT7EeaBl-joRckJAg" name="3. Performance requirements">
@@ -621,7 +665,7 @@ Identification: SI&#xD;
             <ownedComment xmi:type="uml:Comment" xmi:id="_lcZD8BUEEeaBl-joRckJAg">
               <body>SYSTEM SECURITY&#xD;
 1st version: Dic15-23, developed and written down by Francisco José Butragueño&#xD;
-2nd version:&#xD;
+2nd version: May16-22, updated by Francisco José Butragueño&#xD;
 Identification: SS</body>
             </ownedComment>
             <ownedComment xmi:type="uml:Comment" xmi:id="_lcZD8RUEEeaBl-joRckJAg">
@@ -652,6 +696,177 @@ Identification: SI&#xD;
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_htko2xUEEeaBl-joRckJAg" name="Connection mobile application-server"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_htko3BUEEeaBl-joRckJAg" name="Accessible Interface"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_SqQ30CAfEeaX18bnSpWEjQ" name="Improper access">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_SqQ30SAfEeaX18bnSpWEjQ" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_SqQ30iAfEeaX18bnSpWEjQ" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_SqQ30yAfEeaX18bnSpWEjQ" name="Decission making"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_fEtmUCAfEeaX18bnSpWEjQ" name="Collisions">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_fEtmUSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_fEtmUiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_fEtmUyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_hDPvkCAfEeaX18bnSpWEjQ" name="Improper access">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_hDPvkSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_hDPvkiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_hDPvkyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_ivufgCAfEeaX18bnSpWEjQ" name="Collisions">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ivufgSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ivufgiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ivufgyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ivufhCAfEeaX18bnSpWEjQ" name="Improper access">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_ivufhSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_ivufhiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_ivufhyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  </nestedClassifier>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj4CAfEeaX18bnSpWEjQ" name="Ceiling and walls">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj4SAfEeaX18bnSpWEjQ" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj4iAfEeaX18bnSpWEjQ" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj4yAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj5CAfEeaX18bnSpWEjQ" name="Improper access">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj5SAfEeaX18bnSpWEjQ" name="Navigation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj5iAfEeaX18bnSpWEjQ" name="Orientation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj5yAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  </nestedClassifier>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj6CAfEeaX18bnSpWEjQ" name="Collisions">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj6SAfEeaX18bnSpWEjQ" name="Navigation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj6iAfEeaX18bnSpWEjQ" name="Orientation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj6yAfEeaX18bnSpWEjQ" name="Decission making"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj7CAfEeaX18bnSpWEjQ" name="Improper access">
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj7SAfEeaX18bnSpWEjQ" name="Navigation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj7iAfEeaX18bnSpWEjQ" name="Orientation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_jMKj7yAfEeaX18bnSpWEjQ" name="Decission making"/>
+                    </nestedClassifier>
+                  </nestedClassifier>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-ECAfEeaX18bnSpWEjQ" name="CopyOf_Collisions_1">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-ESAfEeaX18bnSpWEjQ" name="Navigation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-EiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-EyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-FCAfEeaX18bnSpWEjQ" name="Improper access">
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-FSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-FiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-FyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                    </nestedClassifier>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-GCAfEeaX18bnSpWEjQ" name="Collisions">
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-GSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-GiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-GyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-HCAfEeaX18bnSpWEjQ" name="Improper access">
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-HSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-HiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_jnz-HyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                      </nestedClassifier>
+                    </nestedClassifier>
+                  </nestedClassifier>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgUCAfEeaX18bnSpWEjQ" name="Doors and stairs">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgUSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgUiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgUyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgVCAfEeaX18bnSpWEjQ" name="Improper access">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgVSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgViAfEeaX18bnSpWEjQ" name="Orientation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgVyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  </nestedClassifier>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgWCAfEeaX18bnSpWEjQ" name="Collisions">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgWSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgWiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgWyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgXCAfEeaX18bnSpWEjQ" name="Improper access">
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgXSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgXiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_kBLgXyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                    </nestedClassifier>
+                  </nestedClassifier>
+                </nestedClassifier>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_l2ZVgCAfEeaX18bnSpWEjQ" name="People security">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZVgSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZVgiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZVgyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZVhCAfEeaX18bnSpWEjQ" name="Improper access">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZVhSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZVhiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZVhyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZViCAfEeaX18bnSpWEjQ" name="Collisions">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZViSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZViiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZViyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZVjCAfEeaX18bnSpWEjQ" name="Improper access">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZVjSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZVjiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_l2ZVjyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  </nestedClassifier>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANwCAfEeaX18bnSpWEjQ" name="CopyOf_Collisions_1">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANwSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANwiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANwyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANxCAfEeaX18bnSpWEjQ" name="Improper access">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANxSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANxiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANxyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  </nestedClassifier>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANyCAfEeaX18bnSpWEjQ" name="Collisions">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANySAfEeaX18bnSpWEjQ" name="Navigation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANyiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANyyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANzCAfEeaX18bnSpWEjQ" name="Improper access">
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANzSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANziAfEeaX18bnSpWEjQ" name="Orientation"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_mYANzyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                    </nestedClassifier>
+                  </nestedClassifier>
+                </nestedClassifier>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_ncDrwCAfEeaX18bnSpWEjQ" name="Low battery">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDrwSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDrwiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDrwyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDrxCAfEeaX18bnSpWEjQ" name="Improper access">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDrxSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDrxiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDrxyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDryCAfEeaX18bnSpWEjQ" name="Collisions">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDrySAfEeaX18bnSpWEjQ" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDryiAfEeaX18bnSpWEjQ" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDryyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDrzCAfEeaX18bnSpWEjQ" name="Improper access">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDrzSAfEeaX18bnSpWEjQ" name="Navigation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDrziAfEeaX18bnSpWEjQ" name="Orientation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_ncDrzyAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  </nestedClassifier>
+                </nestedClassifier>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_msAu4CAfEeaX18bnSpWEjQ" name="Testing">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu4SAfEeaX18bnSpWEjQ" name="Navigation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu4iAfEeaX18bnSpWEjQ" name="Orientation"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu4yAfEeaX18bnSpWEjQ" name="Decission making"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu5CAfEeaX18bnSpWEjQ" name="Improper access">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu5SAfEeaX18bnSpWEjQ" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu5iAfEeaX18bnSpWEjQ" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu5yAfEeaX18bnSpWEjQ" name="Decission making"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu6CAfEeaX18bnSpWEjQ" name="Collisions">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu6SAfEeaX18bnSpWEjQ" name="Navigation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu6iAfEeaX18bnSpWEjQ" name="Orientation"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu6yAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu7CAfEeaX18bnSpWEjQ" name="Improper access">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu7SAfEeaX18bnSpWEjQ" name="Navigation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu7iAfEeaX18bnSpWEjQ" name="Orientation"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu7yAfEeaX18bnSpWEjQ" name="Decission making"/>
+                  </nestedClassifier>
+                </nestedClassifier>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Abstraction" xmi:id="_DYjy4CAgEeaX18bnSpWEjQ" name=" " client="_SqQ30CAfEeaX18bnSpWEjQ" supplier="_aETAcCAfEeaX18bnSpWEjQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_aETAcCAfEeaX18bnSpWEjQ" name="Hackers">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_aETAcSAfEeaX18bnSpWEjQ" name="Navigation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_aETAciAfEeaX18bnSpWEjQ" name="Orientation"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_aETAcyAfEeaX18bnSpWEjQ" name="Decission making"/>
             </packagedElement>
           </packagedElement>
         </packagedElement>
@@ -866,4 +1081,177 @@ Identification: SI&#xD;
   <Requirements:Requirement xmi:id="_WKZ8oB9BEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_WKUdEx9BEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_WKbKwB9BEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_WKUdER9BEeaSQLDyyOML2w"/>
   <Requirements:DeriveReqt xmi:id="_x0A88B9BEeaSQLDyyOML2w" base_Abstraction="_xyyN4B9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_lhGF0CAdEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_lhAmQSAdEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_lhRE8CAdEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_lhAmQiAdEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_lhSTECAdEeaX18bnSpWEjQ" text="The user shall be happy with the service provided, which will be evaluated with a global puntuaction ranging from 0 to 10, being 10 the best mark. Traced to: Requirement U1.2 &quot;Ease of use&quot; and U1.3 &quot;Usefulness&quot;." id="UR1" base_Class="_lhAmQCAdEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_lhThMCAdEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_lhAmQyAdEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_267fxyAdEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_267fcyAdEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_267fyCAdEeaX18bnSpWEjQ" text="Tests to evaluate the satisfaction of the users shall be developed and handed out to the user after the guidance service has been provided." id="UR1.1" base_Class="_267fcCAdEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_267fySAdEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_267fciAdEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_267fyiAdEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_267fcSAdEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_CPtmtyAeEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_CPtmYyAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_CPtmuCAeEeaX18bnSpWEjQ" text="The user shall be able to know whether the system is available or not at every moment. Traced to: U1.2 &quot;Ease of use&quot;." id="UR2" base_Class="_CPtmYCAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_CPtmuSAeEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_CPtmYiAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_CPtmuiAeEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_CPtmYSAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_MoqXhyAeEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_MoqXMiAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_MoqXiCAeEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_MoqXMyAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_MoqXiSAeEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_MoqXMSAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_MoqXiiAeEeaX18bnSpWEjQ" text="The computer hosting the system shall contain the information about availability at every moment." id="UR2.1" base_Class="_MoqXMCAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_Vw5HriAeEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_Vw5HBiAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_Vw5HryAeEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_Vw5HByAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_Vw5HsCAeEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_Vw5HBSAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_Vw5HsSAeEeaX18bnSpWEjQ" text="The system shall be able to know the state of the user from time to time. Traced to: U1.3 &quot;Usefulness&quot;." id="UR3" base_Class="_Vw5HBCAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_VxCQ8CAeEeaX18bnSpWEjQ" text="The system shall communicate with the user from time to time to know his/her state." id="UR3.1" base_Class="_Vw5HACAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_VxCQ8SAeEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_Vw5HASAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_VxCQ8iAeEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_Vw5HAiAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_VxCQ8yAeEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_Vw5HAyAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l_9XTiAeEeaX18bnSpWEjQ" text="The design of the system interface shall agree with the connection speed of the system. Traced to: U1.3 &quot;Usefulness&quot;" id="UR4" base_Class="_l_9WpCAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mAHHoCAeEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_l_9WpSAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mAHHoSAeEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_l_9WoSAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mAHHoiAeEeaX18bnSpWEjQ" text="The system shall be designed so that the drone-system connection is done properly." id="UR4.1" base_Class="_l_9WoCAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mAHHoyAeEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_l_9WpiAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mAHHpCAeEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_l_9WoiAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mAHHpSAeEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_l_9WoyAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mAHHpiAeEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_l_9WpyAeEeaX18bnSpWEjQ"/>
+  <Requirements:DeriveReqt xmi:id="_3lAhwCAeEeaX18bnSpWEjQ" base_Abstraction="_3kDfgCAeEeaX18bnSpWEjQ"/>
+  <Requirements:DeriveReqt xmi:id="_4MmGMCAeEeaX18bnSpWEjQ" base_Abstraction="_4LpD8CAeEeaX18bnSpWEjQ"/>
+  <Requirements:DeriveReqt xmi:id="_4to9wCAeEeaX18bnSpWEjQ" base_Abstraction="_4sr7gCAeEeaX18bnSpWEjQ"/>
+  <Requirements:DeriveReqt xmi:id="_5RlYUCAeEeaX18bnSpWEjQ" base_Abstraction="_5QU0ECAeEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_SqQ4JyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_SqQ30iAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_SqQ4KCAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_SqQ30yAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_SqQ4KSAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_SqQ30SAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_SqQ4KiAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_SqQ30CAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_aETAxyAfEeaX18bnSpWEjQ" text="The computer should require a password in order to modify the flight program" id="SS1.1" base_Class="_aETAcCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_aETAyCAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_aETAciAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_aETAySAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_aETAcyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_aETAyiAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_aETAcSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_fE2wQCAfEeaX18bnSpWEjQ" text="The control system has to avoid drones collisions. Traced to U1.1.1" id="SS2" base_Class="_fEtmUCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_fE2wQSAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_fEtmUiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_fE2wQiAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_fEtmUyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_fE2wQyAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_fEtmUSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_hDRkwCAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_hDPvkCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_hDSL0CAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_hDPvkiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_hDSy4CAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_hDPvkyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_hDTZ8CAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_hDPvkSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ivugLiAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_ivufhSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ivugLyAfEeaX18bnSpWEjQ" text="The control system has to avoid drones collisions. Traced to U1.1.1" id="SS2" base_Class="_ivufgCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ivugMCAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_ivufhyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_iv4QgCAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_ivufgSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_iv4QgSAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_ivufgiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_iv4QgiAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_ivufhiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_iv4QgyAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_ivufgyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_iv4QhCAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_ivufhCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMKlPCAfEeaX18bnSpWEjQ" text="The control has to provide a really good vision about corners, ceilling and walls to be enough spaced from there." id="SS2.1" base_Class="_jMKj4CAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMKlPSAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_jMKj5yAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMKlPiAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_jMKj7yAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMKlPyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_jMKj7iAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMTt0CAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_jMKj7SAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMTt0SAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_jMKj5CAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMTt0iAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_jMKj7CAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMTt0yAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_jMKj6iAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMTt1CAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_jMKj5SAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMTt1SAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_jMKj4SAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMTt1iAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_jMKj4iAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMTt1yAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_jMKj5iAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMTt2CAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_jMKj4yAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMTt2SAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_jMKj6yAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMTt2iAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_jMKj6SAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jMTt2yAfEeaX18bnSpWEjQ" text="The control system has to avoid drones collisions. Traced to U1.1.1" id="SS2" base_Class="_jMKj6CAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_bCAfEeaX18bnSpWEjQ" text="The control system has to avoid drones collisions. Traced to U1.1.1" id="SS2" base_Class="_jnz-ECAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_bSAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_jnz-FyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_biAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_jnz-HyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_byAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_jnz-HiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_cCAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_jnz-HSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_cSAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_jnz-FCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_ciAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_jnz-HCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_cyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_jnz-GiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_dCAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_jnz-FSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_dSAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_jnz-ESAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_diAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_jnz-EiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_dyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_jnz-FiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_eCAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_jnz-EyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_eSAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_jnz-GyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_eiAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_jnz-GSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_jnz_eyAfEeaX18bnSpWEjQ" text="The control system has to avoid drones collisions. Traced to U1.1.1" id="SS2" base_Class="_jnz-GCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBLhrCAfEeaX18bnSpWEjQ" text="The drone's system isn't able to open doors or climg stairs so, the path cannot include door or stair crossing." id="SS2" base_Class="_kBLgUCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBLhrSAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_kBLgVyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBLhriAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_kBLgXyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBLhryAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_kBLgXiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBLhsCAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_kBLgXSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBLhsSAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_kBLgVCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBLhsiAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_kBLgXCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBLhsyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_kBLgWiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBUqQCAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_kBLgVSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBUqQSAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_kBLgUSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBUqQiAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_kBLgUiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBUqQyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_kBLgViAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBUqRCAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_kBLgUyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBUqRSAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_kBLgWyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBUqRiAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_kBLgWSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_kBUqRyAfEeaX18bnSpWEjQ" text="The control system has to avoid drones collisions. Traced to U1.1.1" id="SS2" base_Class="_kBLgWCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ZW3CAfEeaX18bnSpWEjQ" text="The team has to ensure that there are no people in the drone's path. " id="SS3" base_Class="_l2ZVgCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ZW3SAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_l2ZVhyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ZW3iAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_l2ZVjyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ZW3yAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_l2ZVjiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ifcCAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_l2ZVjSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ifcSAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_l2ZVhCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ifciAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_l2ZVjCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ifcyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_l2ZViiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ifdCAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_l2ZVhSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ifdSAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_l2ZVgSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ifdiAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_l2ZVgiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ifdyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_l2ZVhiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ifeCAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_l2ZVgyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ifeSAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_l2ZViyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ifeiAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_l2ZViSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_l2ifeyAfEeaX18bnSpWEjQ" text="The control system has to avoid drones collisions. Traced to U1.1.1" id="SS2" base_Class="_l2ZViCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPHCAfEeaX18bnSpWEjQ" text="The control system has to avoid drones collisions. Traced to U1.1.1" id="SS2" base_Class="_mYANwCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPHSAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_mYANxyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPHiAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_mYANzyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPHyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_mYANziAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPICAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_mYANzSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPISAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_mYANxCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPIiAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_mYANzCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPIyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_mYANyiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPJCAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_mYANxSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPJSAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_mYANwSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPJiAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_mYANwiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPJyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_mYANxiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPKCAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_mYANwyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPKSAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_mYANyyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPKiAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_mYANySAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_mYAPKyAfEeaX18bnSpWEjQ" text="The control system has to avoid drones collisions. Traced to U1.1.1" id="SS2" base_Class="_mYANyCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwPCAfEeaX18bnSpWEjQ" text="The testing part has to be compulsory made in empty rooms or corridors." id="SS4" base_Class="_msAu4CAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwPSAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_msAu5yAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwPiAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_msAu7yAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwPyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_msAu7iAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwQCAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_msAu7SAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwQSAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_msAu5CAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwQiAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_msAu7CAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwQyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_msAu6iAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwRCAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_msAu5SAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwRSAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_msAu4SAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwRiAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_msAu4iAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwRyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_msAu5iAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwSCAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_msAu4yAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwSSAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_msAu6yAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwSiAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_msAu6SAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_msAwSyAfEeaX18bnSpWEjQ" text="The control system has to avoid drones collisions. Traced to U1.1.1" id="SS2" base_Class="_msAu6CAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncDtHCAfEeaX18bnSpWEjQ" text="If the drone detects that battery is low, it lands softly in the floor." id="SS5" base_Class="_ncDrwCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncDtHSAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_ncDrxyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncDtHiAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_ncDrzyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncDtHyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_ncDrziAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncDtICAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_ncDrzSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncDtISAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_ncDrxCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncDtIiAfEeaX18bnSpWEjQ" text="The system shall to be strong and avoid not identified accesses. Traced to U1.1" id="SS1" base_Class="_ncDrzCAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncDtIyAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_ncDryiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncDtJCAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_ncDrxSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncDtJSAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_ncDrwSAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncM1sCAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_ncDrwiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncM1sSAfEeaX18bnSpWEjQ" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_ncDrxiAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncM1siAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_ncDrwyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncM1syAfEeaX18bnSpWEjQ" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_ncDryyAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncM1tCAfEeaX18bnSpWEjQ" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_ncDrySAfEeaX18bnSpWEjQ"/>
+  <Requirements:Requirement xmi:id="_ncM1tSAfEeaX18bnSpWEjQ" text="The control system has to avoid drones collisions. Traced to U1.1.1" id="SS2" base_Class="_ncDryCAfEeaX18bnSpWEjQ"/>
+  <Requirements:DeriveReqt xmi:id="_Dad3YCAgEeaX18bnSpWEjQ" base_Abstraction="_DYjy4CAgEeaX18bnSpWEjQ"/>
 </xmi:XMI>
