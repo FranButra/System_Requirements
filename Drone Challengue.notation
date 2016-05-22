@@ -11325,7 +11325,7 @@
     <children xmi:type="notation:Shape" xmi:id="_lcZD_BUEEeaBl-joRckJAg" type="2012">
       <children xmi:type="notation:DecorationNode" xmi:id="_lcZD_RUEEeaBl-joRckJAg" type="5038"/>
       <element xmi:type="uml:Comment" href="Drone%20Challengue.uml#_lcZD8BUEEeaBl-joRckJAg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcZD_hUEEeaBl-joRckJAg" x="559" y="38" width="357" height="53"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcZD_hUEEeaBl-joRckJAg" x="559" y="38" width="402" height="53"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_giYoERUEEeaBl-joRckJAg"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_giYoEhUEEeaBl-joRckJAg">
