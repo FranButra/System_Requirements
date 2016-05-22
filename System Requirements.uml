@@ -1025,7 +1025,7 @@ saying to the user that he is not in the correct point, and cancels the guidance
   <Requirements:Requirement xmi:id="_ik8ekKD5EeWAlK9P2ItRIg" text="The design of the mobile application shall agree with the connection speed of the system.&#xD;&#xA;Traced to: U1.3 &quot;Usefulness&quot; under User Requirements-> Students Requirements" id="UR5" base_Class="_ij9nIKD5EeWAlK9P2ItRIg"/>
   <Requirements:Requirement xmi:id="_EfugkKF_EeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses.         Trace to U1.1" id="SS1" base_Class="_Ec1koKF_EeW2oLsE_WICRw"/>
   <Requirements:Requirement xmi:id="_15CukKF_EeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_140FEKF_EeW2oLsE_WICRw"/>
-  <Requirements:Requirement xmi:id="_3XcmQKF_EeW2oLsE_WICRw" text="The control system has to avoid drones collisions.                         Trace to U1.1.1" id="SS2" base_Class="_3XSOMKF_EeW2oLsE_WICRw"/>
+  <Requirements:Requirement xmi:id="_3XcmQKF_EeW2oLsE_WICRw" text="The control system has to avoid drones collisions. Traced to U1.1.1" id="SS2" base_Class="_3XSOMKF_EeW2oLsE_WICRw"/>
   <Requirements:Requirement xmi:id="_3XhewKF_EeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_3XSOMaF_EeW2oLsE_WICRw"/>
   <Requirements:Requirement xmi:id="_UK-cAKGAEeW2oLsE_WICRw" text="The computer should require a password in order to modify the flight program" id="SS1.1" base_Class="_UK0rAKGAEeW2oLsE_WICRw"/>
   <Requirements:Requirement xmi:id="_ULCGYKGAEeW2oLsE_WICRw" text="The system shall to be strong and avoid not identified accesses" id="UR1" base_Class="_UK1SEKGAEeW2oLsE_WICRw"/>
