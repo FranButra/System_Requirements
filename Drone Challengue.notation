@@ -8811,7 +8811,21 @@
     <children xmi:type="notation:Shape" xmi:id="_WSPf4BUCEeaBl-joRckJAg" type="2012">
       <children xmi:type="notation:DecorationNode" xmi:id="_WSPf4hUCEeaBl-joRckJAg" type="5038"/>
       <element xmi:type="uml:Comment" href="Drone%20Challengue.uml#_WSLOcBUCEeaBl-joRckJAg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WSPf4RUCEeaBl-joRckJAg" x="700" y="60" width="260" height="60"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WSPf4RUCEeaBl-joRckJAg" x="700" y="20" width="260" height="60"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_VsHcQCBAEeaC_tlkEVh8vg" type="2007">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_afJtcCBAEeaC_tlkEVh8vg" source="PapyrusHyperLink_Object" references="_pcRjgBRMEeaBl-joRckJAg">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_afKUgCBAEeaC_tlkEVh8vg" key="tooltip_text"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_afKUgSBAEeaC_tlkEVh8vg" key="pageName" value="PapyrusHyperLink_Object"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_afKUgiBAEeaC_tlkEVh8vg" key="is_default_navigation" value="false"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VsHcQiBAEeaC_tlkEVh8vg" type="5026"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_VsHcQyBAEeaC_tlkEVh8vg" type="7016">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_VsHcRCBAEeaC_tlkEVh8vg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VsHcRSBAEeaC_tlkEVh8vg"/>
+      </children>
+      <element xmi:type="uml:Package" href="Drone%20Challengue.uml#_VsCjwCBAEeaC_tlkEVh8vg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VsHcQSBAEeaC_tlkEVh8vg" x="340" y="100" width="281" height="61"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_44RZYRT6EeaBl-joRckJAg" name="diagram_compatibility_version" stringValue="1.1.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_44RZYhT6EeaBl-joRckJAg"/>
