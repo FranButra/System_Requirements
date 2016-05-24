@@ -5,8 +5,8 @@
       <body>RATIONALE&#xD;
 DIAGRAM NAME: pkg Drone_Challenge&#xD;
 CREATED by: Alberto Díaz Dorado, 05/05/2016&#xD;
-LAST MODIFIED by:&#xD;
-DESCRIPTION: This diagram presents all the elements included in the Drone Challenge (DC) System. You may navigate into different elements by right-clicking onto them.</body>
+LAST MODIFIED by: -&#xD;
+DESCRIPTION: This diagram presents all the elements included in the Drone Challenge (DC). You may navigate into different elements by going with the mouse over them.</body>
     </ownedComment>
     <packagedElement xmi:type="uml:Package" xmi:id="_tJ8vIRRMEeaBl-joRckJAg" name="DC Concept of Operations"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_tJ8vIhRMEeaBl-joRckJAg" name="DC System"/>
@@ -20,7 +20,7 @@ This version was shared on: 10-12-15, 18:45&#xD;
 USER REQUIREMENTS have been investigated and classified according to the differernt stakeholders in the project</body>
       </ownedComment>
       <ownedComment xmi:type="uml:Comment" xmi:id="_tJ9WMRRMEeaBl-joRckJAg" annotatedElement="_-R0ukBXXEeaAKLZqDvLp5A">
-        <body>No requirements was addressed by drone manufacturers&#xD;
+        <body>No requirements was addressed by components manufacturers&#xD;
 </body>
       </ownedComment>
       <packagedElement xmi:type="uml:Package" xmi:id="_tJ9WMhRMEeaBl-joRckJAg" name="User Requirements">
@@ -33,7 +33,7 @@ USER REQUIREMENTS have been investigated and classified according to the differe
           <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WOxRMEeaBl-joRckJAg" name=" " type="_tJ9WPxRMEeaBl-joRckJAg" aggregation="composite" association="_tKBAuBRMEeaBl-joRckJAg"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_tJ9WPBRMEeaBl-joRckJAg" name=" " type="_tJ9WQBRMEeaBl-joRckJAg" aggregation="composite" association="_tKBnqBRMEeaBl-joRckJAg"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WPRRMEeaBl-joRckJAg" name="0. Drone manufacturers"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WPRRMEeaBl-joRckJAg" name="0. Components manufacturers"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WPhRMEeaBl-joRckJAg" name="1. Students and final users"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WPxRMEeaBl-joRckJAg" name="2. University administrators"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_tJ9WQBRMEeaBl-joRckJAg" name="3. Drone regulators"/>
@@ -204,7 +204,7 @@ USER REQUIREMENTS have been investigated and classified according to the differe
             <nestedClassifier xmi:type="uml:Class" xmi:id="_yQDpIRRTEeaBl-joRckJAg" name="Security"/>
           </packagedElement>
         </packagedElement>
-        <packagedElement xmi:type="uml:Package" xmi:id="_-R0ukBXXEeaAKLZqDvLp5A" name="Drone manufacturers' requirements"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_-R0ukBXXEeaAKLZqDvLp5A" name="Components manufacturers' requirements"/>
         <packagedElement xmi:type="uml:Association" xmi:id="_tKBAtBRMEeaBl-joRckJAg" memberEnd="_tKBAtxRMEeaBl-joRckJAg _tJ9WOhRMEeaBl-joRckJAg">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tKBAtRRMEeaBl-joRckJAg" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tKBAthRMEeaBl-joRckJAg" key="nature" value="SysML_Nature"/>
@@ -270,9 +270,9 @@ Identification: FR1.1&#xD;
             <packagedElement xmi:type="uml:Class" xmi:id="_9UEkYBT8EeaBl-joRckJAg" name="Guidance">
               <nestedClassifier xmi:type="uml:Class" xmi:id="_8UncoB87EeaSQLDyyOML2w" name="Navigation"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_EbT28B88EeaSQLDyyOML2w" name="Orientation"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_hib-IB88EeaSQLDyyOML2w" name="Decission making"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_hib-IB88EeaSQLDyyOML2w" name="Decision making"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Package" xmi:id="_4mpzABT8EeaBl-joRckJAg" name="Security requirements">
+            <packagedElement xmi:type="uml:Package" xmi:id="_4mpzABT8EeaBl-joRckJAg" name="Security">
               <packagedElement xmi:type="uml:Class" xmi:id="_PV4sgBXYEeaAKLZqDvLp5A" name="Requirement1"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ch2JAB8-EeaSQLDyyOML2w" name=" " client="_9UEkYBT8EeaBl-joRckJAg" supplier="_8UncoB87EeaSQLDyyOML2w"/>
@@ -344,7 +344,7 @@ Second version: May16-22, updated by Jorge Salvador&#xD;
               <nestedClassifier xmi:type="uml:Class" xmi:id="_MoqXMiAeEeaX18bnSpWEjQ" name="Orientation"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_MoqXMyAeEeaX18bnSpWEjQ" name="Decission making"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_Vw5HACAeEeaX18bnSpWEjQ" name="Uesr state">
+            <packagedElement xmi:type="uml:Class" xmi:id="_Vw5HACAeEeaX18bnSpWEjQ" name="User state">
               <nestedClassifier xmi:type="uml:Class" xmi:id="_Vw5HASAeEeaX18bnSpWEjQ" name="Navigation"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_Vw5HAiAeEeaX18bnSpWEjQ" name="Orientation"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_Vw5HAyAeEeaX18bnSpWEjQ" name="Decission making"/>
@@ -522,36 +522,57 @@ e) Accessibility to components within systems and to parts within components. In
             </ownedComment>
             <ownedComment xmi:type="uml:Comment" xmi:id="_t7d-gRUDEeaBl-joRckJAg">
               <body>SYSTEM OPERATIONS&#xD;
-1st version: Dic15-xx, developed and written down by yyyy&#xD;
-2nd version:&#xD;
+1st version: Dic15-20, developed and written down by Daniel Cabrera&#xD;
+2nd version: May16-23, completed by Daniel Cabrera, modified by Alberto Díaz&#xD;
 Identification: SO1.1&#xD;
 </body>
             </ownedComment>
             <packagedElement xmi:type="uml:Package" xmi:id="_wODFIBUDEeaBl-joRckJAg" name="5. System operations">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_wODFIRUDEeaBl-joRckJAg">
-                <annotatedElement xmi:type="uml:Package" href="System%20Requirements.uml#_jmNmkKCyEeW83YomzJF75w"/>
-                <body>SYSTEM INTERFACES: Specify requirements for interfaces among system elements and with external entities. Interfaces among system elements should include interfaces with the human element. Interfaces with external entities should include other systems. Define any interdependencies or constraints associated with the interfaces (e.g., communication protocols, special devices, standards, fixed formats). These interfaces should be listed and explained in detail, including the way of implementing them.  Each interface may represent a bidirectional flow of information. A graphic representation of the interfaces should be used for shake of clarity. Is really important to use technical vocabulary and be very precise. This is going to be used as a guide document for the following stages of the project.</body>
-              </ownedComment>
-              <ownedComment xmi:type="uml:Comment" xmi:id="_wODFIhUDEeaBl-joRckJAg">
-                <body>SYSTEM INTERFACES&#xD;
-Version Dic15-14, developed and written down by Andrea Santoro&#xD;
-Identification: SI&#xD;
-</body>
-              </ownedComment>
-              <packagedElement xmi:type="uml:Class" xmi:id="_wODFIxUDEeaBl-joRckJAg" name="User satisfaction">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_wODFJBUDEeaBl-joRckJAg" name="Satisfaction tests development"/>
+              <packagedElement xmi:type="uml:Package" xmi:id="_c0-6ICD1Eeazh8pfULdajQ" name="Reliability requirements">
+                <packagedElement xmi:type="uml:Package" xmi:id="_b7DrsCD5Eeazh8pfULdajQ" name="Reliability requirements">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_dx7twCD5Eeazh8pfULdajQ" name="Reliability requirements">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_9f8-sCD5Eeazh8pfULdajQ" name="People security ">
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_Q_5JMCD6Eeazh8pfULdajQ" name="People security "/>
+                    </nestedClassifier>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_RT64cCD6Eeazh8pfULdajQ" name="Landing in secure"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_d-u-MCD6Eeazh8pfULdajQ" name="Places for landing"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_k0t-kCD6Eeazh8pfULdajQ" name="Initialization">
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_0c2KACD6Eeazh8pfULdajQ" name="Safety distance during take off"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_8JV7oCD6Eeazh8pfULdajQ" name="Initialization abort"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_sXP74CD6Eeazh8pfULdajQ" name="Start-up time"/>
+                    </nestedClassifier>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_DKcm4CD7Eeazh8pfULdajQ" name="Termination"/>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_QKG7QCD7Eeazh8pfULdajQ" name="Change drone operational parameters"/>
+                  </packagedElement>
+                </packagedElement>
               </packagedElement>
-              <packagedElement xmi:type="uml:Class" xmi:id="_wODFJRUDEeaBl-joRckJAg" name="Accessible availability information">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_wODFJhUDEeaBl-joRckJAg" name="Availability information"/>
+              <packagedElement xmi:type="uml:Package" xmi:id="_ax0IgCD1Eeazh8pfULdajQ" name="Maintainability requirements">
+                <packagedElement xmi:type="uml:Package" xmi:id="_mh6ScCD1Eeazh8pfULdajQ" name="Maintainability requirements">
+                  <packagedElement xmi:type="uml:Package" xmi:id="_DdhtMCD2Eeazh8pfULdajQ" name="Maintenance responsibles">
+                    <packagedElement xmi:type="uml:Class" xmi:id="_F2a3MCD2Eeazh8pfULdajQ" name="Software capable people maintenance"/>
+                    <packagedElement xmi:type="uml:Class" xmi:id="_QO_0kCD2Eeazh8pfULdajQ" name="External support (providers) maintenance"/>
+                    <packagedElement xmi:type="uml:Class" xmi:id="_XWy9sCD2Eeazh8pfULdajQ" name="Janitors maintenance"/>
+                    <packagedElement xmi:type="uml:Abstraction" xmi:id="_UQUNkCD5Eeazh8pfULdajQ" name=" " client="_F2a3MCD2Eeazh8pfULdajQ" supplier="_qV2MMCD3Eeazh8pfULdajQ"/>
+                    <packagedElement xmi:type="uml:Abstraction" xmi:id="_UwaC4CD5Eeazh8pfULdajQ" name=" " client="_QO_0kCD2Eeazh8pfULdajQ" supplier="_qV2MMCD3Eeazh8pfULdajQ"/>
+                    <packagedElement xmi:type="uml:Abstraction" xmi:id="_VRyRoCD5Eeazh8pfULdajQ" name=" " client="_XWy9sCD2Eeazh8pfULdajQ" supplier="_qV2MMCD3Eeazh8pfULdajQ"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_306rUCD1Eeazh8pfULdajQ" name="Easiness of mainatinability"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_ubihICD1Eeazh8pfULdajQ" name="Maintainability requirements">
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_Kk1RoCD3Eeazh8pfULdajQ" name="Hardware replacement">
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_SUNYICD3Eeazh8pfULdajQ" name="Batteries replacement"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_hK4RcCD3Eeazh8pfULdajQ" name="Camera problems"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_qV2MMCD3Eeazh8pfULdajQ" name="High complexity problems"/>
+                    </nestedClassifier>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_kwx2kCD2Eeazh8pfULdajQ" name="Structure and propellers replacement">
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_cxnVsSD4Eeazh8pfULdajQ" name="Propellers shielding replacement"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_cxnVsCD4Eeazh8pfULdajQ" name="Supporting structure repair"/>
+                      <nestedClassifier xmi:type="uml:Class" xmi:id="_cxnVsyD4Eeazh8pfULdajQ" name="Propellers replacement"/>
+                    </nestedClassifier>
+                    <nestedClassifier xmi:type="uml:Class" xmi:id="_JPI0kCD4Eeazh8pfULdajQ" name="Replacement triggers"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Abstraction" xmi:id="_X76VkCD5Eeazh8pfULdajQ" name=" " client="_306rUCD1Eeazh8pfULdajQ" supplier="_qV2MMCD3Eeazh8pfULdajQ"/>
+                </packagedElement>
               </packagedElement>
-              <packagedElement xmi:type="uml:Class" xmi:id="_wODFJxUDEeaBl-joRckJAg" name="User perception">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_wODFKBUDEeaBl-joRckJAg" name="User state"/>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Class" xmi:id="_wODFKRUDEeaBl-joRckJAg" name="Design adapted to speed of connection">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_wODFKhUDEeaBl-joRckJAg" name="Connection drone-server"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_wODFKxUDEeaBl-joRckJAg" name="Connection mobile application-server"/>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Class" xmi:id="_wODFLBUDEeaBl-joRckJAg" name="Accessible Interface"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_-nyrgBT7EeaBl-joRckJAg" name="6. Physical characteristics" URI="">
@@ -907,7 +928,7 @@ Identification: SI&#xD;
             <ownedComment xmi:type="uml:Comment" xmi:id="_YwsNYRUEEeaBl-joRckJAg">
               <body>INFORMATION MANAGEMENT&#xD;
 1st version: Dic15-13, developed and written down by Alberto Díaz&#xD;
-2nd version:&#xD;
+2nd version: May16-23, updated by Alberto Díaz&#xD;
 Identification: IM1.1&#xD;
 Traced to: Requirement U2.5.1 &quot;Documentation&quot;, under &quot;User Requirements&quot;</body>
             </ownedComment>
@@ -1010,7 +1031,7 @@ Identification: SI&#xD;
             <ownedComment xmi:type="uml:Comment" xmi:id="_lcZD8BUEEeaBl-joRckJAg">
               <body>SYSTEM SECURITY&#xD;
 1st version: Dic15-23, developed and written down by Francisco José Butragueño&#xD;
-2nd version: May16-22, updated by Francisco José Butragueño&#xD;
+2nd version: May16-22, updated by Francisco José Butragueño &amp; Alberto Díaz&#xD;
 Identification: SS</body>
             </ownedComment>
             <ownedComment xmi:type="uml:Comment" xmi:id="_lcZD8RUEEeaBl-joRckJAg">
@@ -1186,7 +1207,7 @@ Identification: SI&#xD;
                   </nestedClassifier>
                 </nestedClassifier>
               </packagedElement>
-              <packagedElement xmi:type="uml:Class" xmi:id="_msAu4CAfEeaX18bnSpWEjQ" name="Testing">
+              <packagedElement xmi:type="uml:Class" xmi:id="_msAu4CAfEeaX18bnSpWEjQ" name="Testing security">
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu4SAfEeaX18bnSpWEjQ" name="Navigation"/>
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu4iAfEeaX18bnSpWEjQ" name="Orientation"/>
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_msAu4yAfEeaX18bnSpWEjQ" name="Decission making"/>
@@ -1303,13 +1324,13 @@ Identification: SI&#xD;
   <Requirements:Requirement xmi:id="_NZ0TcRROEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_NZxQIRROEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_TIYYwBROEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_TIWjkRROEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_TIYYwRROEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_TIWjkxROEeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_TIY_0BROEeaBl-joRckJAg" text="The system shall be accurate when fulfilling guidance system (i.e. a low failure rate shall be achieved)" id="U1.3.1" base_Class="_TIWjkBROEeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_TIY_0BROEeaBl-joRckJAg" text="The system shall be accurate when fulfilling guidance service (i.e. a low failure rate shall be achieved)" id="U1.3.1" base_Class="_TIWjkBROEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_TIZm4BROEeaBl-joRckJAg" text="The service provided by the system shall overcome the currently existing guidance system in terms of reliability and efficiency" id="U1.3" base_Class="_TIWjkhROEeaBl-joRckJAg"/>
   <Requirements:DeriveReqt xmi:id="_ZooZsBROEeaBl-joRckJAg" base_Abstraction="_ZnLoMBROEeaBl-joRckJAg"/>
   <Requirements:DeriveReqt xmi:id="_anCisBROEeaBl-joRckJAg" base_Abstraction="_almYQBROEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_ejPSgBROEeaBl-joRckJAg" text="The system shall ensure that it is adequately being followed by the user when providing guidance service" id="U1.2.1" base_Class="_ejOEYBROEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_ejP5kBROEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_ejOEYRROEeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_fHE_YBROEeaBl-joRckJAg" text="The user-interface should be easy to use" id="U1.2" base_Class="_fHDKMBROEeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_fHE_YBROEeaBl-joRckJAg" text="The user-interface should be easy to use" id="U1.2.2" base_Class="_fHDKMBROEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_fHFmcBROEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_fHDKMRROEeaBl-joRckJAg"/>
   <Requirements:DeriveReqt xmi:id="_sk85wBROEeaBl-joRckJAg" base_Abstraction="_sjT7ABROEeaBl-joRckJAg"/>
   <Requirements:DeriveReqt xmi:id="_tp5IkBROEeaBl-joRckJAg" base_Abstraction="_toKDMBROEeaBl-joRckJAg"/>
@@ -1324,17 +1345,17 @@ Identification: SI&#xD;
   <Requirements:DeriveReqt xmi:id="_DdEhABRPEeaBl-joRckJAg" base_Abstraction="_DbP8EBRPEeaBl-joRckJAg"/>
   <Requirements:DeriveReqt xmi:id="_EtiqYBRPEeaBl-joRckJAg" base_Abstraction="_ErifQBRPEeaBl-joRckJAg"/>
   <Requirements:DeriveReqt xmi:id="_F9Ql0BRPEeaBl-joRckJAg" base_Abstraction="_F7LiMBRPEeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_GsNhEBRQEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U2.1" base_Class="_GsLE0BRQEeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_GsNhEBRQEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects.&#xD;&#xA;Copy of: U1.1" id="U2.1" base_Class="_GsLE0BRQEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_J5R6ABRQEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_J5PdwBRQEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_WyjSgBRQEeaBl-joRckJAg" text="The law shall be observed and respected by the system (i.e. privacity of recorded images)" id="U2.8" base_Class="_WyiEYBRQEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_Wyj5kBRQEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_WyiEYRRQEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_mX-vQBRQEeaBl-joRckJAg" text="The system shall improve the corporate image of the UPM/ETSII" id="U2.2" base_Class="_mX9hIBRQEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_mX_WUBRQEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_mX9hIRRQEeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_rABRYBRQEeaBl-joRckJAg" text="The system shall be accurate when fulfilling guidance system (i.e. a low failure rate shall be achieved)" id="U2.2.1" base_Class="_rAADQBRQEeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_rABRYBRQEeaBl-joRckJAg" text="The system shall be accurate when fulfilling guidance system (i.e. a low failure rate shall be achieved).&#xD;&#xA;Copy of: U1.3.1" id="U2.2.1" base_Class="_rAADQBRQEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_rAB4cBRQEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_rAADQRRQEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_N76MgBRREeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_N74-YRRREeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_N76zkBRREeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_N74-YxRREeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_N77aoBRREeaBl-joRckJAg" text="The system shall fulfill its guidance request within an acceptable time (i.e. outperforming the performance of the currently existing system)" id="U2.2.2" base_Class="_N74-YBRREeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_N77aoBRREeaBl-joRckJAg" text="The system shall fulfill its guidance request within an acceptable time (i.e. outperforming the performance of the currently existing system).&#xD;&#xA;Copy of: U1.3.2" id="U2.2.2" base_Class="_N74-YBRREeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_N77aoRRREeaBl-joRckJAg" text="The service provided by the system shall overcome the currently existing guidance system in terms of reliability and efficiency" id="U1.3" base_Class="_N74-YhRREeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_UVwqgBRREeaBl-joRckJAg" text="The system shall be announced and publicized so that every worker, student or visitor of the ETSII is aware of it." id="U2.3" base_Class="_UVuOQBRREeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_UVxRkBRREeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_UVuOQRRREeaBl-joRckJAg"/>
@@ -1349,9 +1370,9 @@ Identification: SI&#xD;
   <Requirements:DeriveReqt xmi:id="_X0p90BRSEeaBl-joRckJAg" base_Abstraction="_XzHswBRSEeaBl-joRckJAg"/>
   <Requirements:DeriveReqt xmi:id="_Yo7TYBRSEeaBl-joRckJAg" base_Abstraction="_YnZpYBRSEeaBl-joRckJAg"/>
   <Requirements:DeriveReqt xmi:id="_ZtknQBRSEeaBl-joRckJAg" base_Abstraction="_Zr6aYBRSEeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_qhaX4BRSEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U3.1" base_Class="_qhYisBRSEeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_qhaX4BRSEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects.&#xD;&#xA;Copy of: U1.1" id="U3.1" base_Class="_qhYisBRSEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_tCw6UBRSEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_tCvsMRRSEeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_tCyIcBRSEeaBl-joRckJAg" text="The law shall be observed and respected by the system (i.e. privacity of recorded images)" id="U3.2" base_Class="_tCvsMBRSEeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_tCyIcBRSEeaBl-joRckJAg" text="The law shall be observed and respected by the system (i.e. privacity of recorded images).&#xD;&#xA;Copy of: U2.7" id="U3.2" base_Class="_tCvsMBRSEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_voEvsBRSEeaBl-joRckJAg" text="The person or organization responsible for any malfunction of the system shall be clearly stated, just in case any damage is caused" id="U3.3" base_Class="_voDhkBRSEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_Mx0tEBRTEeaBl-joRckJAg" text="The service provided by the system shall overcome the currently existing guidance system in terms of reliability and efficiency" id="U1.3" base_Class="_Mxze8hRTEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_Mx1UIBRTEeaBl-joRckJAg" text="The system shall be completely automatic in its normal mode of operation (i.e. excluding battery loading, system inicialization, system switch off and malfunction recovery" id="U4.1" base_Class="_Mxze8BRTEeaBl-joRckJAg"/>
@@ -1363,21 +1384,21 @@ Identification: SI&#xD;
   <Requirements:Requirement xmi:id="_muRA8BRTEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_muOksRRTEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_nICL0BRTEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U2.1" base_Class="_nIA9sBRTEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_nICy4BRTEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_nIA9sRRTEeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_nZTiABRTEeaBl-joRckJAg" text="The system should be easy to operate by the PAS." id="U5.3" base_Class="_nZRs0BRTEeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_nZTiABRTEeaBl-joRckJAg" text="The system should be easy to operate by the PAS.&#xD;&#xA;Copy of: U2.4" id="U5.3" base_Class="_nZRs0BRTEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_nZUJEBRTEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_nZRs0RRTEeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_qrPM0BRTEeaBl-joRckJAg" text="A sufficiently comprehensive documentation shall be recorded." id="U5.4" base_Class="_qrN-sBRTEeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_qrPM0BRTEeaBl-joRckJAg" text="A sufficiently comprehensive documentation shall be recorded.&#xD;&#xA;Copy of: U2.5.1" id="U5.4" base_Class="_qrN-sBRTEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_qrPz4BRTEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_qrN-sRRTEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_yQE3QBRTEeaBl-joRckJAg" text="Additional staff shall be hired if needed, in order to accomplish maintenance tasks" id="U5.1.1" base_Class="_yQDpIBRTEeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_yQGFYBRTEeaBl-joRckJAg" text="The system shall not concern the integrity of people nor objects" id="U1.1" base_Class="_yQDpIRRTEeaBl-joRckJAg"/>
   <Requirements:DeriveReqt xmi:id="_TGG5IBRUEeaBl-joRckJAg" base_Abstraction="_TFGzkBRUEeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_9UFygBT8EeaBl-joRckJAg" text="The system shall be able to send the drone to any of the available locations within the ETSII.&#xD;&#xA;" id="FR1" base_Class="_9UEkYBT8EeaBl-joRckJAg"/>
-  <Requirements:Requirement xmi:id="_G9YoABT9EeaBl-joRckJAg" text="The system shall be able to interact both with its environment and with the users of the system." id="FR2" base_Class="_G9Wy0BT9EeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_9UFygBT8EeaBl-joRckJAg" text="The system shall be able to send the drone to any of the available locations within the ETSII.&#xD;&#xA;Traced to: U1.3 &quot;Usefulness&quot;" id="FR1" base_Class="_9UEkYBT8EeaBl-joRckJAg"/>
+  <Requirements:Requirement xmi:id="_G9YoABT9EeaBl-joRckJAg" text="The system shall be able to interact both with its environment and with the users of the system.&#xD;&#xA;Traced to: U1.2.2 &quot;Easy-to-use interface&quot;; U1.1 &quot;Security&quot;; U1.4 &quot;Environmental concern&quot;" id="FR2" base_Class="_G9Wy0BT9EeaBl-joRckJAg"/>
   <Requirements:Requirement xmi:id="_PV56oBXYEeaAKLZqDvLp5A" base_Class="_PV4sgBXYEeaAKLZqDvLp5A"/>
   <Requirements:Requirement xmi:id="_c17xIBXYEeaAKLZqDvLp5A" base_Class="_c17KEBXYEeaAKLZqDvLp5A"/>
   <Requirements:Requirement xmi:id="_8UsVIB87EeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_8UncoB87EeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_EbYvcB88EeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_EbT28B88EeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_hieaYB88EeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_hib-IB88EeaSQLDyyOML2w"/>
-  <Requirements:Requirement xmi:id="_Jc7hQB89EeaSQLDyyOML2w" text="The user shall be able to interact with the system using the computer which hosts the system." id="FR2.1" base_Class="_Jc4d8B89EeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_Jc7hQB89EeaSQLDyyOML2w" text="The user shall be able to interact with the system using the computer which hosts the system.&#xD;&#xA;Traced to: U1.2.2 &quot;Easy-to.use interface&quot;" id="FR2.1" base_Class="_Jc4d8B89EeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_S5h-kB89EeaSQLDyyOML2w" text="The system shall be able to interact with the environment (in this case, the ETSII facilities and people) using the data captured by the drone (e.g. image and altitude measurements)." id="FR2.2" base_Class="_S5fiUB89EeaSQLDyyOML2w"/>
   <Requirements:DeriveReqt xmi:id="_CiwvAB8-EeaSQLDyyOML2w" base_Abstraction="_Ch2JAB8-EeaSQLDyyOML2w"/>
   <Requirements:DeriveReqt xmi:id="_DyhGsB8-EeaSQLDyyOML2w" base_Abstraction="_DxlSkB8-EeaSQLDyyOML2w"/>
@@ -1398,7 +1419,7 @@ Identification: SI&#xD;
   <Requirements:Requirement xmi:id="_FsbjwB9AEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_FsYgcR9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_FscK0B9AEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_FsYgcx9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_Fscx4B9AEeaSQLDyyOML2w" text="Received or external documentation (e.g. any international standard) shall be shared in GoogleDrive (online repository)&#xD;&#xA;" id="IM7" base_Class="_FsYgcB9AEeaSQLDyyOML2w"/>
-  <Requirements:Requirement xmi:id="_SFJz8B9AEeaSQLDyyOML2w" text="There shall be a person responsible for the organization of the information related to each area of the project (e.g. &quot;Requirements&quot;). This person should be the same as the person responsible for each area of the project.&#xD;&#xA;" id="IM1" base_Class="_SFGJkB9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_SFJz8B9AEeaSQLDyyOML2w" text="There shall be a person responsible for the organization of the information related to each area of the project (e.g. &quot;Requirements&quot;). This person should be the same as the person responsible for each area of the project.&#xD;&#xA;Traced to: U2.5.1 &quot;Documentation&quot;" id="IM1" base_Class="_SFGJkB9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_SFLpIB9AEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_SFGJkh9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_SFM3QB9AEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_SFGJkx9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_SFNeUB9AEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_SFGJkR9AEeaSQLDyyOML2w"/>
@@ -1406,15 +1427,15 @@ Identification: SI&#xD;
   <Requirements:Requirement xmi:id="_jSu6QB9AEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_jStFEB9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_jSvhUB9AEeaSQLDyyOML2w" text="All the information related to the project shall be accesible to each team member&#xD;&#xA;" id="IM2" base_Class="_jSseAB9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_jSwIYB9AEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_jStFER9AEeaSQLDyyOML2w"/>
-  <Requirements:Requirement xmi:id="_q3XJUB9AEeaSQLDyyOML2w" text="Collaborative information production shall be done in a shared repository aimed to that purpose (e.g. GitHub)" id="IM2.2" base_Class="_q3VUIB9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_q3XJUB9AEeaSQLDyyOML2w" text="Collaborative information production shall be done in a shared repository aimed to that purpose (e.g. GitHub)" id="IM2.1" base_Class="_q3VUIB9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_q3XwYB9AEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_q3VUIx9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_q3YXcB9AEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_q3VUIh9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_q3Y-gB9AEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_q3VUIR9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_1h_gAB9AEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_1h71oR9AEeaSQLDyyOML2w"/>
-  <Requirements:Requirement xmi:id="_1iAHEB9AEeaSQLDyyOML2w" text="Individual Information Production (e.g. &quot;Requirements Specification Document&quot;) may be done privately but every delivered version shall be shared with the team." id="IM2.2" base_Class="_1h71oB9AEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_1iAHEB9AEeaSQLDyyOML2w" text="Individual information production (e.g. &quot;Requirements Specification Document&quot;) may be done privately but every delivered version shall be shared with the team." id="IM2.2" base_Class="_1h71oB9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_1iAuIB9AEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_1h71ox9AEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_1iBVMB9AEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_1h71oh9AEeaSQLDyyOML2w"/>
-  <Requirements:Requirement xmi:id="_HS-1YB9BEeaSQLDyyOML2w" text="A record of every delivered version shall be kept&#xD;&#xA;" id="IM3" base_Class="_HS9nQB9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_HS-1YB9BEeaSQLDyyOML2w" text="A record of every delivered version shall be kept. Traced to: U2.5.1 &quot;Documentation&quot;&#xD;&#xA;" id="IM3" base_Class="_HS9nQB9BEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_HTADgB9BEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_HS9nQx9BEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_HTAqkB9BEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_HS9nQh9BEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_HTBRoB9BEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_HS9nQR9BEeaSQLDyyOML2w"/>
@@ -1423,7 +1444,7 @@ Identification: SI&#xD;
   <Requirements:Requirement xmi:id="_MMlBkB9BEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_MMh-Qx9BEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_MMlooB9BEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_MMh-QR9BEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_WKW5UB9BEeaSQLDyyOML2w" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_WKUdEh9BEeaSQLDyyOML2w"/>
-  <Requirements:Requirement xmi:id="_WKYugB9BEeaSQLDyyOML2w" text="The person responsible for each area of the project shall take care of the organization of the information in the orresponding repository (e.g. GoogleDrive)&#xD;&#xA;" id="IM8" base_Class="_WKUdEB9BEeaSQLDyyOML2w"/>
+  <Requirements:Requirement xmi:id="_WKYugB9BEeaSQLDyyOML2w" text="The person responsible for each area of the project shall take care of the organization of the information in the orresponding repository (e.g. GoogleDrive)&#xD;&#xA;" id="IM7" base_Class="_WKUdEB9BEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_WKZ8oB9BEeaSQLDyyOML2w" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_WKUdEx9BEeaSQLDyyOML2w"/>
   <Requirements:Requirement xmi:id="_WKbKwB9BEeaSQLDyyOML2w" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_WKUdER9BEeaSQLDyyOML2w"/>
   <Requirements:DeriveReqt xmi:id="_x0A88B9BEeaSQLDyyOML2w" base_Abstraction="_xyyN4B9BEeaSQLDyyOML2w"/>
@@ -1654,7 +1675,7 @@ Identification: SI&#xD;
   <Requirements:Requirement xmi:id="_YWC3cCA2EeaC_tlkEVh8vg" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_YV7isiA2EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_YWEFkCA2EeaC_tlkEVh8vg" text="The drone shall send information packages to the server with regularity. The frequency of these information packages shall be determined in the Design stage." id="SI3.1" base_Class="_YV7isCA2EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_YWEsoCA2EeaC_tlkEVh8vg" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_YV7isSA2EeaC_tlkEVh8vg"/>
-  <Requirements:Requirement xmi:id="_oAwc0CA2EeaC_tlkEVh8vg" text="The user shall access to the system using the program that control the drone; i.e. no user-friendly interface shall be developed after scope modification" id="SI5" base_Class="_oAtZgCA2EeaC_tlkEVh8vg"/>
+  <Requirements:Requirement xmi:id="_oAwc0CA2EeaC_tlkEVh8vg" text="The user shall access to the system using the program that control the drone; i.e. no user-friendly interface shall be developed after scope modification.&#xD;&#xA;Traced to: U1.2.2 &quot;Easy-to-use interface&quot;" id="SI5" base_Class="_oAtZgCA2EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_oAy5ECA2EeaC_tlkEVh8vg" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_oAuAkSA2EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_oA0HMCA2EeaC_tlkEVh8vg" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_oAtZgSA2EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_oA18YCA2EeaC_tlkEVh8vg" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_oAuAkCA2EeaC_tlkEVh8vg"/>
@@ -1668,7 +1689,7 @@ Identification: SI&#xD;
   <Requirements:Requirement xmi:id="_LOQFUCA3EeaC_tlkEVh8vg" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_LOKlyiA3EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_LOQsYCA3EeaC_tlkEVh8vg" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_LOKlzyA3EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_LORTcCA3EeaC_tlkEVh8vg" text="The system shall have a minimum total life of 3 years with total capabilities" id="PR3.2" base_Class="_LOKlzCA3EeaC_tlkEVh8vg"/>
-  <Requirements:Requirement xmi:id="_LOR6gCA3EeaC_tlkEVh8vg" text="The system shall respect natural and induced environment conditions" id="EC1" base_Class="_LOKlwCA3EeaC_tlkEVh8vg"/>
+  <Requirements:Requirement xmi:id="_LOR6gCA3EeaC_tlkEVh8vg" text="The system shall respect natural and induced environment conditions. Traced to: U1.4 &quot;Environmental concern&quot;" id="EC1" base_Class="_LOKlwCA3EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_LOShkCA3EeaC_tlkEVh8vg" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_LOKlwyA3EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_LOTvsCA3EeaC_tlkEVh8vg" text="The system shall provide rotatory movement of 360 degrees" id="PR1.2" base_Class="_LOKlyCA3EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_LOUWwCA3EeaC_tlkEVh8vg" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_LOKlxiA3EeaC_tlkEVh8vg"/>
@@ -1739,7 +1760,7 @@ Identification: SI&#xD;
   <Requirements:Requirement xmi:id="_ymkysCA7EeaC_tlkEVh8vg" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_ymQCkSA7EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_ymlZwCA7EeaC_tlkEVh8vg" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_ymQClyA7EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_ymmA0CA7EeaC_tlkEVh8vg" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_ymQCkyA7EeaC_tlkEVh8vg"/>
-  <Requirements:Requirement xmi:id="_ymmn4CA7EeaC_tlkEVh8vg" text="The system shall respect Spanish regulatory conditions for remote-controlled civil aircraft operation (&quot;Operación de aeronaves civiles pilotadas por control remoto&quot;), listed in the 50th article of the &quot;Ley 18/2014 de 15 de octubre&quot;" id="EC2" base_Class="_ymQCkCA7EeaC_tlkEVh8vg"/>
+  <Requirements:Requirement xmi:id="_ymmn4CA7EeaC_tlkEVh8vg" text="The system shall respect Spanish regulatory conditions for remote-controlled civil aircraft operation (&quot;Operación de aeronaves civiles pilotadas por control remoto&quot;), listed in the 50th article of the &quot;Ley 18/2014 de 15 de octubre&quot;.&#xD;&#xA;Traced to: U2.7 &quot;Legality&quot;" id="EC2" base_Class="_ymQCkCA7EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_ymnO8CA7EeaC_tlkEVh8vg" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_ymQCnSA7EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_ymn2ACA7EeaC_tlkEVh8vg" text="The system shall operate with winds lower than 20 m/s and no rain conditions" id="PR3.1" base_Class="_ymQClCA7EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_6R8GcCA8EeaC_tlkEVh8vg" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_6R5qMyA8EeaC_tlkEVh8vg"/>
@@ -1847,7 +1868,7 @@ Identification: SI&#xD;
   <Requirements:Requirement xmi:id="_fXUBICA-EeaC_tlkEVh8vg" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_fXN6giA-EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_fXVPQCA-EeaC_tlkEVh8vg" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_fXN6gyA-EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_xYz3sCA-EeaC_tlkEVh8vg" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_xYxbcyA-EeaC_tlkEVh8vg"/>
-  <Requirements:Requirement xmi:id="_xY1s4CA-EeaC_tlkEVh8vg" text="The system shall be prepared for expansions in its size" id="PC8" base_Class="_xYxbcCA-EeaC_tlkEVh8vg"/>
+  <Requirements:Requirement xmi:id="_xY1s4CA-EeaC_tlkEVh8vg" text="The system shall be prepared for expansions in its size. Traced to: U2.5 &quot;Developability&quot;" id="PC8" base_Class="_xYxbcCA-EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_xY27ACA-EeaC_tlkEVh8vg" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_xYxbciA-EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_xY4wMCA-EeaC_tlkEVh8vg" text="The system shall be able to make the drone fly along its working area in the ETSII: to the desired direction, with the desired velocity and altitude and following the desired path." id="FR1.2" base_Class="_xYxbcSA-EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_6-MdkCA-EeaC_tlkEVh8vg" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_6-KBUiA-EeaC_tlkEVh8vg"/>
@@ -1867,4 +1888,33 @@ Identification: SI&#xD;
   <Requirements:Requirement xmi:id="_CTda8CA_EeaC_tlkEVh8vg" text="The system shall be able to exactly locate the drone within the ETSII, by digital processing the data sent by the drone." id="FR1.3" base_Class="_CTX7YiA_EeaC_tlkEVh8vg"/>
   <Requirements:Requirement xmi:id="_CTeCACA_EeaC_tlkEVh8vg" text="For a requested location within the available locations in the ETSII, the system shall calculate a suitable path, along with flight altitude and velocity." id="FR1.1" base_Class="_CTX7YyA_EeaC_tlkEVh8vg"/>
   <Requirements:DeriveReqt xmi:id="_SNjgICA_EeaC_tlkEVh8vg" base_Abstraction="_SMUKACA_EeaC_tlkEVh8vg"/>
+  <Requirements:Requirement xmi:id="_ublkcCD1Eeazh8pfULdajQ" text="The system shall be conserved in order to ensure its design especifications." id="SO1" base_Class="_ubihICD1Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_3075cCD1Eeazh8pfULdajQ" text="System maintenance (SO1) shall be as simple as possible" id="SO2" base_Class="_306rUCD1Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_F2csYCD2Eeazh8pfULdajQ" text="Some Professors and students should be responsible of some maintenance aspects" id="SO3" base_Class="_F2a3MCD2Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_QPCQ0CD2Eeazh8pfULdajQ" text="The help of the provider support department shall be requested in case of high complexity problems" id="SO4" base_Class="_QO_0kCD2Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_XW0y4CD2Eeazh8pfULdajQ" text="Janitors should be able to accomplish most routine maintenance duties" id="SO5" base_Class="_XWy9sCD2Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_kw0S0CD2Eeazh8pfULdajQ" text="The structure and propellers shall be replaced in case they no longer fulfill design especifications" id="SO1.1" base_Class="_kwx2kCD2Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_Kk3t4CD3Eeazh8pfULdajQ" text="It shall be easy to replace hardware and batteries vulnerable to impact" id="SO1.2" base_Class="_Kk1RoCD3Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_SUOmQCD3Eeazh8pfULdajQ" text="Batteries shall be replaced when the flight autonomy of the drone is lower than 20 minutes. Traced to: PC2 &quot;Battery autonomy&quot;" id="SO1.2.1" base_Class="_SUNYICD3Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_hK6tsCD3Eeazh8pfULdajQ" text="Camera shall be cheked and repared/replaced in case the system no longer recognise the items it should recognise (to be determined in the Design stage)" id="SO1.2.2" base_Class="_hK4RcCD3Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_qV52kCD3Eeazh8pfULdajQ" text="Mechanical problems that cannot be solved by janitors should be reported either to Professors/students or to the provider support department" id="SO1.2.3" base_Class="_qV2MMCD3Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_JPLQ0CD4Eeazh8pfULdajQ" text="Reparations or replacements shall be undertaken when a functinoality is compromised or when the system means a risk for people or objects" id="SO1.3" base_Class="_JPI0kCD4Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_cxpx8CD4Eeazh8pfULdajQ" text="Propellers replacement shall be done in less than 5 minutes by experienced staff&#xD;&#xA;" id="SO1.1.1" base_Class="_cxnVsyD4Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_cxqZACD4Eeazh8pfULdajQ" text="Defect in the supporting structure shall be repared in less than 20 minutes" id="SO1.2.3" base_Class="_cxnVsCD4Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_cxrAECD4Eeazh8pfULdajQ" text="Propellers shielding shall be repared or replaced if the damage involves risk for people or objects or compromise any functionality of the system" id="SO1.2.3" base_Class="_cxnVsSD4Eeazh8pfULdajQ"/>
+  <Requirements:DeriveReqt xmi:id="_URhHcCD5Eeazh8pfULdajQ" base_Abstraction="_UQUNkCD5Eeazh8pfULdajQ"/>
+  <Requirements:DeriveReqt xmi:id="_UxvfoCD5Eeazh8pfULdajQ" base_Abstraction="_UwaC4CD5Eeazh8pfULdajQ"/>
+  <Requirements:DeriveReqt xmi:id="_VTBnwCD5Eeazh8pfULdajQ" base_Abstraction="_VRyRoCD5Eeazh8pfULdajQ"/>
+  <Requirements:DeriveReqt xmi:id="_X9QZYCD5Eeazh8pfULdajQ" base_Abstraction="_X76VkCD5Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_dx-KACD5Eeazh8pfULdajQ" text="The system shall adapt to considered environments and meet the imposed safety requirements" id="SO7" base_Class="_dx7twCD5Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_9f_a8CD5Eeazh8pfULdajQ" text="The team has to ensure that there are no people in the drone's path. Copy of: SS3" id="SO7.1" base_Class="_9f8-sCD5Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_Q_6XUCD6Eeazh8pfULdajQ" text="The team has to ensure that there are no people in the drone's path. " id="SO6" base_Class="_Q_5JMCD6Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_RT8toCD6Eeazh8pfULdajQ" text="The system shall ensure that none is below it when landing" id="SO7.2" base_Class="_RT64cCD6Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_d-wMUCD6Eeazh8pfULdajQ" text="Tha drone shall land on accesible places" id="SO7.3" base_Class="_d-u-MCD6Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_k0xB4CD6Eeazh8pfULdajQ" text="System inicialization shall be safe and fast" id="SO7.4" base_Class="_k0t-kCD6Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_sXRKACD6Eeazh8pfULdajQ" text="System shall initialize in less than 40 minutes" id="SO7.4.1" base_Class="_sXP74CD6Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_0c3YICD6Eeazh8pfULdajQ" text="System shall ensure that none is within 1m range from the drone when it takes off" id="SO7.4.2" base_Class="_0c2KACD6Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_8JXw0CD6Eeazh8pfULdajQ" text="It shall be possible to abort initialization, in case something goes wrong" id="SO7.4.3" base_Class="_8JV7oCD6Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_DKfDICD7Eeazh8pfULdajQ" text="It shall be possible to terminate all tasks of the system in a safe way (for people, objects or the drone itself) by an operator command" id="SO7.5" base_Class="_DKcm4CD7Eeazh8pfULdajQ"/>
+  <Requirements:Requirement xmi:id="_QKJXgCD7Eeazh8pfULdajQ" text="Drone operational parameters shall be easily accesible by developers" id="SO7.6" base_Class="_QKG7QCD7Eeazh8pfULdajQ"/>
 </xmi:XMI>
